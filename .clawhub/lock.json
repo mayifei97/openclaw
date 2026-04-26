@@ -4,6 +4,10 @@
     "agent-browser-clawdbot": {
       "version": "0.1.0",
       "installedAt": 1777185184865
+    },
+    "etf-assistant": {
+      "version": "1.0.1",
+      "installedAt": 1777195681752
     }
   }
 }

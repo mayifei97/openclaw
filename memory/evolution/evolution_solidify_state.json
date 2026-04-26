@@ -1,40 +1,41 @@
 {
   "last_run": {
-    "run_id": "run_1776970893035",
-    "created_at": "2026-04-23T19:01:33.122Z",
+    "run_id": "run_1777193309334",
+    "created_at": "2026-04-26T08:48:29.348Z",
     "parent_event_id": "evt_1772634547672",
-    "selected_gene_id": "gene_gep_repair_from_errors",
-    "selected_capsule_id": "capsule_1770477654236",
+    "selected_gene_id": "gene_gep_optimize_prompt_and_assets",
+    "selected_capsule_id": null,
     "selector": {
-      "selected": "gene_gep_repair_from_errors",
+      "selected": "gene_gep_optimize_prompt_and_assets",
       "reason": [
         "signals match gene.signals_match",
-        "capsule trigger matches signals",
-        "signals: log_error",
-        "memory_graph: memory_prefer:gene_gep_repair_from_errors | gene_prior:0.226",
+        "signals: protocol_drift, capability_gap, high_tool_usage:exec",
+        "memory_graph: memory_prefer:gene_gep_optimize_prompt_and_assets | gene_prior:0.330",
         "drift_intensity: 0.500"
       ],
-      "alternatives": []
+      "alternatives": [
+        "gene_gep_innovate_from_opportunity"
+      ]
     },
     "signals": [
-      "log_error",
-      "force_innovation",
-      "problem_already_resolved"
+      "protocol_drift",
+      "capability_gap",
+      "high_tool_usage:exec"
     ],
     "mutation": {
       "type": "Mutation",
-      "id": "mut_1776970893033",
-      "category": "repair",
+      "id": "mut_1777193309329",
+      "category": "innovate",
       "trigger_signals": [
-        "log_error",
-        "force_innovation",
-        "problem_already_resolved"
+        "protocol_drift",
+        "capability_gap",
+        "high_tool_usage:exec"
       ],
-      "target": "gene:gene_gep_repair_from_errors",
-      "expected_effect": "reduce runtime errors, increase stability, and lower failure rate",
-      "risk_level": "low"
+      "target": "gene:gene_gep_optimize_prompt_and_assets",
+      "expected_effect": "explore new strategy combinations to escape local optimum",
+      "risk_level": "medium"
     },
-    "mutation_id": "mut_1776970893033",
+    "mutation_id": "mut_1777193309329",
     "personality_state": {
       "type": "PersonalityState",
       "rigor": 0.7,
@@ -52,8 +53,10 @@
     "reused_asset_id": null,
     "reused_source_node": null,
     "reused_chain_id": null,
-    "baseline_untracked": [],
-    "baseline_git_head": "4fa9fe18716c2fc54f649cf491536f3e1bf26e1a",
+    "baseline_untracked": [
+      "package-lock.json"
+    ],
+    "baseline_git_head": "5e069a3f7f9fa6983b28074e6355860828159844",
     "blast_radius_estimate": {
       "files": 3,
       "lines": 180,
