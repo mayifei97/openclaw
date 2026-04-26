@@ -1,0 +1,15 @@
+{
+  "tokens": {
+    "used_today": 0,
+    "limit": "N/A",
+    "remaining": "N/A"
+  },
+  "coding_plan": {
+    "used_today": 0,
+    "total": "N/A",
+    "remaining": "N/A"
+  },
+  "last_updated": null,
+  "auto_track": true,
+  "track_start_date": "2026-03-04"
+}

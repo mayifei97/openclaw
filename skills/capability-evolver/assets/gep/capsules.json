@@ -1,0 +1,153 @@
+{
+  "version": 1,
+  "capsules": [
+    {
+      "type": "Capsule",
+      "schema_version": "1.5.0",
+      "id": "capsule_1770477654236",
+      "trigger": [
+        "log_error",
+        "errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }",
+        "user_missing",
+        "windows_shell_incompatible",
+        "perf_bottleneck"
+      ],
+      "gene": "gene_gep_repair_from_errors",
+      "summary": "固化：gene_gep_repair_from_errors 命中信号 log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing, windows_shell_incompatible, perf_bottleneck，变更 1 文件 / 2 行。",
+      "confidence": 0.85,
+      "blast_radius": {
+        "files": 1,
+        "lines": 2
+      },
+      "outcome": {
+        "status": "success",
+        "score": 0.85
+      },
+      "success_streak": 1,
+      "env_fingerprint": {
+        "node_version": "v22.22.0",
+        "platform": "linux",
+        "arch": "x64",
+        "os_release": "6.1.0-42-cloud-amd64",
+        "evolver_version": "1.7.0",
+        "cwd": ".",
+        "captured_at": "2026-02-07T15:20:54.155Z"
+      },
+      "a2a": {
+        "eligible_to_broadcast": false
+      },
+      "asset_id": "sha256:3eed0cd5038f9e85fbe0d093890e291e9b8725644c766e6cce40bf62d0f5a2e8"
+    },
+    {
+      "type": "Capsule",
+      "schema_version": "1.5.0",
+      "id": "capsule_1770478341769",
+      "trigger": [
+        "log_error",
+        "errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }",
+        "user_missing",
+        "windows_shell_incompatible",
+        "perf_bottleneck"
+      ],
+      "gene": "gene_gep_repair_from_errors",
+      "summary": "固化：gene_gep_repair_from_errors 命中信号 log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing, windows_shell_incompatible, perf_bottleneck，变更 2 文件 / 44 行。",
+      "confidence": 0.85,
+      "blast_radius": {
+        "files": 2,
+        "lines": 44
+      },
+      "outcome": {
+        "status": "success",
+        "score": 0.85
+      },
+      "success_streak": 1,
+      "env_fingerprint": {
+        "node_version": "v22.22.0",
+        "platform": "linux",
+        "arch": "x64",
+        "os_release": "6.1.0-42-cloud-amd64",
+        "evolver_version": "1.7.0",
+        "cwd": ".",
+        "captured_at": "2026-02-07T15:32:21.678Z"
+      },
+      "a2a": {
+        "eligible_to_broadcast": false
+      },
+      "asset_id": "sha256:20d971a3c4cb2b75f9c045376d1aa003361c12a6b89a4b47b7e81dbd4f4d8fe8"
+    },
+    {
+      "type": "Capsule",
+      "schema_version": "1.5.0",
+      "id": "capsule_1772634472031",
+      "trigger": [
+        "repeated_tool_usage:exec"
+      ],
+      "gene": "gene_auto_7f294d19",
+      "summary": "固化：gene_auto_7f294d19 命中信号 repeated_tool_usage:exec，变更 1 文件 / 49 行。",
+      "confidence": 0.85,
+      "blast_radius": {
+        "files": 1,
+        "lines": 49
+      },
+      "outcome": {
+        "status": "success",
+        "score": 0.85
+      },
+      "success_streak": 1,
+      "env_fingerprint": {
+        "device_id": "3162e7d4652821837201ece0091f346e",
+        "node_version": "v24.13.0",
+        "platform": "linux",
+        "arch": "x64",
+        "os_release": "5.10.134-19.2.al8.x86_64",
+        "hostname": "iZ7xv4823vpq664d4sdc42Z",
+        "evolver_version": "1.14.0",
+        "cwd": "/home/admin/.openclaw/workspace/skills/capability-evolver",
+        "container": false
+      },
+      "source_type": "generated",
+      "reused_asset_id": null,
+      "a2a": {
+        "eligible_to_broadcast": false
+      },
+      "asset_id": "sha256:da89b3d6160cab3d4eb674137114bd42fd328aa4d9a17ec6d281f18320ca310b"
+    },
+    {
+      "type": "Capsule",
+      "schema_version": "1.5.0",
+      "id": "capsule_1772634547672",
+      "trigger": [
+        "repeated_tool_usage:exec"
+      ],
+      "gene": "gene_auto_7f294d19",
+      "summary": "固化：gene_auto_7f294d19 命中信号 repeated_tool_usage:exec，变更 1 文件 / 49 行。",
+      "confidence": 0.85,
+      "blast_radius": {
+        "files": 1,
+        "lines": 49
+      },
+      "outcome": {
+        "status": "success",
+        "score": 0.85
+      },
+      "success_streak": 1,
+      "env_fingerprint": {
+        "device_id": "3162e7d4652821837201ece0091f346e",
+        "node_version": "v24.13.0",
+        "platform": "linux",
+        "arch": "x64",
+        "os_release": "5.10.134-19.2.al8.x86_64",
+        "hostname": "iZ7xv4823vpq664d4sdc42Z",
+        "evolver_version": "1.14.0",
+        "cwd": "/home/admin/.openclaw/workspace/skills/capability-evolver",
+        "container": false
+      },
+      "source_type": "generated",
+      "reused_asset_id": null,
+      "a2a": {
+        "eligible_to_broadcast": false
+      },
+      "asset_id": "sha256:d2fc6c7896948c3123bd22423cea63cfad0445541396f074028d1f1d80f94222"
+    }
+  ]
+}

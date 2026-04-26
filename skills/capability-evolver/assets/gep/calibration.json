@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-03-11T08:32:00+08:00",
+  "description": "Blast Radius Estimation Calibration Data",
+  "calibration": {
+    "factor": 0.15,
+    "lines_per_file_avg": 60,
+    "safety_margin": 1.875,
+    "based_on": {
+      "analysis_date": "2026-03-11",
+      "sample_size": 3,
+      "historical_events": [
+        "evt_1772634213737",
+        "evt_1772634472031",
+        "evt_1772634547672"
+      ]
+    },
+    "statistics": {
+      "avg_ratio": 0.08,
+      "min_ratio": 0.08,
+      "max_ratio": 0.08,
+      "original_overestimation_factor": 12.5
+    }
+  },
+  "raw_vs_calibrated": {
+    "before": {
+      "files": 12,
+      "lines": 960,
+      "method": "max_files * 80"
+    },
+    "after": {
+      "files": 2,
+      "lines": 120,
+      "method": "max_files * 0.15 * 60"
+    }
+  },
+  "feedback_loop": {
+    "enabled": true,
+    "auto_adjust_threshold": 10,
+    "adjustment_rate": 0.05
+  },
+  "notes": [
+    "Calibration factor 0.15 = historical average 0.08 + safety margin",
+    "Lines per file reduced from 80 to 60 based on actual data (42-49 lines)",
+    "Future adjustments should maintain drift detection (ratio < 0.5 or > 2.0)"
+  ]
+}
