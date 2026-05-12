@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d23250b17697a9736dc34d0ac3c0d1c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d23250b17697a9736dc34d0ac3c0d1c1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d23250b17697a9736dc34d0ac3c0d1c1 = L.map(
+                "map_d23250b17697a9736dc34d0ac3c0d1c1",
+                {
+                    center: [22.419, 114.21],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ba929415297220fac18916d1d2f79290 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ba929415297220fac18916d1d2f79290.addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var poly_line_4517a77fb13c4d87b5c561d9f7c8e195 = L.polyline(
+                [[22.421, 114.208], [22.42, 114.21], [22.419, 114.212], [22.418, 114.21], [22.421, 114.208]],
+                {"bubblingMouseEvents": true, "color": "#F39C12", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#F39C12", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var poly_line_9d97ead347d13951223ccd77189ada5d = L.polyline(
+                [[22.417, 114.207], [22.419, 114.209], [22.421, 114.208], [22.42, 114.21], [22.423, 114.215], [22.417, 114.207]],
+                {"bubblingMouseEvents": true, "color": "#8E44AD", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#8E44AD", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var poly_line_573687a56aad9f025e63ee474ed0ddaa = L.polyline(
+                [[22.421, 114.208], [22.415, 114.205], [22.41, 114.2], [22.423, 114.215], [22.418, 114.209], [22.421, 114.208]],
+                {"bubblingMouseEvents": true, "color": "#C0392B", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#C0392B", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var marker_031d70f2f59324822dd3ab83d884952f = L.marker(
+                [22.421, 114.208],
+                {
+}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var icon_178ec931c362c332615959f4ffd8d409 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_17c624870011f9359e1fc2eb5a626167 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a39f664377c4255d5819a52fdd4f1f02 = $(`<div id="html_a39f664377c4255d5819a52fdd4f1f02" style="width: 100.0%; height: 100.0%;"><b>路线 D</b> 科学园环线<br>3.5 km / 12 分钟<br>适用：首次对外演示、客户体验</div>`)[0];
+                popup_17c624870011f9359e1fc2eb5a626167.setContent(html_a39f664377c4255d5819a52fdd4f1f02);
+            
+        
+
+        marker_031d70f2f59324822dd3ab83d884952f.bindPopup(popup_17c624870011f9359e1fc2eb5a626167)
+        ;
+
+        
+    
+    
+                marker_031d70f2f59324822dd3ab83d884952f.setIcon(icon_178ec931c362c332615959f4ffd8d409);
+            
+    
+            var marker_13e685fef544935a891f9f8efc40b418 = L.marker(
+                [22.417, 114.207],
+                {
+}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var icon_d8fdc2774f1c41ccfdb9da6ca1b62be1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_11af4f17fa9495c2619eaddc97752cb3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52c6e7db5a911a98ab2d98f1ec70612e = $(`<div id="html_52c6e7db5a911a98ab2d98f1ec70612e" style="width: 100.0%; height: 100.0%;"><b>路线 E</b> 校园-科学园联动路线<br>6 km / 22 分钟<br>适用：综合能力展示</div>`)[0];
+                popup_11af4f17fa9495c2619eaddc97752cb3.setContent(html_52c6e7db5a911a98ab2d98f1ec70612e);
+            
+        
+
+        marker_13e685fef544935a891f9f8efc40b418.bindPopup(popup_11af4f17fa9495c2619eaddc97752cb3)
+        ;
+
+        
+    
+    
+                marker_13e685fef544935a891f9f8efc40b418.setIcon(icon_d8fdc2774f1c41ccfdb9da6ca1b62be1);
+            
+    
+            var marker_c4368e2b7cd45236105b016d6254bd3a = L.marker(
+                [22.421, 114.208],
+                {
+}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var icon_995e696ca58054ff9b369124cabf9199 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkred",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9285b5eb12d59e4dfe7c84c21964b10d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dcac27245e7b624ff43c28433368fc60 = $(`<div id="html_dcac27245e7b624ff43c28433368fc60" style="width: 100.0%; height: 100.0%;"><b>路线 F</b> 吐露港走廊快速路线<br>8 km / 18 分钟<br>适用：高速场景能力验证</div>`)[0];
+                popup_9285b5eb12d59e4dfe7c84c21964b10d.setContent(html_dcac27245e7b624ff43c28433368fc60);
+            
+        
+
+        marker_c4368e2b7cd45236105b016d6254bd3a.bindPopup(popup_9285b5eb12d59e4dfe7c84c21964b10d)
+        ;
+
+        
+    
+    
+                marker_c4368e2b7cd45236105b016d6254bd3a.setIcon(icon_995e696ca58054ff9b369124cabf9199);
+            
+    
+            var marker_27d369bc952e59fc36b6abc2e57a0adc = L.marker(
+                [22.421, 114.208],
+                {
+}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var icon_fbb8a6f4dcc20740ef5ffa6ad0a7a6fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfc59ae58f911714909e11d5b5fa9230 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f73e399cb37d9effd8fee9cc9cb39d8 = $(`<div id="html_8f73e399cb37d9effd8fee9cc9cb39d8" style="width: 100.0%; height: 100.0%;"><b>香港科学园</b> 🔬</div>`)[0];
+                popup_dfc59ae58f911714909e11d5b5fa9230.setContent(html_8f73e399cb37d9effd8fee9cc9cb39d8);
+            
+        
+
+        marker_27d369bc952e59fc36b6abc2e57a0adc.bindPopup(popup_dfc59ae58f911714909e11d5b5fa9230)
+        ;
+
+        
+    
+    
+                marker_27d369bc952e59fc36b6abc2e57a0adc.setIcon(icon_fbb8a6f4dcc20740ef5ffa6ad0a7a6fb);
+            
+    
+            var marker_7207ced2b1ee042f6ce4474de5b8cd82 = L.marker(
+                [22.417, 114.207],
+                {
+}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var icon_9e10f8edbe1dac823b576e8cd488ea30 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_328e405b708f2fb48a2d9ad2e4dfed2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d399005e69dc88b70144d8d553767ff9 = $(`<div id="html_d399005e69dc88b70144d8d553767ff9" style="width: 100.0%; height: 100.0%;"><b>香港中文大学</b> 🎓</div>`)[0];
+                popup_328e405b708f2fb48a2d9ad2e4dfed2d.setContent(html_d399005e69dc88b70144d8d553767ff9);
+            
+        
+
+        marker_7207ced2b1ee042f6ce4474de5b8cd82.bindPopup(popup_328e405b708f2fb48a2d9ad2e4dfed2d)
+        ;
+
+        
+    
+    
+                marker_7207ced2b1ee042f6ce4474de5b8cd82.setIcon(icon_9e10f8edbe1dac823b576e8cd488ea30);
+            
+    
+            var marker_fe122a3ac7d1015747f6e26b6de4a56e = L.marker(
+                [22.415, 114.205],
+                {
+}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var icon_8f75e061570c11190e434b4c28b887cf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0eb957447bcbc8c5b097cbded41b2b4a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bd407b36a5130d98699ce35f0fa287fc = $(`<div id="html_bd407b36a5130d98699ce35f0fa287fc" style="width: 100.0%; height: 100.0%;"><b>吐露港公路</b> ️</div>`)[0];
+                popup_0eb957447bcbc8c5b097cbded41b2b4a.setContent(html_bd407b36a5130d98699ce35f0fa287fc);
+            
+        
+
+        marker_fe122a3ac7d1015747f6e26b6de4a56e.bindPopup(popup_0eb957447bcbc8c5b097cbded41b2b4a)
+        ;
+
+        
+    
+    
+                marker_fe122a3ac7d1015747f6e26b6de4a56e.setIcon(icon_8f75e061570c11190e434b4c28b887cf);
+            
+    
+            var marker_129c940ab6bb367229e950b0112b3d53 = L.marker(
+                [22.423, 114.215],
+                {
+}
+            ).addTo(map_d23250b17697a9736dc34d0ac3c0d1c1);
+        
+    
+            var icon_e77bef2ff650f3ba624bfbd9e68218a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8eb8258f512b8238c37d74b8162d602e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e520b4f7e0de276cdd6369de36049e3 = $(`<div id="html_0e520b4f7e0de276cdd6369de36049e3" style="width: 100.0%; height: 100.0%;"><b>马鞍山绕道</b> ️</div>`)[0];
+                popup_8eb8258f512b8238c37d74b8162d602e.setContent(html_0e520b4f7e0de276cdd6369de36049e3);
+            
+        
+
+        marker_129c940ab6bb367229e950b0112b3d53.bindPopup(popup_8eb8258f512b8238c37d74b8162d602e)
+        ;
+
+        
+    
+    
+                marker_129c940ab6bb367229e950b0112b3d53.setIcon(icon_e77bef2ff650f3ba624bfbd9e68218a5);
+            
+</script>
+</html>

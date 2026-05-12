@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>九龙东 Demo 路线 - 导航视图</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, "Microsoft YaHei", sans-serif; }
+        #map { width: 100%; height: 100vh; }
+        .legend {
+            position: absolute; top: 20px; right: 20px; z-index: 1000;
+            background: white; padding: 15px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2); min-width: 220px;
+        }
+        .legend h3 { margin-bottom: 10px; font-size: 16px; color: #333; border-bottom: 2px solid #eee; padding-bottom: 8px; }
+        .legend-item { display: flex; align-items: center; margin: 8px 0; font-size: 13px; }
+        .legend-color { width: 30px; height: 4px; border-radius: 2px; margin-right: 10px; }
+        .legend-info { flex: 1; }
+        .legend-name { font-weight: 600; color: #333; }
+        .legend-desc { font-size: 11px; color: #666; margin-top: 2px; }
+        .title-bar {
+            position: absolute; top: 20px; left: 20px; z-index: 1000;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; padding: 12px 20px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+        }
+        .title-bar h2 { font-size: 18px; margin: 0; }
+        .title-bar p { font-size: 12px; margin: 4px 0 0; opacity: 0.9; }
+        .info-panel {
+            position: absolute; bottom: 20px; left: 20px; z-index: 1000;
+            background: white; padding: 12px 16px; border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2); font-size: 12px; color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="title-bar">
+        <h2>🚗 九龙东 Demo 路线</h2>
+        <p>Kowloon East Autonomous Driving Demo Routes</p>
+    </div>
+    <div class="legend">
+        <h3>📋 路线图例</h3>
+        <div class="legend-item">
+            <div class="legend-color" style="background:#E74C3C"></div>
+            <div class="legend-info">
+                <div class="legend-name">路线 A - 启德核心区闭环</div>
+                <div class="legend-desc">4.5 km / 15 分钟 · 政府参观/投资者演示</div>
+            </div>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background:#2980B9"></div>
+            <div class="legend-info">
+                <div class="legend-name">路线 B - 跨区综合路线</div>
+                <div class="legend-desc">7 km / 25 分钟 · 技术能力展示/媒体发布</div>
+            </div>
+        </div>
+        <div class="legend-item">
+            <div class="legend-color" style="background:#27AE60"></div>
+            <div class="legend-info">
+                <div class="legend-name">路线 C - 邮轮码头特色路线</div>
+                <div class="legend-desc">5.5 km / 20 分钟 · 政府高层/旅游推广</div>
+            </div>
+        </div>
+    </div>
+    <div class="info-panel">
+        💡 点击路线查看详情 · 滚轮缩放 · 拖拽平移
+    </div>
+    <script>
+        // 初始化地图
+        var map = L.map('map', {
+            center: [22.3220, 114.2080],
+            zoom: 15,
+            zoomControl: false
+        });
+
+        // 添加卫星图层
+        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Esri',
+            maxZoom: 19
+        }).addTo(map);
+
+        // 添加街道图层（叠加）
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: 'CartoDB',
+            maxZoom: 19,
+            opacity: 0.3
+        }).addTo(map);
+
+        L.control.zoom({ position: 'topright' }).addTo(map);
+
+        // 路线 A - 启德核心区闭环
+        var routeA = L.polyline([
+            [22.3264, 114.1970], [22.3258, 114.1975], [22.3252, 114.1980],
+            [22.3248, 114.1985], [22.3242, 114.1988], [22.3238, 114.1992],
+            [22.3235, 114.1995], [22.3230, 114.2000], [22.3225, 114.2005],
+            [22.3220, 114.2010], [22.3215, 114.2015], [22.3218, 114.2010],
+            [22.3222, 114.2005], [22.3226, 114.1998], [22.3230, 114.1990],
+            [22.3238, 114.1985], [22.3245, 114.1978], [22.3255, 114.1973],
+            [22.3264, 114.1970]
+        ], {
+            color: '#E74C3C', weight: 6, opacity: 0.9,
+            dashArray: null, lineCap: 'round', lineJoin: 'round'
+        }).addTo(map);
+
+        routeA.bindPopup('<b>路线 A - 启德核心区闭环</b><br>4.5 km / 15 分钟<br>协调道 → 承启道 → 沐安街 → 沐元街 → 启成街 → 协调道<br><i>适用：政府参观、投资者演示</i>');
+
+        // 路线 B - 跨区综合路线
+        var routeB = L.polyline([
+            [22.3264, 114.1970], [22.3255, 114.1980], [22.3250, 114.1995],
+            [22.3250, 114.2010], [22.3245, 114.2030], [22.3235, 114.2060],
+            [22.3220, 114.2090], [22.3200, 114.2120], [22.3180, 114.2140],
+            [22.3165, 114.2145], [22.3150, 114.2150], [22.3160, 114.2160],
+            [22.3170, 114.2170], [22.3180, 114.2180], [22.3188, 114.2188],
+            [22.3195, 114.2195], [22.3200, 114.2200], [22.3208, 114.2190],
+            [22.3215, 114.2175], [22.3220, 114.2150], [22.3228, 114.2130],
+            [22.3235, 114.2115], [22.3240, 114.2100], [22.3248, 114.2080],
+            [22.3255, 114.2055], [22.3260, 114.2025], [22.3264, 114.1995],
+            [22.3264, 114.1970]
+        ], {
+            color: '#2980B9', weight: 6, opacity: 0.9,
+            dashArray: null, lineCap: 'round', lineJoin: 'round'
+        }).addTo(map);
+
+        routeB.bindPopup('<b>路线 B - 跨区综合路线</b><br>7 km / 25 分钟<br>协调道 → 承丰道 → 观塘道 → 宏光道 → 宏照道 → 启祥道 → 常悦道 → 协调道<br><i>适用：技术能力展示、媒体发布</i>');
+
+        // 路线 C - 邮轮码头特色路线
+        var routeC = L.polyline([
+            [22.3264, 114.1970], [22.3258, 114.1975], [22.3252, 114.1980],
+            [22.3248, 114.1985], [22.3246, 114.1990], [22.3248, 114.1998],
+            [22.3250, 114.2010], [22.3255, 114.2018], [22.3260, 114.2025],
+            [22.3268, 114.2035], [22.3275, 114.2042], [22.3280, 114.2050],
+            [22.3272, 114.2040], [22.3265, 114.2030], [22.3255, 114.2020],
+            [22.3248, 114.2010], [22.3242, 114.2005], [22.3238, 114.2000],
+            [22.3235, 114.1995], [22.3240, 114.1988], [22.3248, 114.1980],
+            [22.3255, 114.1974], [22.3264, 114.1970]
+        ], {
+            color: '#27AE60', weight: 6, opacity: 0.9,
+            dashArray: null, lineCap: 'round', lineJoin: 'round'
+        }).addTo(map);
+
+        routeC.bindPopup('<b>路线 C - 启德邮轮码头特色路线</b><br>5.5 km / 20 分钟<br>协调道 → 承启道 → 承丰道 → 邮轮码头路 → 沐安街 → 协调道<br><i>适用：政府高层参观、旅游推广</i>');
+
+        // 起点标记
+        L.marker([22.3264, 114.1970], {
+            icon: L.divIcon({
+                html: '<div style="background:white;border:3px solid #333;border-radius:50%;width:24px;height:24px;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:bold;box-shadow:0 2px 6px rgba(0,0,0,0.3);">🚗</div>',
+                className: '', iconSize: [24, 24], iconAnchor: [12, 12]
+            })
+        }).addTo(map).bindPopup('<b>🚗 起点/终点</b><br>协调道 (Koordinating Road)');
+
+        // 关键地标
+        var landmarks = [
+            { pos: [22.3280, 114.2050], name: '🛳️ 启德邮轮码头', desc: 'Kai Tak Cruise Terminal' },
+            { pos: [22.3215, 114.2015], name: '🏘️ 启德站', desc: 'Kai Tak MTR Station' },
+            { pos: [22.3150, 114.2150], name: '🏢 观塘道', desc: 'Kwun Tong Road' },
+            { pos: [22.3200, 114.2200], name: '🏗️ 宏照道', desc: 'Wang Chiu Road' },
+        ];
+
+        landmarks.forEach(function(lm) {
+            L.marker(lm.pos, {
+                icon: L.divIcon({
+                    html: '<div style="background:#f8f9fa;border:2px solid #666;border-radius:4px;padding:4px 8px;font-size:11px;white-space:nowrap;box-shadow:0 1px 4px rgba(0,0,0,0.2);">' + lm.name + '</div>',
+                    className: '', iconSize: [0, 0], iconAnchor: [-5, -10]
+                })
+            }).addTo(map).bindPopup('<b>' + lm.name + '</b><br>' + lm.desc);
+        });
+
+        // 自适应视图
+        var group = L.featureGroup([routeA, routeB, routeC]);
+        map.fitBounds(group.getBounds().pad(0.1));
+    </script>
+</body>
+</html>

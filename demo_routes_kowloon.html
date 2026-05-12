@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8c7e88d8f41e174c43e3b81c5a53553b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8c7e88d8f41e174c43e3b81c5a53553b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8c7e88d8f41e174c43e3b81c5a53553b = L.map(
+                "map_8c7e88d8f41e174c43e3b81c5a53553b",
+                {
+                    center: [22.322, 114.208],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1d836d92733719625d6137c701548bd1 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_1d836d92733719625d6137c701548bd1.addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var poly_line_ebb778964de2a8100e5b783536594820 = L.polyline(
+                [[22.3264, 114.197], [22.3248, 114.1985], [22.3235, 114.1995], [22.3225, 114.2005], [22.3215, 114.2015], [22.323, 114.199], [22.3264, 114.197]],
+                {"bubblingMouseEvents": true, "color": "#E74C3C", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#E74C3C", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var poly_line_90f08376f81cffb208fdefaa1af2ce9d = L.polyline(
+                [[22.3264, 114.197], [22.325, 114.201], [22.315, 114.215], [22.318, 114.218], [22.32, 114.22], [22.322, 114.215], [22.324, 114.21], [22.3264, 114.197]],
+                {"bubblingMouseEvents": true, "color": "#2980B9", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2980B9", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var poly_line_e62c7452c0b8430bd0bf4510b03da88e = L.polyline(
+                [[22.3264, 114.197], [22.3248, 114.1985], [22.325, 114.201], [22.328, 114.205], [22.3235, 114.1995], [22.3264, 114.197]],
+                {"bubblingMouseEvents": true, "color": "#27AE60", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#27AE60", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.9, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var marker_045efcdef83f3f160c75b75c460e9614 = L.marker(
+                [22.3264, 114.197],
+                {
+}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var icon_ab28eaf3242a3dac9cd5a3d8fd2e7ccb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_853484125d7e060747bf98e8776f5bfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f492ac22495c866f8476900ce6695880 = $(`<div id="html_f492ac22495c866f8476900ce6695880" style="width: 100.0%; height: 100.0%;"><b>路线 A</b> 启德核心区闭环<br>4.5 km / 15 分钟<br>适用：政府参观、投资者演示</div>`)[0];
+                popup_853484125d7e060747bf98e8776f5bfb.setContent(html_f492ac22495c866f8476900ce6695880);
+            
+        
+
+        marker_045efcdef83f3f160c75b75c460e9614.bindPopup(popup_853484125d7e060747bf98e8776f5bfb)
+        ;
+
+        
+    
+    
+                marker_045efcdef83f3f160c75b75c460e9614.setIcon(icon_ab28eaf3242a3dac9cd5a3d8fd2e7ccb);
+            
+    
+            var marker_12db317652ee3d7552934726322dd72e = L.marker(
+                [22.3264, 114.197],
+                {
+}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var icon_a280a09cde004d503baba3f426a96ff1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7a4088f9483d4c1b37742dde8de2b470 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_af6f6574caa38a874e2616e1d60830af = $(`<div id="html_af6f6574caa38a874e2616e1d60830af" style="width: 100.0%; height: 100.0%;"><b>路线 B</b> 跨区综合路线<br>7 km / 25 分钟<br>适用：技术能力展示、媒体发布</div>`)[0];
+                popup_7a4088f9483d4c1b37742dde8de2b470.setContent(html_af6f6574caa38a874e2616e1d60830af);
+            
+        
+
+        marker_12db317652ee3d7552934726322dd72e.bindPopup(popup_7a4088f9483d4c1b37742dde8de2b470)
+        ;
+
+        
+    
+    
+                marker_12db317652ee3d7552934726322dd72e.setIcon(icon_a280a09cde004d503baba3f426a96ff1);
+            
+    
+            var marker_93267a1ec6bf641879c08889876eeaba = L.marker(
+                [22.3264, 114.197],
+                {
+}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var icon_3cbd66516399575f89dfbd372e84982c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_710fb4b6898abe7139d16dc890a2ba5b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05e1d11ced17992db9bf6d79013fffc7 = $(`<div id="html_05e1d11ced17992db9bf6d79013fffc7" style="width: 100.0%; height: 100.0%;"><b>路线 C</b> 启德邮轮码头特色路线<br>5.5 km / 20 分钟<br>适用：政府高层参观、旅游推广</div>`)[0];
+                popup_710fb4b6898abe7139d16dc890a2ba5b.setContent(html_05e1d11ced17992db9bf6d79013fffc7);
+            
+        
+
+        marker_93267a1ec6bf641879c08889876eeaba.bindPopup(popup_710fb4b6898abe7139d16dc890a2ba5b)
+        ;
+
+        
+    
+    
+                marker_93267a1ec6bf641879c08889876eeaba.setIcon(icon_3cbd66516399575f89dfbd372e84982c);
+            
+    
+            var marker_e913f3938df646f67a78957d621bc5b3 = L.marker(
+                [22.328, 114.205],
+                {
+}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var icon_a5137a93784e13b0846e9ffe1e80f0e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a78c1b03f9d1668160583c417c4db063 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_41a71ba5fa28c041523386e7668c40ee = $(`<div id="html_41a71ba5fa28c041523386e7668c40ee" style="width: 100.0%; height: 100.0%;"><b>启德邮轮码头</b> 🛳️</div>`)[0];
+                popup_a78c1b03f9d1668160583c417c4db063.setContent(html_41a71ba5fa28c041523386e7668c40ee);
+            
+        
+
+        marker_e913f3938df646f67a78957d621bc5b3.bindPopup(popup_a78c1b03f9d1668160583c417c4db063)
+        ;
+
+        
+    
+    
+                marker_e913f3938df646f67a78957d621bc5b3.setIcon(icon_a5137a93784e13b0846e9ffe1e80f0e6);
+            
+    
+            var marker_b4a236d9d2bda04eb61e58dc14287e00 = L.marker(
+                [22.315, 114.215],
+                {
+}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var icon_a8ac58fa7173afb84561c7f67cd1aa04 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_de8466041c31dad7d6f1fbb2f41217a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97c8290699d223fd30833d1ba24750da = $(`<div id="html_97c8290699d223fd30833d1ba24750da" style="width: 100.0%; height: 100.0%;"><b>观塘道</b> </div>`)[0];
+                popup_de8466041c31dad7d6f1fbb2f41217a0.setContent(html_97c8290699d223fd30833d1ba24750da);
+            
+        
+
+        marker_b4a236d9d2bda04eb61e58dc14287e00.bindPopup(popup_de8466041c31dad7d6f1fbb2f41217a0)
+        ;
+
+        
+    
+    
+                marker_b4a236d9d2bda04eb61e58dc14287e00.setIcon(icon_a8ac58fa7173afb84561c7f67cd1aa04);
+            
+    
+            var marker_c5ce0c916ee348e4b72d527ebf769747 = L.marker(
+                [22.3215, 114.2015],
+                {
+}
+            ).addTo(map_8c7e88d8f41e174c43e3b81c5a53553b);
+        
+    
+            var icon_d772895ee812d3a706333682761f91d8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "darkblue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d69da3e9d2240cee04fab28a79defc49 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_994402ea2b4b080bfeaef0bc6985eefc = $(`<div id="html_994402ea2b4b080bfeaef0bc6985eefc" style="width: 100.0%; height: 100.0%;"><b>启成街</b> 🏘️</div>`)[0];
+                popup_d69da3e9d2240cee04fab28a79defc49.setContent(html_994402ea2b4b080bfeaef0bc6985eefc);
+            
+        
+
+        marker_c5ce0c916ee348e4b72d527ebf769747.bindPopup(popup_d69da3e9d2240cee04fab28a79defc49)
+        ;
+
+        
+    
+    
+                marker_c5ce0c916ee348e4b72d527ebf769747.setIcon(icon_d772895ee812d3a706333682761f91d8);
+            
+</script>
+</html>
