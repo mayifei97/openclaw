@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_21e90a356bd984e22b5ba9c0e28a1ad3 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_21e90a356bd984e22b5ba9c0e28a1ad3" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_21e90a356bd984e22b5ba9c0e28a1ad3 = L.map(
+                "map_21e90a356bd984e22b5ba9c0e28a1ad3",
+                {
+                    center: [22.428, 114.214],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 13,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fe7afc14bb9faa800b1b6c7c5387f6e2 = L.tileLayer(
+                "https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn\u0026size=1\u0026scale=1\u0026style=8\u0026x={x}\u0026y={y}\u0026z={z}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "AutoNavi",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_fe7afc14bb9faa800b1b6c7c5387f6e2.addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+            var poly_line_8461311368ca6d6d4bc077392b31a5bf = L.polyline(
+                [[22.426, 114.21], [22.427, 114.212], [22.428, 114.214], [22.429, 114.216], [22.4295, 114.218], [22.429, 114.216], [22.428, 114.214], [22.427, 114.212], [22.426, 114.21]],
+                {"bubblingMouseEvents": true, "color": "#e67e22", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#e67e22", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+        var popup_815aaca959346be1e6f29196e4ff3f50 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca22c195ed2c7f509bfd55a2ec10bc75 = $(`<div id="html_ca22c195ed2c7f509bfd55a2ec10bc75" style="width: 100.0%; height: 100.0%;">Route D - 科学园环线 (~3.5km)</div>`)[0];
+                popup_815aaca959346be1e6f29196e4ff3f50.setContent(html_ca22c195ed2c7f509bfd55a2ec10bc75);
+            
+        
+
+        poly_line_8461311368ca6d6d4bc077392b31a5bf.bindPopup(popup_815aaca959346be1e6f29196e4ff3f50)
+        ;
+
+        
+    
+    
+            var marker_7cb0b20abc20e56fd142ca3de4b126b1 = L.marker(
+                [22.426, 114.21],
+                {
+}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+            var icon_bb0fe59a1131af4fdffca5919bb2d269 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7bf88dee4f5577944f87b9eef609cab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5f5defa6e83edd788948326418fa164b = $(`<div id="html_5f5defa6e83edd788948326418fa164b" style="width: 100.0%; height: 100.0%;">起点: Route D - 科学园环线 (~3.5km)</div>`)[0];
+                popup_a7bf88dee4f5577944f87b9eef609cab.setContent(html_5f5defa6e83edd788948326418fa164b);
+            
+        
+
+        marker_7cb0b20abc20e56fd142ca3de4b126b1.bindPopup(popup_a7bf88dee4f5577944f87b9eef609cab)
+        ;
+
+        
+    
+    
+                marker_7cb0b20abc20e56fd142ca3de4b126b1.setIcon(icon_bb0fe59a1131af4fdffca5919bb2d269);
+            
+    
+            var marker_4c2be50b3969d854996f199500f40e71 = L.marker(
+                [22.426, 114.21],
+                {
+}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+            var icon_27b2da2b024ec0576d9d977336380d31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2ff21eec77c5c4f5d84c7f4e4a40c35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cadc54771f6b0058639e5721930faa8 = $(`<div id="html_0cadc54771f6b0058639e5721930faa8" style="width: 100.0%; height: 100.0%;">终点: Route D - 科学园环线 (~3.5km)</div>`)[0];
+                popup_b2ff21eec77c5c4f5d84c7f4e4a40c35.setContent(html_0cadc54771f6b0058639e5721930faa8);
+            
+        
+
+        marker_4c2be50b3969d854996f199500f40e71.bindPopup(popup_b2ff21eec77c5c4f5d84c7f4e4a40c35)
+        ;
+
+        
+    
+    
+                marker_4c2be50b3969d854996f199500f40e71.setIcon(icon_27b2da2b024ec0576d9d977336380d31);
+            
+    
+            var poly_line_f605c6efdc1225c6b3de61d676a74d78 = L.polyline(
+                [[22.418, 114.207], [22.419, 114.208], [22.42, 114.21], [22.422, 114.211], [22.424, 114.212], [22.426, 114.213], [22.428, 114.214], [22.429, 114.216], [22.43, 114.218], [22.431, 114.22], [22.432, 114.222], [22.433, 114.224], [22.432, 114.222], [22.43, 114.22], [22.428, 114.218], [22.426, 114.216], [22.424, 114.214], [22.422, 114.212], [22.42, 114.21], [22.418, 114.207]],
+                {"bubblingMouseEvents": true, "color": "#9b59b6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#9b59b6", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+        var popup_a070ef33d13a744170b47014f64e1f37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_078a9cf817b71e387723e3ab7e0e06a1 = $(`<div id="html_078a9cf817b71e387723e3ab7e0e06a1" style="width: 100.0%; height: 100.0%;">Route E - 校园-科学园联动路线 (~6km)</div>`)[0];
+                popup_a070ef33d13a744170b47014f64e1f37.setContent(html_078a9cf817b71e387723e3ab7e0e06a1);
+            
+        
+
+        poly_line_f605c6efdc1225c6b3de61d676a74d78.bindPopup(popup_a070ef33d13a744170b47014f64e1f37)
+        ;
+
+        
+    
+    
+            var marker_4a1e1f6c28fb0db13a32c456ae0f02d3 = L.marker(
+                [22.418, 114.207],
+                {
+}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+            var icon_d45bc97d780f302199651401271896c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0b1a0b711d9c130a25741e73402e30f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ade5e652db91a4402f24f20f0b4f133f = $(`<div id="html_ade5e652db91a4402f24f20f0b4f133f" style="width: 100.0%; height: 100.0%;">起点: Route E - 校园-科学园联动路线 (~6km)</div>`)[0];
+                popup_0b1a0b711d9c130a25741e73402e30f7.setContent(html_ade5e652db91a4402f24f20f0b4f133f);
+            
+        
+
+        marker_4a1e1f6c28fb0db13a32c456ae0f02d3.bindPopup(popup_0b1a0b711d9c130a25741e73402e30f7)
+        ;
+
+        
+    
+    
+                marker_4a1e1f6c28fb0db13a32c456ae0f02d3.setIcon(icon_d45bc97d780f302199651401271896c2);
+            
+    
+            var marker_af0b42a267c9d19f9c041a53dc1cbc3f = L.marker(
+                [22.418, 114.207],
+                {
+}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+            var icon_f5ed7940636d37a68271cad754bbd72f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_569028327f19a6de4c234eff7d5bccdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9e01347d61b042ac9eef37ba80daea9e = $(`<div id="html_9e01347d61b042ac9eef37ba80daea9e" style="width: 100.0%; height: 100.0%;">终点: Route E - 校园-科学园联动路线 (~6km)</div>`)[0];
+                popup_569028327f19a6de4c234eff7d5bccdf.setContent(html_9e01347d61b042ac9eef37ba80daea9e);
+            
+        
+
+        marker_af0b42a267c9d19f9c041a53dc1cbc3f.bindPopup(popup_569028327f19a6de4c234eff7d5bccdf)
+        ;
+
+        
+    
+    
+                marker_af0b42a267c9d19f9c041a53dc1cbc3f.setIcon(icon_f5ed7940636d37a68271cad754bbd72f);
+            
+    
+            var poly_line_3bdd39dde8207a944046de53ac28904f = L.polyline(
+                [[22.426, 114.21], [22.427, 114.212], [22.428, 114.214], [22.429, 114.216], [22.43, 114.218], [22.431, 114.22], [22.432, 114.222], [22.431, 114.22], [22.429, 114.218], [22.427, 114.216], [22.425, 114.214], [22.426, 114.21]],
+                {"bubblingMouseEvents": true, "color": "#1abc9c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#1abc9c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+        var popup_a7fb9608a716a265def178b2cc9ae3b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce2f42dc69a80e6f0d893215db69ca73 = $(`<div id="html_ce2f42dc69a80e6f0d893215db69ca73" style="width: 100.0%; height: 100.0%;">Route F - 吐露港走廊快速路线 (~8km)</div>`)[0];
+                popup_a7fb9608a716a265def178b2cc9ae3b2.setContent(html_ce2f42dc69a80e6f0d893215db69ca73);
+            
+        
+
+        poly_line_3bdd39dde8207a944046de53ac28904f.bindPopup(popup_a7fb9608a716a265def178b2cc9ae3b2)
+        ;
+
+        
+    
+    
+            var marker_dbca55bd5762224d30d3b53cd492ac0d = L.marker(
+                [22.426, 114.21],
+                {
+}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+            var icon_38768ede2f6a807a9c1870909e8c5fbd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01c4ac873411c572a65e6a37060c9b68 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4022802b31dd4526f6e5f32272fb1b9e = $(`<div id="html_4022802b31dd4526f6e5f32272fb1b9e" style="width: 100.0%; height: 100.0%;">起点: Route F - 吐露港走廊快速路线 (~8km)</div>`)[0];
+                popup_01c4ac873411c572a65e6a37060c9b68.setContent(html_4022802b31dd4526f6e5f32272fb1b9e);
+            
+        
+
+        marker_dbca55bd5762224d30d3b53cd492ac0d.bindPopup(popup_01c4ac873411c572a65e6a37060c9b68)
+        ;
+
+        
+    
+    
+                marker_dbca55bd5762224d30d3b53cd492ac0d.setIcon(icon_38768ede2f6a807a9c1870909e8c5fbd);
+            
+    
+            var marker_7da912d3f713832c55d643f89d764814 = L.marker(
+                [22.426, 114.21],
+                {
+}
+            ).addTo(map_21e90a356bd984e22b5ba9c0e28a1ad3);
+        
+    
+            var icon_c83369c19d0330cd7c6cb82c791259e5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fa20520e2398a6b41c2099e30150427 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9640da7aafb00127e572b352c6d36d28 = $(`<div id="html_9640da7aafb00127e572b352c6d36d28" style="width: 100.0%; height: 100.0%;">终点: Route F - 吐露港走廊快速路线 (~8km)</div>`)[0];
+                popup_4fa20520e2398a6b41c2099e30150427.setContent(html_9640da7aafb00127e572b352c6d36d28);
+            
+        
+
+        marker_7da912d3f713832c55d643f89d764814.bindPopup(popup_4fa20520e2398a6b41c2099e30150427)
+        ;
+
+        
+    
+    
+                marker_7da912d3f713832c55d643f89d764814.setIcon(icon_c83369c19d0330cd7c6cb82c791259e5);
+            
+</script>
+</html>

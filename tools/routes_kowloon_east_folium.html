@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_b08b830e3a5da009d4907c2cb3094014 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_b08b830e3a5da009d4907c2cb3094014" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_b08b830e3a5da009d4907c2cb3094014 = L.map(
+                "map_b08b830e3a5da009d4907c2cb3094014",
+                {
+                    center: [22.328, 114.208],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f36284a6feb81c8ca085ae56deab8897 = L.tileLayer(
+                "https://webrd01.is.autonavi.com/appmaptile?lang=zh_cn\u0026size=1\u0026scale=1\u0026style=8\u0026x={x}\u0026y={y}\u0026z={z}",
+                {
+  "minZoom": 0,
+  "maxZoom": 18,
+  "maxNativeZoom": 18,
+  "noWrap": false,
+  "attribution": "AutoNavi",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_f36284a6feb81c8ca085ae56deab8897.addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+            var poly_line_3fa6e37af1ffc0a35ab124d9f3683052 = L.polyline(
+                [[22.333, 114.196], [22.3325, 114.2], [22.3318, 114.204], [22.329, 114.207], [22.326, 114.209], [22.325, 114.208], [22.324, 114.2065], [22.3235, 114.2045], [22.326, 114.202], [22.33, 114.199], [22.333, 114.196]],
+                {"bubblingMouseEvents": true, "color": "#e74c3c", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#e74c3c", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+        var popup_0cfd53afcce901d7e59f3dd584e02078 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fb03370d53e65ad961925b984ddc0713 = $(`<div id="html_fb03370d53e65ad961925b984ddc0713" style="width: 100.0%; height: 100.0%;">Route A - 启德核心区闭环 (~4.5km)</div>`)[0];
+                popup_0cfd53afcce901d7e59f3dd584e02078.setContent(html_fb03370d53e65ad961925b984ddc0713);
+            
+        
+
+        poly_line_3fa6e37af1ffc0a35ab124d9f3683052.bindPopup(popup_0cfd53afcce901d7e59f3dd584e02078)
+        ;
+
+        
+    
+    
+            var marker_c29d2a59810ed0b305d84f20da850c57 = L.marker(
+                [22.333, 114.196],
+                {
+}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+            var icon_48c642a47bb5be5b831315fad1545f70 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9c6d54766c88c299a9d8bc73b1e6f3db = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b4387f69c534e2c2c6b37a8f08b3735 = $(`<div id="html_9b4387f69c534e2c2c6b37a8f08b3735" style="width: 100.0%; height: 100.0%;">起点: Route A - 启德核心区闭环 (~4.5km)</div>`)[0];
+                popup_9c6d54766c88c299a9d8bc73b1e6f3db.setContent(html_9b4387f69c534e2c2c6b37a8f08b3735);
+            
+        
+
+        marker_c29d2a59810ed0b305d84f20da850c57.bindPopup(popup_9c6d54766c88c299a9d8bc73b1e6f3db)
+        ;
+
+        
+    
+    
+                marker_c29d2a59810ed0b305d84f20da850c57.setIcon(icon_48c642a47bb5be5b831315fad1545f70);
+            
+    
+            var marker_3191af132d9bee888e34c6c41c545c3c = L.marker(
+                [22.333, 114.196],
+                {
+}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+            var icon_5c87e91ff91593bcee769c2335e66de4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d8a5a63d1935540a3d8bc460d9eb7dbc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3c3e51f3dea148d731a8297cf16653c3 = $(`<div id="html_3c3e51f3dea148d731a8297cf16653c3" style="width: 100.0%; height: 100.0%;">终点: Route A - 启德核心区闭环 (~4.5km)</div>`)[0];
+                popup_d8a5a63d1935540a3d8bc460d9eb7dbc.setContent(html_3c3e51f3dea148d731a8297cf16653c3);
+            
+        
+
+        marker_3191af132d9bee888e34c6c41c545c3c.bindPopup(popup_d8a5a63d1935540a3d8bc460d9eb7dbc)
+        ;
+
+        
+    
+    
+                marker_3191af132d9bee888e34c6c41c545c3c.setIcon(icon_5c87e91ff91593bcee769c2335e66de4);
+            
+    
+            var poly_line_16670864c8f2a066693e205db81a0757 = L.polyline(
+                [[22.333, 114.196], [22.3325, 114.2], [22.3318, 114.204], [22.326, 114.209], [22.324, 114.212], [22.322, 114.215], [22.319, 114.218], [22.318, 114.216], [22.316, 114.214], [22.314, 114.212], [22.312, 114.21], [22.314, 114.208], [22.316, 114.206], [22.318, 114.204], [22.32, 114.202], [22.322, 114.2], [22.324, 114.198], [22.326, 114.196], [22.328, 114.194], [22.33, 114.192], [22.332, 114.19], [22.333, 114.196]],
+                {"bubblingMouseEvents": true, "color": "#2ecc71", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#2ecc71", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+        var popup_f77e3501b1b4a0b3869503c6fed8941e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d4cac0489bff7416652a7b3af9122262 = $(`<div id="html_d4cac0489bff7416652a7b3af9122262" style="width: 100.0%; height: 100.0%;">Route B - 跨区综合路线 (~7km)</div>`)[0];
+                popup_f77e3501b1b4a0b3869503c6fed8941e.setContent(html_d4cac0489bff7416652a7b3af9122262);
+            
+        
+
+        poly_line_16670864c8f2a066693e205db81a0757.bindPopup(popup_f77e3501b1b4a0b3869503c6fed8941e)
+        ;
+
+        
+    
+    
+            var marker_d0e24b6a597ada6206c468e648d583b1 = L.marker(
+                [22.333, 114.196],
+                {
+}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+            var icon_dd1012e304169a6c47692089b9437f5e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d66d5d859630996b22391cedeea875d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dafd7603a391a4db5c4875835653a322 = $(`<div id="html_dafd7603a391a4db5c4875835653a322" style="width: 100.0%; height: 100.0%;">起点: Route B - 跨区综合路线 (~7km)</div>`)[0];
+                popup_d66d5d859630996b22391cedeea875d1.setContent(html_dafd7603a391a4db5c4875835653a322);
+            
+        
+
+        marker_d0e24b6a597ada6206c468e648d583b1.bindPopup(popup_d66d5d859630996b22391cedeea875d1)
+        ;
+
+        
+    
+    
+                marker_d0e24b6a597ada6206c468e648d583b1.setIcon(icon_dd1012e304169a6c47692089b9437f5e);
+            
+    
+            var marker_40d04be05c9db3596e472d16ad5813a5 = L.marker(
+                [22.333, 114.196],
+                {
+}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+            var icon_51310ed78bcb287efc37978045289a12 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6c91ff33e93f8f5bd8e2f7afa78387de = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ecc9345a2d8f0a76cf441ada1693b821 = $(`<div id="html_ecc9345a2d8f0a76cf441ada1693b821" style="width: 100.0%; height: 100.0%;">终点: Route B - 跨区综合路线 (~7km)</div>`)[0];
+                popup_6c91ff33e93f8f5bd8e2f7afa78387de.setContent(html_ecc9345a2d8f0a76cf441ada1693b821);
+            
+        
+
+        marker_40d04be05c9db3596e472d16ad5813a5.bindPopup(popup_6c91ff33e93f8f5bd8e2f7afa78387de)
+        ;
+
+        
+    
+    
+                marker_40d04be05c9db3596e472d16ad5813a5.setIcon(icon_51310ed78bcb287efc37978045289a12);
+            
+    
+            var poly_line_efe6bd989392ed5c4788c148637150f7 = L.polyline(
+                [[22.333, 114.196], [22.3325, 114.2], [22.3318, 114.204], [22.329, 114.207], [22.326, 114.209], [22.324, 114.212], [22.322, 114.215], [22.321, 114.218], [22.32, 114.22], [22.322, 114.218], [22.324, 114.216], [22.326, 114.214], [22.328, 114.212], [22.33, 114.21], [22.332, 114.208], [22.333, 114.196]],
+                {"bubblingMouseEvents": true, "color": "#3498db", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3498db", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.85, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+        var popup_5dd20363aa219703ced76261b6c51f0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83608b1bb723d1afb1927400e6f337d9 = $(`<div id="html_83608b1bb723d1afb1927400e6f337d9" style="width: 100.0%; height: 100.0%;">Route C - 启德邮轮码头特色路线 (~5.5km)</div>`)[0];
+                popup_5dd20363aa219703ced76261b6c51f0b.setContent(html_83608b1bb723d1afb1927400e6f337d9);
+            
+        
+
+        poly_line_efe6bd989392ed5c4788c148637150f7.bindPopup(popup_5dd20363aa219703ced76261b6c51f0b)
+        ;
+
+        
+    
+    
+            var marker_5a632d7bd1ad2a15972de8df428c8766 = L.marker(
+                [22.333, 114.196],
+                {
+}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+            var icon_b0c623168fc8c34102979a582024715c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "play",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee8a7f9220947652d447ef95135c83e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2fe61dad616f0dd9a1dc2717d5cd0563 = $(`<div id="html_2fe61dad616f0dd9a1dc2717d5cd0563" style="width: 100.0%; height: 100.0%;">起点: Route C - 启德邮轮码头特色路线 (~5.5km)</div>`)[0];
+                popup_ee8a7f9220947652d447ef95135c83e4.setContent(html_2fe61dad616f0dd9a1dc2717d5cd0563);
+            
+        
+
+        marker_5a632d7bd1ad2a15972de8df428c8766.bindPopup(popup_ee8a7f9220947652d447ef95135c83e4)
+        ;
+
+        
+    
+    
+                marker_5a632d7bd1ad2a15972de8df428c8766.setIcon(icon_b0c623168fc8c34102979a582024715c);
+            
+    
+            var marker_fda056f05eb081e359e476d2d51368ae = L.marker(
+                [22.333, 114.196],
+                {
+}
+            ).addTo(map_b08b830e3a5da009d4907c2cb3094014);
+        
+    
+            var icon_566bcecee2170823e48039f35fa0fb53 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "stop",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8993e57e5c20cd1149d5ea0561c31d8d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_375cea914a5dd7e20b8ae6ee89926dbb = $(`<div id="html_375cea914a5dd7e20b8ae6ee89926dbb" style="width: 100.0%; height: 100.0%;">终点: Route C - 启德邮轮码头特色路线 (~5.5km)</div>`)[0];
+                popup_8993e57e5c20cd1149d5ea0561c31d8d.setContent(html_375cea914a5dd7e20b8ae6ee89926dbb);
+            
+        
+
+        marker_fda056f05eb081e359e476d2d51368ae.bindPopup(popup_8993e57e5c20cd1149d5ea0561c31d8d)
+        ;
+
+        
+    
+    
+                marker_fda056f05eb081e359e476d2d51368ae.setIcon(icon_566bcecee2170823e48039f35fa0fb53);
+            
+</script>
+</html>
