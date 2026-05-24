@@ -37,4 +37,13 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+### 🖥️ SSH
+
+- **本地 PC（8890 端口映射）** → `localhost:8890`, 用户: `ma`, 密码: `pk85626428`
+  - 网关服务器的 8890 端口通过端口映射转发到用户本地 PC
+  - 主机名: `ma-VMware-Virtual-Platform`
+  - 系统: Ubuntu 24.04 (内核 6.17.0-29, VMware 虚拟机)
+  - 磁盘: 40G 总量，已用 18G，剩余 20G
+  - 2026-05-24 验证连接成功
+
 Add whatever helps you do your job. This is your cheat sheet.
