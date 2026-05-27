@@ -1,2 +1,6 @@
 # System monitor backups
 tools/sysmon_data.json.backup.*
+-e 
+# Node modules
+node_modules/
+**/node_modules/
