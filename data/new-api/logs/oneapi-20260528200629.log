@@ -1,0 +1,86 @@
+[SYS] 2026/05/28 - 20:06:29 | initializing token encoders 
+[SYS] 2026/05/28 - 20:06:29 | token encoders initialized 
+[SYS] 2026/05/28 - 20:06:29 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:06:29 | database migration started 
+[SYS] 2026/05/28 - 20:06:29 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:06:29 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:06:29 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:06:29 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:06:29 | New API v1.0.0-rc.10 started 
+[SYS] 2026/05/28 - 20:06:29 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:06:29 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/28 - 20:06:29 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 206 ms
+
+  ➜  [1mNetwork:[0m http://172.17.0.3:3000/
+
+[INFO] 2026/05/28 - 20:06:29 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[SYS] 2026/05/28 - 20:06:29 | upstream model update task started: interval=30m0s 
+[GIN] 2026/05/28 - 20:06:32 | api | 20260528120632113472868268d9d6E1Y7uPpb | 200 |   70.652919ms |      172.17.0.1 |    POST /api/user/login
+[GIN] 2026/05/28 - 20:06:32 | api | 20260528120632892918728268d9d6VJce8kTt | 200 |    4.446161ms |      172.17.0.1 |    POST /api/token/
+[SYS] 2026/05/28 - 20:06:44 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:06:44 | 任务进度轮询完成 
+[INFO] 2026/05/28 - 20:06:54 | 202605281206544678786488268d9d6VHZV2LVF | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[ERR] 2026/05/28 - 20:06:54 | 202605281206544678786488268d9d6VHZV2LVF | channel error (channel #1, status code: 500): invalid character '<' looking for beginning of value 
+[INFO] 2026/05/28 - 20:06:54 | 202605281206544678786488268d9d6VHZV2LVF | 用户 1 请求失败, 返还预扣费（token_quota=＄0.038250, funding=wallet） 
+[ERR] 2026/05/28 - 20:06:54 | 202605281206544678786488268d9d6VHZV2LVF | relay error: invalid character '<' looking for beginning of value 
+[GIN] 2026/05/28 - 20:06:54 | relay | 202605281206544678786488268d9d6VHZV2LVF | 500 |    470.4489ms |      172.17.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:06:59 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:06:59 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:07:14 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:07:14 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:07:15 | web | 202605281207154793385918268d9d6TioVnQ72 | 200 |    1.077401ms | 120.236.238.180 |     GET /console/token
+[GIN] 2026/05/28 - 20:07:17 | api | 20260528120717407611938268d9d60AbXH7Tn | 401 |    1.716038ms | 120.236.238.180 |     GET /api/user/self
+[GIN] 2026/05/28 - 20:07:17 | api | 20260528120717544630028268d9d63tSDSn1c | 401 |     379.972µs | 120.236.238.180 |     GET /api/user/models
+[GIN] 2026/05/28 - 20:07:17 | api | 20260528120717741928278268d9d6xvynolY0 | 401 |     933.374µs | 120.236.238.180 |     GET /api/user/self/groups
+[GIN] 2026/05/28 - 20:07:17 | api | 20260528120717804564778268d9d6UcnFocj8 | 401 |     409.552µs | 120.236.238.180 |     GET /api/token/?p=1&size=10
+[GIN] 2026/05/28 - 20:07:17 | api | 20260528120717830585308268d9d69ggcsiLc | 200 |     554.916µs | 120.236.238.180 |     GET /api/status
+[GIN] 2026/05/28 - 20:07:17 | web | 202605281207171931227398268d9d6dabHGGqu | 200 |     314.724µs | 120.236.238.180 |     GET /login?expired=true
+[GIN] 2026/05/28 - 20:07:17 | web | 202605281207172223106318268d9d6WPI5zoZZ | 200 |     233.923µs | 120.236.238.180 |     GET /login?expired=true
+[GIN] 2026/05/28 - 20:07:17 | web | 202605281207172282242098268d9d6DEJIT3Zw | 200 |     307.258µs | 120.236.238.180 |     GET /login?expired=true
+[GIN] 2026/05/28 - 20:07:17 | api | 202605281207178093421368268d9d6aBbOlXZz | 200 |     354.104µs | 120.236.238.180 |     GET /api/status
+[SYS] 2026/05/28 - 20:07:29 | syncing options from database 
+[SYS] 2026/05/28 - 20:07:29 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:07:29 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:07:44 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:07:44 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:07:59 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:07:59 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:08:09 | api | 20260528120809983778468268d9d6VO4itRxa | 200 |   75.008236ms |      172.17.0.1 |    POST /api/user/login
+[GIN] 2026/05/28 - 20:08:09 | api | 202605281208091805414158268d9d6ynsZkzCv | 200 |    6.952162ms |      172.17.0.1 |     PUT /api/channel/
+[SYS] 2026/05/28 - 20:08:14 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:08:14 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:08:29 | syncing options from database 
+[SYS] 2026/05/28 - 20:08:29 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:08:29 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:08:44 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:08:44 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:08:59 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:08:59 | 任务进度轮询完成 
+[INFO] 2026/05/28 - 20:09:00 | 202605281209002865305558268d9d62ujfnLSy | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[ERR] 2026/05/28 - 20:09:00 | 202605281209002865305558268d9d62ujfnLSy | channel error (channel #1, status code: 500): invalid character '<' looking for beginning of value 
+[INFO] 2026/05/28 - 20:09:00 | 202605281209002865305558268d9d62ujfnLSy | 用户 1 请求失败, 返还预扣费（token_quota=＄0.038250, funding=wallet） 
+[ERR] 2026/05/28 - 20:09:00 | 202605281209002865305558268d9d62ujfnLSy | relay error: invalid character '<' looking for beginning of value 
+[GIN] 2026/05/28 - 20:09:00 | relay | 202605281209002865305558268d9d62ujfnLSy | 500 |  289.295587ms |      172.17.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:09:14 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:09:14 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:09:29 | syncing options from database 
+[SYS] 2026/05/28 - 20:09:29 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:09:29 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:09:44 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:09:44 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:09:58 | web | 202605281209584007635048268d9d6ZELx0VOd | 404 |      71.167µs |      172.17.0.1 |    POST /api/channel/1
+[SYS] 2026/05/28 - 20:09:59 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:09:59 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:10:14 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:10:14 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:10:29 | syncing options from database 
+[SYS] 2026/05/28 - 20:10:29 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:10:29 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:10:44 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:10:44 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:10:59 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:10:59 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:11:14 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:11:14 | 任务进度轮询完成 

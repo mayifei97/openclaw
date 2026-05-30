@@ -1,0 +1,240 @@
+[SYS] 2026/05/28 - 20:26:17 | initializing token encoders 
+[SYS] 2026/05/28 - 20:26:17 | token encoders initialized 
+[SYS] 2026/05/28 - 20:26:17 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:26:17 | database migration started 
+[SYS] 2026/05/28 - 20:26:17 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:26:17 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:26:17 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:26:17 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:26:17 | New API v1.0.0-rc.10 started 
+[SYS] 2026/05/28 - 20:26:17 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:26:17 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/28 - 20:26:17 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 238 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[SYS] 2026/05/28 - 20:26:17 | upstream model update task started: interval=30m0s 
+[INFO] 2026/05/28 - 20:26:17 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[INFO] 2026/05/28 - 20:26:20 | 202605281226202593809628268d9d6RoPxJlWM | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[ERR] 2026/05/28 - 20:26:20 | 202605281226202593809628268d9d6RoPxJlWM | channel error (channel #1, status code: 400): 无法解析请求体中的model字段，err: unexpected end of JSON input (request id: 2026052820262037508414660332005) 
+[INFO] 2026/05/28 - 20:26:20 | 202605281226202593809628268d9d6RoPxJlWM | 用户 1 请求失败, 返还预扣费（token_quota=＄0.038250, funding=wallet） 
+[ERR] 2026/05/28 - 20:26:20 | 202605281226202593809628268d9d6RoPxJlWM | relay error: 无法解析请求体中的model字段，err: unexpected end of JSON input (request id: 2026052820262037508414660332005) 
+[GIN] 2026/05/28 - 20:26:20 | relay | 202605281226202593809628268d9d6RoPxJlWM | 400 |  135.607378ms |       127.0.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:26:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:26:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:26:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:26:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:27:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:27:02 | 任务进度轮询完成 
+[INFO] 2026/05/28 - 20:27:16 | 202605281227163294094638268d9d6mZCX4JPW | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[SYS] 2026/05/28 - 20:27:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:27:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:27:17 | 任务进度轮询完成 
+[INFO] 2026/05/28 - 20:27:25 | 202605281227163294094638268d9d6mZCX4JPW | 预扣费后返还扣费：＄0.037274（实际消耗：＄0.000976，预扣费：＄0.038250） 
+[INFO] 2026/05/28 - 20:27:25 | 202605281227163294094638268d9d6mZCX4JPW | record consume log: userId=1, params={"channel_id":1,"prompt_tokens":10,"completion_tokens":3,"model_name":"astron-code-latest","token_name":"测试令牌","quota":488,"content":"","token_id":2,"use_time_seconds":9,"is_stream":false,"group":"default","other":{"admin_info":{"use_channel":["1"]},"billing_source":"wallet","cache_ratio":1,"cache_tokens":0,"completion_ratio":1,"frt":-1000,"group_ratio":1,"model_price":-1,"model_ratio":37.5,"request_conversion":["OpenAI Compatible"],"request_path":"/v1/chat/completions","user_group_ratio":-1}} 
+[GIN] 2026/05/28 - 20:27:25 | relay | 202605281227163294094638268d9d6mZCX4JPW | 200 |  8.887319475s |       127.0.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:27:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:27:32 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:27:32 | api | 202605281227326212996858268d9d68PF5XEua | 200 |   70.667916ms |       127.0.0.1 |    POST /api/user/login
+[SYS] 2026/05/28 - 20:27:32 | testing channel 1 with model astron-code-latest , info RelayInfo{ RelayFormat: openai, RelayMode: 1, IsStream: false, IsPlayground: false, RequestURLPath: "/v1/chat/completions", OriginModelName: "astron-code-latest", EstimatePromptTokens: 0, ShouldIncludeUsage: false, DisablePing: false, SendResponseCount: 0, FinalPreConsumedQuota: 0, User{ Id: 1, Email: "***masked***", Group: "default", UsingGroup: "default", Quota: 99999512 }, Token{ Id: 0, Unlimited: false, Key: ***masked*** }, Timing{ Start: 2026-05-28T20:27:32.701504236+08:00, FirstResponse: 2026-05-28T20:27:31.701504236+08:00, LatencyMs: -1000 }, ChannelMeta{ Type: 1, Id: 1, IsMultiKey: false, MultiKeyIndex: 0, BaseURL: "http://172.17.0.1:3001", ApiType: 0, ApiVersion: "", Organization: "", CreateTime: 1779969298, UpstreamModelName: "astron-code-latest", IsModelMapped: false, SupportStreamOptions: true, ApiKey: ***masked*** }, }  
+[INFO] 2026/05/28 - 20:27:35 | SYSTEM | record consume log: userId=1, params={"channel_id":1,"prompt_tokens":6,"completion_tokens":11,"model_name":"astron-code-latest","token_name":"模型测试","quota":638,"content":"模型测试","token_id":0,"use_time_seconds":2,"is_stream":false,"group":"default","other":{"admin_info":{"use_channel":null},"cache_ratio":1,"cache_tokens":0,"completion_ratio":1,"frt":-1000,"group_ratio":1,"model_price":-1,"model_ratio":37.5,"request_conversion":["OpenAI Compatible"],"request_path":"/v1/chat/completions","user_group_ratio":-1}} 
+[SYS] 2026/05/28 - 20:27:35 | testing channel #1, response: 
+{"id":"cht000d2dbb@dx19e6e8de255b9cb282","model":"astron-code-latest","object":"chat.completion","created":1779971255,"choices":[{"index":0,"message":{"role":"assistant","content":"Hi there! How can I help you today?","reasoning_content":""},"finish_reason":"stop"}],"usage":{"prompt_tokens":6,"completion_tokens":11,"total_tokens":17,"prompt_tokens_details":{"cached_tokens":0,"text_tokens":0,"audio_tokens":0,"image_tokens":0},"completion_tokens_details":{"text_tokens":0,"audio_tokens":0,"image_tokens":0,"reasoning_tokens":0},"input_tokens":0,"output_tokens":0,"input_tokens_details":null,"claude_cache_creation_5_m_tokens":0,"claude_cache_creation_1_h_tokens":0}} 
+[GIN] 2026/05/28 - 20:27:35 | api | 202605281227327006933908268d9d6iqMBFo24 | 200 |  2.747139747s |       127.0.0.1 |     GET /api/channel/test/1
+[SYS] 2026/05/28 - 20:27:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:27:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:28:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:28:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:28:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:28:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:28:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:28:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:28:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:28:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:28:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:29:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:29:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:29:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:29:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:29:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:29:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:29:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:29:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:29:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:30:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:30:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:30:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:30:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:30:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:30:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:30:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:30:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:30:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:31:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:31:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:31:17 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:31:17 | 保存数据看板数据成功，共保存1条数据 
+[SYS] 2026/05/28 - 20:31:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:31:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:31:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:31:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:31:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:31:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:31:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:32:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:32:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:32:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:32:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:32:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:32:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:32:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:32:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:32:47 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:32:48 | web | 202605281232485657817378268d9d6TIo4vP2r | 200 |      49.408µs | 185.246.128.192 |     GET /rootDesc.xml
+[GIN] 2026/05/28 - 20:32:49 | web | 20260528123249245883778268d9d64yAaPXw5 | 200 |       41.69µs | 185.246.128.192 |     GET /rootDesc.xml
+[SYS] 2026/05/28 - 20:33:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:33:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:33:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:33:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:33:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:33:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:33:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:33:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:33:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:34:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:34:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:34:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:34:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:34:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:34:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:34:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:34:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:34:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:35:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:35:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:35:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:35:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:35:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:35:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:35:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:35:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:35:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:36:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:36:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:36:17 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:36:17 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/05/28 - 20:36:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:36:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:36:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:36:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:36:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:36:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:36:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:37:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:37:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:37:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:37:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:37:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:37:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:37:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:37:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:37:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:38:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:38:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:38:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:38:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:38:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:38:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:38:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:38:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:38:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:39:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:39:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:39:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:39:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:39:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:39:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:39:32 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:39:38 | api | 202605281239383664946208268d9d6uF75tgdI | 200 |   71.610179ms |       127.0.0.1 |    POST /api/user/login
+
+
+[31m2026/05/28 20:39:38 [Recovery] 2026/05/28 - 20:39:38 panic recovered:
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/go/src/runtime/panic.go:336 (0x490317)
+/usr/local/go/src/runtime/signal_unix.go:931 (0x4902e5)
+/build/model/channel.go:942 (0x11db744)
+/build/controller/channel.go:459 (0x159b0e5)
+/build/controller/channel.go:596 (0x159c1be)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x138c45b)
+/build/middleware/auth.go:156 (0x138b838)
+/build/middleware/auth.go:178 (0x1651417)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/body_cleanup.go:14 (0x164ddf7)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/logger.go:15 (0x164845b)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/go/pkg/mod/github.com/gin-contrib/sessions@v0.0.5/sessions.go:54 (0x1683ec4)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9f89fc)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 (0x9f89e3)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/i18n.go:17 (0x1685ee6)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/cors.go:21 (0x1685e7b)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/request-id.go:28 (0x1685e1c)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9f990e)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 (0x9f98fb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9f7f8a)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 (0x9f7c20)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 (0x9f776c)
+/usr/local/go/src/net/http/server.go:3311 (0x7486ad)
+/usr/local/go/src/net/http/server.go:2073 (0x72714f)
+/usr/local/go/src/runtime/asm_amd64.s:1771 (0x495880)
+[0m
+[SYS] 2026/05/28 - 20:39:38 | panic detected: runtime error: invalid memory address or nil pointer dereference 
+[SYS] 2026/05/28 - 20:39:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:39:47 | 任务进度轮询完成 
+
+
+[31m2026/05/28 20:39:48 [Recovery] 2026/05/28 - 20:39:48 panic recovered:
+runtime error: invalid memory address or nil pointer dereference
+/usr/local/go/src/runtime/panic.go:336 (0x490317)
+/usr/local/go/src/runtime/signal_unix.go:931 (0x4902e5)
+/build/model/channel.go:942 (0x11db744)
+/build/controller/channel.go:459 (0x159b0e5)
+/build/controller/channel.go:596 (0x159c1be)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x138c45b)
+/build/middleware/auth.go:156 (0x138b838)
+/build/middleware/auth.go:178 (0x1651417)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/body_cleanup.go:14 (0x164ddf7)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/logger.go:15 (0x164845b)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/go/pkg/mod/github.com/gin-contrib/sessions@v0.0.5/sessions.go:54 (0x1683ec4)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9f89fc)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240 (0x9f89e3)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/i18n.go:17 (0x1685ee6)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/cors.go:21 (0x1685e7b)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9ed04a)
+/build/middleware/request-id.go:28 (0x1685e1c)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9f990e)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102 (0x9f98fb)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174 (0x9f7f8a)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620 (0x9f7c20)
+/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576 (0x9f776c)
+/usr/local/go/src/net/http/server.go:3311 (0x7486ad)
+/usr/local/go/src/net/http/server.go:2073 (0x72714f)
+/usr/local/go/src/runtime/asm_amd64.s:1771 (0x495880)
+[0m
+[SYS] 2026/05/28 - 20:39:48 | panic detected: runtime error: invalid memory address or nil pointer dereference 
+[SYS] 2026/05/28 - 20:40:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:40:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:40:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:40:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:40:17 | 任务进度轮询完成 

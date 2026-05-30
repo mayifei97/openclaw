@@ -1,0 +1,44 @@
+[SYS] 2026/05/28 - 23:08:43 | initializing token encoders 
+[SYS] 2026/05/28 - 23:08:43 | token encoders initialized 
+[SYS] 2026/05/28 - 23:08:43 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 23:08:43 | database migration started 
+[SYS] 2026/05/28 - 23:08:43 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 23:08:43 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 23:08:43 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 23:08:43 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 23:08:43 | New API v1.0.0-rc.10 started 
+[INFO] 2026/05/28 - 23:08:43 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[SYS] 2026/05/28 - 23:08:43 | 正在更新数据看板数据... 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 195 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[SYS] 2026/05/28 - 23:08:43 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/05/28 - 23:08:43 | upstream model update task started: interval=30m0s 
+[INFO] 2026/05/28 - 23:08:43 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[INFO] 2026/05/28 - 23:08:46 | 202605281508463064719358268d9d63ppiwFZg | 用户 1 额度充足, 信任且不需要预扣费 (funding=wallet) 
+[INFO] 2026/05/28 - 23:08:47 | 202605281508463064719358268d9d63ppiwFZg | 预扣费后补扣费：＄1.000000（实际消耗：＄1.000000，预扣费：＄0.000000） 
+[INFO] 2026/05/28 - 23:08:47 | 202605281508463064719358268d9d63ppiwFZg | record consume log: userId=1, params={"channel_id":1,"prompt_tokens":7,"completion_tokens":2,"model_name":"astron-code-latest","token_name":"分享用Key","quota":500000,"content":"","token_id":3,"use_time_seconds":1,"is_stream":false,"group":"default","other":{"admin_info":{"use_channel":["1"]},"billing_source":"wallet","cache_ratio":0,"cache_tokens":0,"completion_ratio":0,"frt":-1000,"group_ratio":1,"model_price":1,"model_ratio":0,"request_conversion":["OpenAI Compatible"],"request_path":"/v1/chat/completions","user_group_ratio":-1}} 
+[GIN] 2026/05/28 - 23:08:47 | relay | 202605281508463064719358268d9d63ppiwFZg | 200 |  767.704231ms |       127.0.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 23:08:58 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:08:58 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 23:09:13 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:09:13 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 23:09:28 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:09:28 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 23:09:43 | syncing options from database 
+[SYS] 2026/05/28 - 23:09:43 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:09:43 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 23:09:58 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:09:58 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 23:10:13 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:10:13 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 23:10:28 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:10:28 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 23:10:43 | syncing options from database 
+[SYS] 2026/05/28 - 23:10:43 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:10:43 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 23:10:58 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:10:58 | 任务进度轮询完成 

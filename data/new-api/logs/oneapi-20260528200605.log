@@ -1,0 +1,25 @@
+[SYS] 2026/05/28 - 20:06:05 | initializing token encoders 
+[SYS] 2026/05/28 - 20:06:05 | token encoders initialized 
+[SYS] 2026/05/28 - 20:06:05 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:06:05 | database migration started 
+[SYS] 2026/05/28 - 20:06:05 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:06:05 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:06:05 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:06:05 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:06:05 | New API v1.0.0-rc.10 started 
+[SYS] 2026/05/28 - 20:06:05 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:06:05 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/28 - 20:06:05 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 181 ms
+
+  ➜  [1mNetwork:[0m http://172.17.0.3:3000/
+
+[INFO] 2026/05/28 - 20:06:05 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[SYS] 2026/05/28 - 20:06:05 | upstream model update task started: interval=30m0s 
+[GIN] 2026/05/28 - 20:06:08 | api | 202605281206083048925218268d9d64OEPwcEX | 200 |   72.826906ms |      172.17.0.1 |    POST /api/user/login
+[SYS] 2026/05/28 - 20:06:08 | testing channel 1 with model astron-code-latest , info RelayInfo{ RelayFormat: openai, RelayMode: 1, IsStream: false, IsPlayground: false, RequestURLPath: "/v1/chat/completions", OriginModelName: "astron-code-latest", EstimatePromptTokens: 0, ShouldIncludeUsage: false, DisablePing: false, SendResponseCount: 0, FinalPreConsumedQuota: 0, User{ Id: 1, Email: "***masked***", Group: "default", UsingGroup: "default", Quota: 100000000 }, Token{ Id: 0, Unlimited: false, Key: ***masked*** }, Timing{ Start: 2026-05-28T20:06:08.386231956+08:00, FirstResponse: 2026-05-28T20:06:07.386231956+08:00, LatencyMs: -1000 }, ChannelMeta{ Type: 1, Id: 1, IsMultiKey: false, MultiKeyIndex: 0, BaseURL: "https://maas-coding-api.cn-huabei-1.xf-yun.com", ApiType: 0, ApiVersion: "", Organization: "", CreateTime: 1779969298, UpstreamModelName: "astron-code-latest", IsModelMapped: false, SupportStreamOptions: true, ApiKey: ***masked*** }, }  
+[SYS] 2026/05/28 - 20:06:08 | channel test bad response: channel_id=1 name=科大讯飞Coding Plan type=1 model=astron-code-latest endpoint_type= status=404 err=bad response status code 404, message: no any schema route found, body: {"message":"no any schema route found","sid":"ase000e6b18@dx19e6e7a49bb6f2a882"} 
+[GIN] 2026/05/28 - 20:06:08 | api | 202605281206083846192288268d9d6q4cb5opV | 200 |  205.948592ms |      172.17.0.1 |     GET /api/channel/test/1
+[SYS] 2026/05/28 - 20:06:20 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:06:20 | 任务进度轮询完成 

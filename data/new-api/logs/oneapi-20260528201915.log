@@ -1,0 +1,20 @@
+[SYS] 2026/05/28 - 20:19:15 | initializing token encoders 
+[SYS] 2026/05/28 - 20:19:15 | token encoders initialized 
+[SYS] 2026/05/28 - 20:19:15 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:19:15 | database migration started 
+[SYS] 2026/05/28 - 20:19:15 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:19:15 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:19:15 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:19:15 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:19:15 | New API v1.0.0-rc.10 started 
+[INFO] 2026/05/28 - 20:19:15 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[SYS] 2026/05/28 - 20:19:15 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:19:15 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/28 - 20:19:15 | SYSTEM | subscription quota reset task started: tick=1m0s 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 229 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[SYS] 2026/05/28 - 20:19:15 | upstream model update task started: interval=30m0s 

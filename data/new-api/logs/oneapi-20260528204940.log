@@ -1,0 +1,27 @@
+[SYS] 2026/05/28 - 20:49:40 | initializing token encoders 
+[SYS] 2026/05/28 - 20:49:40 | token encoders initialized 
+[SYS] 2026/05/28 - 20:49:40 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:49:40 | database migration started 
+[SYS] 2026/05/28 - 20:49:40 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:49:40 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:49:40 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:49:40 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:49:40 | New API v1.0.0-rc.10 started 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 223 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[INFO] 2026/05/28 - 20:49:40 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[INFO] 2026/05/28 - 20:49:40 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[SYS] 2026/05/28 - 20:49:40 | upstream model update task started: interval=30m0s 
+[SYS] 2026/05/28 - 20:49:40 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:49:40 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/28 - 20:49:43 | 202605281249433599192098268d9d6YhvQQ4yr | 用户 1 需要预扣费 ＄0.039000 (funding=wallet) 
+[ERR] 2026/05/28 - 20:49:43 | 202605281249433599192098268d9d6YhvQQ4yr | channel error (channel #1, status code: 500): xunfei response error: sid: cht000bb940@dx19e6ea23050b87e700 msg: PathDomainError:Model Not Found, timeStamp:20:49:43.646 (request id: 2026052820494349906129453064219) 
+[INFO] 2026/05/28 - 20:49:43 | 202605281249433599192098268d9d6YhvQQ4yr | 用户 1 请求失败, 返还预扣费（token_quota=＄0.039000, funding=wallet） 
+[ERR] 2026/05/28 - 20:49:43 | 202605281249433599192098268d9d6YhvQQ4yr | relay error: xunfei response error: sid: cht000bb940@dx19e6ea23050b87e700 msg: PathDomainError:Model Not Found, timeStamp:20:49:43.646 (request id: 2026052820494349906129453064219) 
+[GIN] 2026/05/28 - 20:49:43 | relay | 202605281249433599192098268d9d6YhvQQ4yr | 500 |  311.738707ms |       127.0.0.1 |    POST /v1/messages
+[SYS] 2026/05/28 - 20:49:55 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:49:55 | 任务进度轮询完成 

@@ -1,0 +1,35 @@
+[SYS] 2026/05/28 - 20:48:53 | initializing token encoders 
+[SYS] 2026/05/28 - 20:48:53 | token encoders initialized 
+[SYS] 2026/05/28 - 20:48:53 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:48:53 | database migration started 
+[SYS] 2026/05/28 - 20:48:53 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:48:53 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:48:53 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:48:53 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:48:53 | New API v1.0.0-rc.10 started 
+[SYS] 2026/05/28 - 20:48:53 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:48:53 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/05/28 - 20:48:53 | upstream model update task started: interval=30m0s 
+[INFO] 2026/05/28 - 20:48:53 | SYSTEM | subscription quota reset task started: tick=1m0s 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 241 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[INFO] 2026/05/28 - 20:48:53 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[INFO] 2026/05/28 - 20:48:56 | 202605281248564975277828268d9d6ooys9yPU | 用户 1 需要预扣费 ＄0.039000 (funding=wallet) 
+[INFO] 2026/05/28 - 20:48:57 | 202605281248564975277828268d9d6ooys9yPU | 预扣费后返还扣费：＄0.037724（实际消耗：＄0.001276，预扣费：＄0.039000） 
+[INFO] 2026/05/28 - 20:48:57 | 202605281248564975277828268d9d6ooys9yPU | record consume log: userId=1, params={"channel_id":2,"prompt_tokens":9,"completion_tokens":8,"model_name":"glm-5.1","token_name":"分享用Key","quota":638,"content":"","token_id":3,"use_time_seconds":1,"is_stream":false,"group":"default","other":{"admin_info":{"use_channel":["2"]},"billing_source":"wallet","cache_creation_ratio":1.25,"cache_creation_tokens":0,"cache_ratio":1,"cache_tokens":0,"claude":true,"completion_ratio":1,"frt":-1000,"group_ratio":1,"is_model_mapped":true,"model_price":-1,"model_ratio":37.5,"request_conversion":["OpenAI Compatible","Claude Messages"],"request_path":"/v1/chat/completions","upstream_model_name":"astron-code-latest","usage_semantic":"anthropic","user_group_ratio":-1}} 
+[GIN] 2026/05/28 - 20:48:57 | relay | 202605281248564975277828268d9d6ooys9yPU | 200 |  964.360943ms |       127.0.0.1 |    POST /v1/chat/completions
+[INFO] 2026/05/28 - 20:49:05 | 202605281249053650229618268d9d6bi7XJJXd | 用户 1 需要预扣费 ＄0.039000 (funding=wallet) 
+[ERR] 2026/05/28 - 20:49:05 | 202605281249053650229618268d9d6bi7XJJXd | channel error (channel #1, status code: 500): xunfei response error: sid: cht000b9f5d@dx19e6ea19bc9b992700 msg: PathDomainError:Model Not Found, timeStamp:20:49:05.615 (request id: 2026052820490547577381580564197) 
+[INFO] 2026/05/28 - 20:49:05 | 202605281249053650229618268d9d6bi7XJJXd | 用户 1 请求失败, 返还预扣费（token_quota=＄0.039000, funding=wallet） 
+[ERR] 2026/05/28 - 20:49:05 | 202605281249053650229618268d9d6bi7XJJXd | relay error: xunfei response error: sid: cht000b9f5d@dx19e6ea19bc9b992700 msg: PathDomainError:Model Not Found, timeStamp:20:49:05.615 (request id: 2026052820490547577381580564197) 
+[GIN] 2026/05/28 - 20:49:05 | relay | 202605281249053650229618268d9d6bi7XJJXd | 500 |   270.84618ms |       127.0.0.1 |    POST /v1/messages
+[SYS] 2026/05/28 - 20:49:08 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:49:08 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:49:23 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:49:23 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:49:38 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:49:38 | 任务进度轮询完成 

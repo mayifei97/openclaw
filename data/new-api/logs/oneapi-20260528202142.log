@@ -1,0 +1,63 @@
+[SYS] 2026/05/28 - 20:21:42 | initializing token encoders 
+[SYS] 2026/05/28 - 20:21:42 | token encoders initialized 
+[SYS] 2026/05/28 - 20:21:42 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:21:42 | database migration started 
+[SYS] 2026/05/28 - 20:21:43 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:21:43 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:21:43 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:21:43 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:21:43 | New API v1.0.0-rc.10 started 
+[SYS] 2026/05/28 - 20:21:43 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:21:43 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/28 - 20:21:43 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[INFO] 2026/05/28 - 20:21:43 | SYSTEM | subscription quota reset task started: tick=1m0s 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 229 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[SYS] 2026/05/28 - 20:21:43 | upstream model update task started: interval=30m0s 
+[GIN] 2026/05/28 - 20:21:45 | api | 202605281221457690359958268d9d6HzMu5BjN | 200 |   74.219967ms |       127.0.0.1 |    POST /api/user/login
+[INFO] 2026/05/28 - 20:21:45 | 202605281221458500832858268d9d64Ca4e2Dh | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[ERR] 2026/05/28 - 20:21:46 | 202605281221458500832858268d9d64Ca4e2Dh | channel error (channel #1, status code: 400): 无法解析请求体中的model字段，err: unexpected end of JSON input (request id: 202605282021462529803434069175) 
+[INFO] 2026/05/28 - 20:21:46 | 202605281221458500832858268d9d64Ca4e2Dh | 用户 1 请求失败, 返还预扣费（token_quota=＄0.038250, funding=wallet） 
+[ERR] 2026/05/28 - 20:21:46 | 202605281221458500832858268d9d64Ca4e2Dh | relay error: 无法解析请求体中的model字段，err: unexpected end of JSON input (request id: 202605282021462529803434069175) 
+[GIN] 2026/05/28 - 20:21:46 | relay | 202605281221458500832858268d9d64Ca4e2Dh | 400 |  199.238641ms |       127.0.0.1 |    POST /v1/chat/completions
+[INFO] 2026/05/28 - 20:21:53 | 202605281221538183780178268d9d6DauFed6e | 用户 1 需要预扣费 ＄0.037500 (funding=wallet) 
+[ERR] 2026/05/28 - 20:21:54 | 202605281221538183780178268d9d6DauFed6e | channel error (channel #1, status code: 400): 无法解析请求体中的model字段，err: unexpected end of JSON input (request id: 20260528202154413412573542498) 
+[INFO] 2026/05/28 - 20:21:54 | 202605281221538183780178268d9d6DauFed6e | 用户 1 请求失败, 返还预扣费（token_quota=＄0.037500, funding=wallet） 
+[ERR] 2026/05/28 - 20:21:54 | 202605281221538183780178268d9d6DauFed6e | relay error: 无法解析请求体中的model字段，err: unexpected end of JSON input (request id: 20260528202154413412573542498) 
+[GIN] 2026/05/28 - 20:21:54 | relay | 202605281221538183780178268d9d6DauFed6e | 400 |  207.378886ms |       127.0.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:21:58 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:21:58 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:22:13 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:22:13 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:22:28 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:22:28 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:22:43 | syncing options from database 
+[SYS] 2026/05/28 - 20:22:43 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:22:43 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:22:58 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:22:58 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:23:13 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:23:13 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:23:28 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:23:28 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:23:43 | syncing options from database 
+[SYS] 2026/05/28 - 20:23:43 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:23:43 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:23:58 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:23:58 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:24:13 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:24:13 | 任务进度轮询完成 
+[INFO] 2026/05/28 - 20:24:22 | 202605281224221594728398268d9d6Up55m8dR | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[ERR] 2026/05/28 - 20:24:22 | 202605281224221594728398268d9d6Up55m8dR | channel error (channel #1, status code: 400): 无法解析请求体中的model字段，err: unexpected end of JSON input (request id: 2026052820242228051582351849080) 
+[INFO] 2026/05/28 - 20:24:22 | 202605281224221594728398268d9d6Up55m8dR | 用户 1 请求失败, 返还预扣费（token_quota=＄0.038250, funding=wallet） 
+[ERR] 2026/05/28 - 20:24:22 | 202605281224221594728398268d9d6Up55m8dR | relay error: 无法解析请求体中的model字段，err: unexpected end of JSON input (request id: 2026052820242228051582351849080) 
+[GIN] 2026/05/28 - 20:24:22 | relay | 202605281224221594728398268d9d6Up55m8dR | 400 |  143.582578ms |       127.0.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:24:28 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:24:28 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:24:43 | syncing options from database 
+[SYS] 2026/05/28 - 20:24:43 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:24:43 | 任务进度轮询完成 

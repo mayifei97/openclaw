@@ -1,0 +1,40 @@
+[SYS] 2026/05/28 - 20:11:28 | initializing token encoders 
+[SYS] 2026/05/28 - 20:11:28 | token encoders initialized 
+[SYS] 2026/05/28 - 20:11:28 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:11:28 | database migration started 
+[SYS] 2026/05/28 - 20:11:28 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:11:28 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:11:28 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:11:28 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:11:28 | New API v1.0.0-rc.10 started 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 191 ms
+
+  ➜  [1mNetwork:[0m http://172.17.0.3:3000/
+
+[INFO] 2026/05/28 - 20:11:28 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[SYS] 2026/05/28 - 20:11:28 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:11:28 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/05/28 - 20:11:28 | upstream model update task started: interval=30m0s 
+[INFO] 2026/05/28 - 20:11:28 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[GIN] 2026/05/28 - 20:11:31 | api | 2026052812113136781108268d9d6C9g5OS22 | 200 |   71.457849ms |      172.17.0.1 |    POST /api/user/login
+[INFO] 2026/05/28 - 20:11:31 | 20260528121131819516708268d9d674JuPbds | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[ERR] 2026/05/28 - 20:11:31 | 20260528121131819516708268d9d674JuPbds | channel error (channel #1, status code: 500): invalid character '<' looking for beginning of value 
+[INFO] 2026/05/28 - 20:11:31 | 20260528121131819516708268d9d674JuPbds | 用户 1 请求失败, 返还预扣费（token_quota=＄0.038250, funding=wallet） 
+[ERR] 2026/05/28 - 20:11:31 | 20260528121131819516708268d9d674JuPbds | relay error: invalid character '<' looking for beginning of value 
+[GIN] 2026/05/28 - 20:11:31 | relay | 20260528121131819516708268d9d674JuPbds | 500 |  166.704752ms |      172.17.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:11:43 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:11:43 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:11:58 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:11:58 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:12:13 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:12:13 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:12:28 | syncing options from database 
+[SYS] 2026/05/28 - 20:12:28 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:12:28 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:12:43 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:12:43 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:12:58 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:12:58 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:13:13 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:13:13 | 任务进度轮询完成 

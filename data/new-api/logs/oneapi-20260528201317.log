@@ -1,0 +1,89 @@
+[SYS] 2026/05/28 - 20:13:17 | initializing token encoders 
+[SYS] 2026/05/28 - 20:13:17 | token encoders initialized 
+[SYS] 2026/05/28 - 20:13:17 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 20:13:17 | database migration started 
+[SYS] 2026/05/28 - 20:13:17 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 20:13:17 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 20:13:17 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 20:13:17 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 20:13:17 | New API v1.0.0-rc.10 started 
+[SYS] 2026/05/28 - 20:13:17 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:13:17 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/28 - 20:13:17 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[INFO] 2026/05/28 - 20:13:17 | SYSTEM | subscription quota reset task started: tick=1m0s 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 196 ms
+
+  ➜  [1mNetwork:[0m http://172.17.0.3:3000/
+
+[SYS] 2026/05/28 - 20:13:17 | upstream model update task started: interval=30m0s 
+[INFO] 2026/05/28 - 20:13:20 | 20260528121320680633668268d9d6xbOZztgt | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[ERR] 2026/05/28 - 20:13:20 | 20260528121320680633668268d9d6xbOZztgt | do request failed: Post "http://127.0.0.1:3001/v1/chat/completions": dial tcp 127.0.0.1:3001: connect: connection refused 
+[ERR] 2026/05/28 - 20:13:20 | 20260528121320680633668268d9d6xbOZztgt | channel error (channel #1, status code: 500): upstream error: do request failed 
+[INFO] 2026/05/28 - 20:13:20 | 20260528121320680633668268d9d6xbOZztgt | 用户 1 请求失败, 返还预扣费（token_quota=＄0.038250, funding=wallet） 
+[ERR] 2026/05/28 - 20:13:20 | 20260528121320680633668268d9d6xbOZztgt | relay error: upstream error: do request failed 
+[GIN] 2026/05/28 - 20:13:20 | relay | 20260528121320680633668268d9d6xbOZztgt | 500 |   10.499269ms |      172.17.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:13:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:13:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:13:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:13:47 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:13:47 | api | 202605281213479642489578268d9d65fRRvzu9 | 401 |     100.429µs |      172.17.0.1 |     GET /api/token/
+[SYS] 2026/05/28 - 20:14:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:14:02 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:14:03 | api | 202605281214038131788128268d9d6VSaDI2tC | 200 |   70.984758ms |      172.17.0.1 |    POST /api/user/login
+[GIN] 2026/05/28 - 20:14:03 | api | 202605281214038927899668268d9d6OZHzcIzz | 200 |     625.903µs |      172.17.0.1 |     GET /api/token/
+[SYS] 2026/05/28 - 20:14:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:14:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:14:17 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:14:22 | api | 202605281214224331506828268d9d6X34xPjDJ | 200 |     175.386µs |      172.17.0.1 |    POST /api/token/
+[SYS] 2026/05/28 - 20:14:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:14:32 | 任务进度轮询完成 
+[GIN] 2026/05/28 - 20:14:32 | api | 202605281214328915156728268d9d6IeP9jKsh | 200 |    3.011932ms |      172.17.0.1 |    POST /api/token/
+[SYS] 2026/05/28 - 20:14:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:14:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:15:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:15:02 | 任务进度轮询完成 
+[INFO] 2026/05/28 - 20:15:04 | 202605281215048122035488268d9d6P5rfni8V | 用户 1 需要预扣费 ＄0.038250 (funding=wallet) 
+[ERR] 2026/05/28 - 20:15:04 | 202605281215048122035488268d9d6P5rfni8V | do request failed: Post "http://127.0.0.1:3001/v1/chat/completions": dial tcp 127.0.0.1:3001: connect: connection refused 
+[ERR] 2026/05/28 - 20:15:04 | 202605281215048122035488268d9d6P5rfni8V | channel error (channel #1, status code: 500): upstream error: do request failed 
+[INFO] 2026/05/28 - 20:15:04 | 202605281215048122035488268d9d6P5rfni8V | 用户 1 请求失败, 返还预扣费（token_quota=＄0.038250, funding=wallet） 
+[ERR] 2026/05/28 - 20:15:04 | 202605281215048122035488268d9d6P5rfni8V | relay error: upstream error: do request failed 
+[GIN] 2026/05/28 - 20:15:04 | relay | 202605281215048122035488268d9d6P5rfni8V | 500 |    6.830828ms |      172.17.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 20:15:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:15:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:15:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:15:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:15:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:15:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:15:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:16:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:16:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:16:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:16:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:16:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:16:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:16:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:16:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:16:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:17:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:17:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:17:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:17:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:17:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:17:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:17:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:17:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:17:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:18:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:18:02 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:18:17 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 20:18:17 | 保存数据看板数据成功，共保存0条数据 
+[SYS] 2026/05/28 - 20:18:17 | syncing options from database 
+[SYS] 2026/05/28 - 20:18:17 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:18:17 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:18:32 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:18:32 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:18:47 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:18:47 | 任务进度轮询完成 
+[SYS] 2026/05/28 - 20:19:02 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 20:19:02 | 任务进度轮询完成 

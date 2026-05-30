@@ -1,0 +1,74 @@
+[SYS] 2026/05/29 - 10:30:33 | initializing token encoders 
+[SYS] 2026/05/29 - 10:30:33 | token encoders initialized 
+[SYS] 2026/05/29 - 10:30:33 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/29 - 10:30:33 | database migration started 
+[SYS] 2026/05/29 - 10:30:34 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/29 - 10:30:34 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/29 - 10:30:34 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/29 - 10:30:34 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/29 - 10:30:34 | New API v1.0.0-rc.10 started 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 195 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[SYS] 2026/05/29 - 10:30:34 | 正在更新数据看板数据... 
+[SYS] 2026/05/29 - 10:30:34 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/29 - 10:30:34 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[INFO] 2026/05/29 - 10:30:34 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[SYS] 2026/05/29 - 10:30:34 | upstream model update task started: interval=30m0s 
+[INFO] 2026/05/29 - 10:30:35 | 202605290230359431767188268d9d6WWUakfTj | 用户 1 额度充足, 信任且不需要预扣费 (funding=wallet) 
+[INFO] 2026/05/29 - 10:30:40 | 202605290230359431767188268d9d6WWUakfTj | stream ended: reason=done 
+[INFO] 2026/05/29 - 10:30:40 | 202605290230359431767188268d9d6WWUakfTj | 预扣费后补扣费：＄1.000000（实际消耗：＄1.000000，预扣费：＄0.000000） 
+[INFO] 2026/05/29 - 10:30:40 | 202605290230359431767188268d9d6WWUakfTj | record consume log: userId=1, params={"channel_id":1,"prompt_tokens":55548,"completion_tokens":12,"model_name":"glm-5.1","token_name":"分享用Key","quota":500000,"content":"","token_id":3,"use_time_seconds":5,"is_stream":true,"group":"default","other":{"admin_info":{"use_channel":["1"]},"billing_source":"wallet","cache_ratio":0,"cache_tokens":0,"completion_ratio":0,"frt":4278,"group_ratio":1,"is_model_mapped":true,"model_price":1,"model_ratio":0,"request_conversion":["OpenAI Compatible"],"request_path":"/v1/chat/completions","stream_status":{"end_reason":"done","status":"ok"},"upstream_model_name":"astron-code-latest","user_group_ratio":-1}} 
+[GIN] 2026/05/29 - 10:30:40 | relay | 202605290230359431767188268d9d6WWUakfTj | 200 |  4.692908115s |     8.163.49.28 |    POST /v1/chat/completions
+[GIN] 2026/05/29 - 10:30:45 | web | 202605290230459691454168268d9d6wh0yi674 | 200 |     911.655µs | 120.236.238.180 |     GET /login
+[GIN] 2026/05/29 - 10:30:46 | api | 202605290230466327285078268d9d6PZugFQzt | 200 |     908.973µs | 120.236.238.180 |     GET /api/status
+[SYS] 2026/05/29 - 10:30:49 | 任务进度轮询开始 
+[SYS] 2026/05/29 - 10:30:49 | 任务进度轮询完成 
+[GIN] 2026/05/29 - 10:30:53 | api | 20260529023053728828978268d9d6i5IzRv6V | 200 |  273.869414ms | 120.236.238.180 |    POST /api/user/login?turnstile=
+[SYS] 2026/05/29 - 10:31:04 | 任务进度轮询开始 
+[SYS] 2026/05/29 - 10:31:04 | 任务进度轮询完成 
+[INFO] 2026/05/29 - 10:31:14 | 202605290231148085609258268d9d6EGVC5QOu | 用户 1 额度充足, 信任且不需要预扣费 (funding=wallet) 
+[SYS] 2026/05/29 - 10:31:19 | 任务进度轮询开始 
+[SYS] 2026/05/29 - 10:31:19 | 任务进度轮询完成 
+[INFO] 2026/05/29 - 10:31:21 | 202605290231148085609258268d9d6EGVC5QOu | stream ended: reason=done 
+[INFO] 2026/05/29 - 10:31:21 | 202605290231148085609258268d9d6EGVC5QOu | 预扣费后补扣费：＄1.000000（实际消耗：＄1.000000，预扣费：＄0.000000） 
+[INFO] 2026/05/29 - 10:31:21 | 202605290231148085609258268d9d6EGVC5QOu | record consume log: userId=1, params={"channel_id":1,"prompt_tokens":55832,"completion_tokens":84,"model_name":"glm-5.1","token_name":"分享用Key","quota":500000,"content":"","token_id":3,"use_time_seconds":7,"is_stream":true,"group":"default","other":{"admin_info":{"use_channel":["1"]},"billing_source":"wallet","cache_ratio":0,"cache_tokens":55424,"completion_ratio":0,"frt":3765,"group_ratio":1,"is_model_mapped":true,"model_price":1,"model_ratio":0,"request_conversion":["OpenAI Compatible"],"request_path":"/v1/chat/completions","stream_status":{"end_reason":"done","status":"ok"},"upstream_model_name":"astron-code-latest","user_group_ratio":-1}} 
+[GIN] 2026/05/29 - 10:31:21 | relay | 202605290231148085609258268d9d6EGVC5QOu | 200 |  6.213944323s |     8.163.49.28 |    POST /v1/chat/completions
+[INFO] 2026/05/29 - 10:31:21 | 202605290231213477527958268d9d6obk2jttE | 用户 1 额度充足, 信任且不需要预扣费 (funding=wallet) 
+[GIN] 2026/05/29 - 10:31:27 | api | 202605290231269016785298268d9d6vpRJpXMI | 200 |  273.866649ms | 120.236.238.180 |    POST /api/user/login?turnstile=
+[INFO] 2026/05/29 - 10:31:27 | 202605290231213477527958268d9d6obk2jttE | stream ended: reason=eof 
+[INFO] 2026/05/29 - 10:31:27 | 202605290231213477527958268d9d6obk2jttE | 预扣费后补扣费：＄1.000000（实际消耗：＄1.000000，预扣费：＄0.000000） 
+[INFO] 2026/05/29 - 10:31:27 | 202605290231213477527958268d9d6obk2jttE | record consume log: userId=1, params={"channel_id":2,"prompt_tokens":30322,"completion_tokens":117,"model_name":"glm-5.1","token_name":"分享用Key","quota":500000,"content":"","token_id":3,"use_time_seconds":6,"is_stream":true,"group":"default","other":{"admin_info":{"use_channel":["2"]},"billing_source":"wallet","cache_creation_ratio":0,"cache_creation_tokens":0,"cache_ratio":0,"cache_tokens":0,"claude":true,"completion_ratio":0,"frt":2321,"group_ratio":1,"is_model_mapped":true,"model_price":1,"model_ratio":0,"request_conversion":["OpenAI Compatible","Claude Messages"],"request_path":"/v1/chat/completions","stream_status":{"end_reason":"eof","status":"ok"},"upstream_model_name":"astron-code-latest","usage_semantic":"anthropic","user_group_ratio":-1}} 
+[GIN] 2026/05/29 - 10:31:27 | relay | 202605290231213477527958268d9d6obk2jttE | 200 |  6.187401842s |     8.163.49.28 |    POST /v1/chat/completions
+[INFO] 2026/05/29 - 10:31:27 | 202605290231275869069988268d9d6GAwFDv7X | 用户 1 额度充足, 信任且不需要预扣费 (funding=wallet) 
+[SYS] 2026/05/29 - 10:31:34 | syncing options from database 
+[SYS] 2026/05/29 - 10:31:34 | 任务进度轮询开始 
+[SYS] 2026/05/29 - 10:31:34 | 任务进度轮询完成 
+[INFO] 2026/05/29 - 10:31:37 | 202605290231275869069988268d9d6GAwFDv7X | stream ended: reason=done 
+[INFO] 2026/05/29 - 10:31:37 | 202605290231275869069988268d9d6GAwFDv7X | 预扣费后补扣费：＄1.000000（实际消耗：＄1.000000，预扣费：＄0.000000） 
+[INFO] 2026/05/29 - 10:31:37 | 202605290231275869069988268d9d6GAwFDv7X | record consume log: userId=1, params={"channel_id":1,"prompt_tokens":56089,"completion_tokens":75,"model_name":"glm-5.1","token_name":"分享用Key","quota":500000,"content":"","token_id":3,"use_time_seconds":10,"is_stream":true,"group":"default","other":{"admin_info":{"use_channel":["1"]},"billing_source":"wallet","cache_ratio":0,"cache_tokens":55744,"completion_ratio":0,"frt":7978,"group_ratio":1,"is_model_mapped":true,"model_price":1,"model_ratio":0,"request_conversion":["OpenAI Compatible"],"request_path":"/v1/chat/completions","stream_status":{"end_reason":"done","status":"ok"},"upstream_model_name":"astron-code-latest","user_group_ratio":-1}} 
+[GIN] 2026/05/29 - 10:31:37 | relay | 202605290231275869069988268d9d6GAwFDv7X | 200 |  9.445950354s |     8.163.49.28 |    POST /v1/chat/completions
+[GIN] 2026/05/29 - 10:31:37 | api | 20260529023137501151328268d9d6psiMsTlQ | 200 |  279.090296ms |       127.0.0.1 |    POST /api/user/login
+[INFO] 2026/05/29 - 10:31:37 | 202605290231373482610428268d9d6Iqk4JsQP | 用户 1 额度充足, 信任且不需要预扣费 (funding=wallet) 
+[GIN] 2026/05/29 - 10:31:45 | api | 202605290231448049132418268d9d6xtXYPz6I | 200 |   272.20455ms | 120.236.238.180 |    POST /api/user/login?turnstile=
+[INFO] 2026/05/29 - 10:31:47 | 202605290231373482610428268d9d6Iqk4JsQP | stream ended: reason=done 
+[INFO] 2026/05/29 - 10:31:47 | 202605290231373482610428268d9d6Iqk4JsQP | 预扣费后补扣费：＄1.000000（实际消耗：＄1.000000，预扣费：＄0.000000） 
+[INFO] 2026/05/29 - 10:31:47 | 202605290231373482610428268d9d6Iqk4JsQP | record consume log: userId=1, params={"channel_id":1,"prompt_tokens":56193,"completion_tokens":192,"model_name":"glm-5.1","token_name":"分享用Key","quota":500000,"content":"","token_id":3,"use_time_seconds":10,"is_stream":true,"group":"default","other":{"admin_info":{"use_channel":["1"]},"billing_source":"wallet","cache_ratio":0,"cache_tokens":56000,"completion_ratio":0,"frt":5176,"group_ratio":1,"is_model_mapped":true,"model_price":1,"model_ratio":0,"request_conversion":["OpenAI Compatible"],"request_path":"/v1/chat/completions","stream_status":{"end_reason":"done","status":"ok"},"upstream_model_name":"astron-code-latest","user_group_ratio":-1}} 
+[GIN] 2026/05/29 - 10:31:47 | relay | 202605290231373482610428268d9d6Iqk4JsQP | 200 | 10.259136453s |     8.163.49.28 |    POST /v1/chat/completions
+[INFO] 2026/05/29 - 10:31:47 | 202605290231477172088858268d9d6At0DALe6 | 用户 1 额度充足, 信任且不需要预扣费 (funding=wallet) 
+[SYS] 2026/05/29 - 10:31:49 | 任务进度轮询开始 
+[SYS] 2026/05/29 - 10:31:49 | 任务进度轮询完成 
+[INFO] 2026/05/29 - 10:32:00 | 202605290231477172088858268d9d6At0DALe6 | stream ended: reason=done 
+[INFO] 2026/05/29 - 10:32:00 | 202605290231477172088858268d9d6At0DALe6 | 预扣费后补扣费：＄1.000000（实际消耗：＄1.000000，预扣费：＄0.000000） 
+[INFO] 2026/05/29 - 10:32:00 | 202605290231477172088858268d9d6At0DALe6 | record consume log: userId=1, params={"channel_id":1,"prompt_tokens":56439,"completion_tokens":139,"model_name":"glm-5.1","token_name":"分享用Key","quota":500000,"content":"","token_id":3,"use_time_seconds":13,"is_stream":true,"group":"default","other":{"admin_info":{"use_channel":["1"]},"billing_source":"wallet","cache_ratio":0,"cache_tokens":0,"completion_ratio":0,"frt":12692,"group_ratio":1,"is_model_mapped":true,"model_price":1,"model_ratio":0,"request_conversion":["OpenAI Compatible"],"request_path":"/v1/chat/completions","stream_status":{"end_reason":"done","status":"ok"},"upstream_model_name":"astron-code-latest","user_group_ratio":-1}} 
+[GIN] 2026/05/29 - 10:32:00 | relay | 202605290231477172088858268d9d6At0DALe6 | 200 | 12.704854867s |     8.163.49.28 |    POST /v1/chat/completions
+[INFO] 2026/05/29 - 10:32:01 | 20260529023201329382018268d9d6fcVSoTps | 用户 1 额度充足, 信任且不需要预扣费 (funding=wallet) 
+[SYS] 2026/05/29 - 10:32:04 | 任务进度轮询开始 
+[SYS] 2026/05/29 - 10:32:04 | 任务进度轮询完成 
+[INFO] 2026/05/29 - 10:32:11 | 20260529023201329382018268d9d6fcVSoTps | stream ended: reason=eof 
+[INFO] 2026/05/29 - 10:32:11 | 20260529023201329382018268d9d6fcVSoTps | 预扣费后补扣费：＄1.000000（实际消耗：＄1.000000，预扣费：＄0.000000） 
+[INFO] 2026/05/29 - 10:32:11 | 20260529023201329382018268d9d6fcVSoTps | record consume log: userId=1, params={"channel_id":2,"prompt_tokens":56633,"completion_tokens":94,"model_name":"glm-5.1","token_name":"分享用Key","quota":500000,"content":"","token_id":3,"use_time_seconds":10,"is_stream":true,"group":"default","other":{"admin_info":{"use_channel":["2"]},"billing_source":"wallet","cache_creation_ratio":0,"cache_creation_tokens":0,"cache_ratio":0,"cache_tokens":0,"claude":true,"completion_ratio":0,"frt":8240,"group_ratio":1,"is_model_mapped":true,"model_price":1,"model_ratio":0,"request_conversion":["OpenAI Compatible","Claude Messages"],"request_path":"/v1/chat/completions","stream_status":{"end_reason":"eof","status":"ok"},"upstream_model_name":"astron-code-latest","usage_semantic":"anthropic","user_group_ratio":-1}} 
+[GIN] 2026/05/29 - 10:32:11 | relay | 20260529023201329382018268d9d6fcVSoTps | 200 | 10.676814126s |     8.163.49.28 |    POST /v1/chat/completions

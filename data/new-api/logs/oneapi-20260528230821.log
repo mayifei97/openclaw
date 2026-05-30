@@ -1,0 +1,24 @@
+[SYS] 2026/05/28 - 23:08:21 | initializing token encoders 
+[SYS] 2026/05/28 - 23:08:21 | token encoders initialized 
+[SYS] 2026/05/28 - 23:08:21 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 23:08:21 | database migration started 
+[SYS] 2026/05/28 - 23:08:21 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 23:08:21 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 23:08:21 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 23:08:21 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 23:08:21 | New API v1.0.0-rc.10 started 
+[SYS] 2026/05/28 - 23:08:21 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 23:08:21 | 保存数据看板数据成功，共保存0条数据 
+[INFO] 2026/05/28 - 23:08:21 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[INFO] 2026/05/28 - 23:08:21 | SYSTEM | subscription quota reset task started: tick=1m0s 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 191 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[SYS] 2026/05/28 - 23:08:21 | upstream model update task started: interval=30m0s 
+[ERR] 2026/05/28 - 23:08:24 | 202605281508243264041698268d9d6hw44piFM | relay error: 预扣费额度失败, 用户剩余额度: ＄2000.000000, 需要预扣费额度: ＄500000.000000 
+[GIN] 2026/05/28 - 23:08:24 | relay | 202605281508243264041698268d9d6hw44piFM | 403 |    1.610864ms |       127.0.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 23:08:36 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:08:36 | 任务进度轮询完成 

@@ -15,6 +15,15 @@
 - **定期清理**：定期检查子 agent 状态，清理已完成且久未使用的子 agent，释放资源
 - **适用场景举例**：图片批量 OCR、多数据源分析、多报告生成、批量文件处理等
 
+**子 agent 超时设置准则（2026-05-28 设定）**
+- **规则**：给子 agent 分配任务时，要根据任务复杂度合理设置超时时间
+- **参考标准**：
+  - 简单安装/部署任务：10-15 分钟
+  - 代码开发任务：30-60 分钟
+  - 复杂多模块开发：可分阶段交付，每阶段 30 分钟
+- **超时处理**：子 agent 超时后，应创建新子 agent 继续完成，传递已有进度信息，而不是主 agent 自己接手
+- **设定者**：用户085477
+
 **⚠️ 创建前检查准则（2026-05-07 设定）**
 - **规则**：创建子 agent 之前，必须先检查是否已经存在相同功能的子 agent
 - **行动**：如果当前已存在相同功能的子 agent（如软件开发工程师子 agent），不要重复创建，直接让已有的子 agent 继续干活
@@ -34,6 +43,53 @@
   2. 修改代码前先备份原文件
   3. 完成后汇报结果和修改内容
   4. 遇到无法解决的问题及时报告主 agent
+
+---
+
+### 🧹 子 Agent 会话清理方法
+
+子 agent 完成后，会话记录会残留在多个地方，需要全部清理才能从 Dashboard 消失：
+
+1. **会话索引文件**：`/root/.openclaw/agents/main/sessions/sessions.json`（最关键！Dashboard 读这个文件）
+   - 用 Python 读取 JSON，删除对应 session key 的条目
+2. **会话记录文件**：`/root/.openclaw/agents/main/sessions/{session_id}.*`（.jsonl、.trajectory.jsonl、.trajectory-path.json）
+   - 直接 rm 删除
+3. **任务运行数据库**：`/root/.openclaw/tasks/runs.sqlite`（task_runs + task_delivery_state 表）
+   - 用 SQL 按 child_session_key 或 task_id 删除
+4. **网关内存缓存**：重启网关后生效（但重启会断连当前会话）
+
+**完整清理脚本**：
+```python
+import json, sqlite3, os, glob
+
+targets = ['子agent的session_id片段']  # 如 ['d65e14f2', 'f4bae9d3']
+sessions_dir = '/root/.openclaw/agents/main/sessions'
+
+# 1. Clean sessions.json
+with open(f'{sessions_dir}/sessions.json', 'r') as f:
+    data = json.load(f)
+keys_to_remove = [k for k in data if any(t in k for t in targets)]
+for k in keys_to_remove: del data[k]
+with open(f'{sessions_dir}/sessions.json', 'w') as f:
+    json.dump(data, f, indent=2)
+
+# 2. Clean session files
+for f in os.listdir(sessions_dir):
+    if any(t in f for t in targets):
+        os.remove(os.path.join(sessions_dir, f))
+
+# 3. Clean runs database
+conn = sqlite3.connect('/root/.openclaw/tasks/runs.sqlite')
+c = conn.cursor()
+c.execute("SELECT task_id FROM task_runs WHERE child_session_key LIKE '%" + "%' OR child_session_key LIKE '%".join(targets) + "%'")
+task_ids = [r[0] for r in c.fetchall()]
+if task_ids:
+    c.execute(f"DELETE FROM task_delivery_state WHERE task_id IN ({','.join(['?']*len(task_ids))})", task_ids)
+    c.execute(f"DELETE FROM task_runs WHERE task_id IN ({','.join(['?']*len(task_ids))})", task_ids)
+conn.commit(); conn.close()
+```
+
+⚠️ 注意：不要自己执行 `openclaw gateway restart`，会断连当前会话！让用户来操作。
 
 ---
 
@@ -193,15 +249,18 @@
 
 **盯盘基金**（4只）: 012733 人工智能、460300 沪深300、161005 富国天惠、000216 黄金ETF
 
-**人工智能操作纪律**：
-- 净值2.38以上 → 减仓1/3
-- 净值2.30以下 → 也减仓（涨不动了）
-- 2.30-2.38之间 → 继续观望
+**人工智能操作纪律（2026-05-29 修订）**：
+- 净值 ≥ 2.50 → 减仓1/3锁利
+- 净值 2.15-2.35 → 观望不动（正常震荡区间）
+- 净值 ≤ 2.15 → 减仓1/3（趋势可能反转）
+- 净值 ≤ 2.05 → 加仓500元（超跌逢低买入）
+- 净值 ≤ 1.90 → 清仓离场（极端止损）
 
 **加仓触发条件**（剩余5,086元现金）：
-- 人工智能回调10-15%（净值跌至1.95-2.05）: 加仓500元
+- 人工智能回调至净值2.05以下: 加仓500元
 - 沪指跌破3,000点: 加仓沪深300 1,000元
 - 纳指回调5%+: 考虑买入广发纳指100ETF联接A(270042)（⚠️ 目前限购10元/日，需关注限购解除）
+- 人工智能净值涨至2.50以上: 减仓1/3锁利
 - 以上都没发生: 什么都不做
 
 **风险提示**: 已增加黄金避险配置，组合分散度改善；纳指ETF目前限购/暂停申购，美股敞口暂无法配置

@@ -1,0 +1,31 @@
+[SYS] 2026/05/28 - 23:08:04 | initializing token encoders 
+[SYS] 2026/05/28 - 23:08:04 | token encoders initialized 
+[SYS] 2026/05/28 - 23:08:04 | SQL_DSN not set, using SQLite as database 
+[SYS] 2026/05/28 - 23:08:04 | database migration started 
+[SYS] 2026/05/28 - 23:08:05 | system is already initialized at: 2026-05-28 17:47:17 +0800 CST 
+[SYS] 2026/05/28 - 23:08:05 | REDIS_CONN_STRING not set, Redis is not enabled 
+[SYS] 2026/05/28 - 23:08:05 | i18n initialized with languages: zh-CN, zh-TW, en 
+[SYS] 2026/05/28 - 23:08:05 | Loaded 0 custom OAuth providers 
+[SYS] 2026/05/28 - 23:08:05 | New API v1.0.0-rc.10 started 
+[INFO] 2026/05/28 - 23:08:05 | SYSTEM | codex credential auto-refresh task started: tick=10m0s threshold=24h0m0s 
+[SYS] 2026/05/28 - 23:08:05 | 正在更新数据看板数据... 
+[SYS] 2026/05/28 - 23:08:05 | 保存数据看板数据成功，共保存0条数据 
+
+  [32mNew API v1.0.0-rc.10[0m  ready in 198 ms
+
+  ➜  [1mNetwork:[0m http://172.18.51.148:3000/
+  ➜  [1mNetwork:[0m http://172.17.0.1:3000/
+
+[SYS] 2026/05/28 - 23:08:05 | upstream model update task started: interval=30m0s 
+[INFO] 2026/05/28 - 23:08:05 | SYSTEM | subscription quota reset task started: tick=1m0s 
+[GIN] 2026/05/28 - 23:08:05 | api | 202605281508056125109268268d9d6A9oImukk | 401 |     875.225µs |  183.48.247.100 |     GET /api/user/oauth/bindings
+[GIN] 2026/05/28 - 23:08:05 | api | 202605281508056135895498268d9d6co6f1md5 | 401 |     176.129µs |  183.48.247.100 |     GET /api/user/self
+[GIN] 2026/05/28 - 23:08:05 | api | 202605281508056138693398268d9d6EYW1gpHV | 401 |     138.401µs |  183.48.247.100 |     GET /api/user/passkey
+[GIN] 2026/05/28 - 23:08:05 | api | 202605281508056125284958268d9d6ow8rHx4T | 401 |    1.571505ms |  183.48.247.100 |     GET /api/user/2fa/status
+[GIN] 2026/05/28 - 23:08:05 | api | 202605281508056155046638268d9d6akIsvW8w | 200 |       292.5µs |  183.48.247.100 |     GET /api/status
+[GIN] 2026/05/28 - 23:08:05 | web | 202605281508056655927148268d9d6xAuIJlG2 | 200 |     798.316µs |  183.48.247.100 |     GET /login?expired=true
+[GIN] 2026/05/28 - 23:08:06 | api | 20260528150806590713078268d9d6zDxuwthB | 200 |     311.512µs |  183.48.247.100 |     GET /api/status
+[ERR] 2026/05/28 - 23:08:07 | 202605281508078388097408268d9d6m9fiKu23 | relay error: 预扣费额度失败, 用户剩余额度: ＄200.000000, 需要预扣费额度: ＄500000.000000 
+[GIN] 2026/05/28 - 23:08:07 | relay | 202605281508078388097408268d9d6m9fiKu23 | 403 |    2.200398ms |       127.0.0.1 |    POST /v1/chat/completions
+[SYS] 2026/05/28 - 23:08:20 | 任务进度轮询开始 
+[SYS] 2026/05/28 - 23:08:20 | 任务进度轮询完成 
