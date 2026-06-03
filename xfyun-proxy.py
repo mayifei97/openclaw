@@ -15,10 +15,8 @@ UPSTREAM_OPENAI = "https://maas-coding-api.cn-huabei-1.xf-yun.com/v2"
 UPSTREAM_ANTHROPIC = "https://maas-coding-api.cn-huabei-1.xf-yun.com/anthropic"
 PORT = 3001
 
-# Model name mapping
-MODEL_MAP = {
-    "glm-5.1": "astron-code-latest",
-}
+# Model name mapping - handled by New API channel layer, kept empty
+MODEL_MAP = {}
 
 def map_model_in_body(body: bytes) -> bytes:
     """Replace model names in request body."""
