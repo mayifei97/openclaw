@@ -115,15 +115,33 @@ export async function getFundValuationDetail(fundCode) {
 }
 
 export async function getFundNetValueHistory(fundCode, range = "y") {
-  const url = `https://fundmobapi.eastmoney.com/FundMApi/FundNetDiagram.ashx?FCODE=${fundCode}&RANGE=${range}&deviceid=Wap&plat=Wap&product=EFund&version=2.0.0&_=${ts()}`;
-  const data = await fetchJSON(url);
-  if (!data.Datas) return [];
-  return data.Datas.map((d) => ({
-    date: d.FSRQ,
-    netValue: d.DWJZ,
-    totalNetValue: d.LJJZ,
-    changeRate: d.JZZZL,
-  }));
+  // 计算需要的数据点数：range映射到天数，确保至少获取60个交易日
+  const rangeDays = { m: 30, q: 90, hy: 180, y: 365, "2y": 730, "3y": 1095, "5y": 1825 };
+  const days = rangeDays[range] || 365;
+  // 交易日约为自然日的70%，每页20条，计算需要多少页
+  const neededPoints = Math.ceil(days * 0.7);
+  const pages = Math.ceil(neededPoints / 20);
+
+  const allData = [];
+  for (let page = 1; page <= pages; page++) {
+    const url = `https://api.fund.eastmoney.com/f10/lsjz?fundCode=${fundCode}&pageIndex=${page}&pageSize=20&startDate=&endDate=`;
+    const data = await fetchJSON(url);
+    const items = data?.Data?.LSJZList;
+    if (!items || items.length === 0) break;
+    for (const item of items) {
+      if (item.DWJZ) {
+        allData.push({
+          date: item.FSRQ,
+          netValue: item.DWJZ,
+          totalNetValue: item.LJJZ,
+          changeRate: item.JZZZL,
+        });
+      }
+    }
+    // 如果本页数据不足20条，说明已经到末尾
+    if (items.length < 20) break;
+  }
+  return allData;
 }
 
 export async function getFundAccumulatedPerformance(fundCode, range = "y") {
