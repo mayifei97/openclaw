@@ -133,6 +133,7 @@
 - 账户：feifeifei / 88888888
 - API Token：`271dd0479fd4c5446f39fd09704751721b224aa3cc4d233d5e936f6ccc82bdce`
 - API：POST `/api/create_doc/?token=xxx` → JSON `{"pid":1,"title":"标题","doc":"HTML","editor_mode":1}`
+- ⚠️ **文章URL格式**：`/doc/ID/`（不是 `/article/ID`，后者404）
 - 文集：基金投资(ID:1)、雯雯基金分析(ID:3)
 - 用户偏好：不用飞书文档，全部上传MrDoc
 
