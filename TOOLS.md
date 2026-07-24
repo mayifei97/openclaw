@@ -46,8 +46,8 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 | Provider | 模型 | 图片 | 状态 |
 |----------|------|------|------|
 | astroncodingplan | astron-code-latest | ❌ | 默认模型 |
-| newapi | glm-5.1 | ❌ | 当前主模型 |
-| newapi | kimi-k2.6 | ✅ | 图片识别主力 |
+| astroncodingplan | xopglm51 | ❌ | claude settings.json使用 |
+| astroncodingplan | xopkimik26 | ✅ | 图片识别主力 |
 
 ### 🖥️ SSH
 
