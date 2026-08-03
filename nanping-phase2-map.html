@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>南坪快速路二期路线标注</title>
+<style>
+html, body { margin: 0; padding: 0; height: 100%; font-family: "Microsoft YaHei", sans-serif; }
+#map { width: 100%; height: 100%; }
+#info {
+  position: absolute; top: 10px; left: 10px; z-index: 999;
+  background: rgba(255,255,255,0.95); border-radius: 8px;
+  padding: 14px 18px; max-width: 380px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.25); font-size: 14px; line-height: 1.9;
+}
+#info h3 { margin: 0 0 8px 0; color: #c0392b; font-size: 17px; border-bottom: 2px solid #e74c3c; padding-bottom: 6px; }
+.legend-item { display: flex; align-items: center; margin: 4px 0; }
+.legend-line { width: 30px; height: 5px; border-radius: 3px; margin-right: 8px; flex-shrink: 0; }
+.legend-text { font-size: 13px; }
+.note { font-size: 12px; color: #888; margin-top: 8px; border-top: 1px solid #eee; padding-top: 6px; }
+</style>
+<script src="https://api.map.baidu.com/api?v=3.0&ak=UCq56Hw4KtEoDacPzQ5Pan62AjvXYvZW"></script>
+</head>
+<body>
+<div id="map"></div>
+<div id="info">
+  <h3>🛣️ 南坪快速路二期路线图</h3>
+  <div class="legend-item">
+    <div class="legend-line" style="background:#e74c3c;"></div>
+    <span class="legend-text"><b>二期主线</b>：梅观立交 → 聚龙立交</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-line" style="background:#3498db;"></div>
+    <span class="legend-text"><b>一期已通车</b>：前海 → 梅观立交</span>
+  </div>
+  <div class="legend-item">
+    <div class="legend-line" style="background:#f39c12; height:3px; border:1px dashed #f39c12;"></div>
+    <span class="legend-text"><b>关键节点</b>（点击标记查看详情）</span>
+  </div>
+  <div class="note">
+    二期途经：塘朗山隧道→深云立交→福龙立交→雅宝隧道→布龙路→水官高速→横岗→荷坳→横坪公路→坪山→聚龙立交<br/>
+    编号S301，全长约15km
+  </div>
+</div>
+<script>
+var map = new BMap.Map("map");
+map.enableScrollWheelZoom(true);
+
+// ===== 一期路径（前海→梅观立交）=====
+// 基于POI搜索结果的关键坐标点
+var phase1Points = [
+  new BMap.Point(113.920, 22.530),   // 前海片区
+  new BMap.Point(113.935, 22.540),   // 南头检查站
+  new BMap.Point(113.950, 22.550),   // 南头立交
+  new BMap.Point(113.965, 22.567),   // 沙河东路
+  new BMap.Point(113.972, 22.566),   // 沙河西路交汇
+  new BMap.Point(113.983, 22.571),   // 塘朗山隧道西口
+  new BMap.Point(113.999, 22.573),   // 塘朗山隧道东口
+  new BMap.Point(113.994, 22.560),   // 深云立交
+  new BMap.Point(114.016, 22.594),   // 福龙立交
+  new BMap.Point(114.050, 22.596),   // 梅观立交（一期终点/二期起点）
+];
+
+// ===== 二期路径（梅观立交→聚龙立交）=====
+// 基于百度地图POI搜索的精确坐标
+var phase2Points = [
+  new BMap.Point(114.050, 22.596),   // 梅观立交（二期起点）
+  new BMap.Point(114.075, 22.609),   // 雅宝隧道
+  new BMap.Point(114.106, 22.636),   // 龙景立交/布龙路交汇
+  new BMap.Point(114.106, 22.637),   // 水官高速交汇
+  new BMap.Point(114.176, 22.635),   // 横岗片区
+  new BMap.Point(114.216, 22.654),   // 横岗东
+  new BMap.Point(114.231, 22.679),   // 荷坳
+  new BMap.Point(114.297, 22.664),   // 横坪公路交汇
+  new BMap.Point(114.326, 22.668),   // 坪山黄竹坑路
+  new BMap.Point(114.345, 22.660),   // 南坪快速龙岗段
+  new BMap.Point(114.390, 22.736),   // 聚龙立交（二期终点）
+];
+
+// 绘制一期（蓝色）
+var phase1Line = new BMap.Polyline(phase1Points, {
+  strokeColor: "#3498db",
+  strokeWeight: 5,
+  strokeOpacity: 0.85,
+  strokeStyle: "solid"
+});
+map.addOverlay(phase1Line);
+
+// 绘制二期（红色，加粗突出）
+var phase2Line = new BMap.Polyline(phase2Points, {
+  strokeColor: "#e74c3c",
+  strokeWeight: 7,
+  strokeOpacity: 0.9,
+  strokeStyle: "solid"
+});
+map.addOverlay(phase2Line);
+
+// ===== 标注关键节点 =====
+var keyPoints = [
+  // 一期节点
+  { lng: 113.920, lat: 22.530, label: "前海（一期起点）", phase: 1 },
+  { lng: 113.950, lat: 22.550, label: "南头立交", phase: 1 },
+  { lng: 113.972, lat: 22.566, label: "沙河西路交汇", phase: 1 },
+  { lng: 113.999, lat: 22.573, label: "塘朗山隧道", phase: 1 },
+  { lng: 113.994, lat: 22.560, label: "深云立交", phase: 1 },
+  { lng: 114.016, lat: 22.594, label: "福龙立交", phase: 1 },
+  // 二期节点
+  { lng: 114.050, lat: 22.596, label: "⭐ 梅观立交\n（一期终点/二期起点）", phase: 2 },
+  { lng: 114.075, lat: 22.609, label: "雅宝隧道", phase: 2 },
+  { lng: 114.106, lat: 22.636, label: "龙景立交\n（布龙路/水官高速交汇）", phase: 2 },
+  { lng: 114.176, lat: 22.635, label: "横岗", phase: 2 },
+  { lng: 114.231, lat: 22.679, label: "荷坳", phase: 2 },
+  { lng: 114.297, lat: 22.664, label: "横坪公路交汇", phase: 2 },
+  { lng: 114.326, lat: 22.668, label: "坪山入口", phase: 2 },
+  { lng: 114.390, lat: 22.736, label: "⭐ 聚龙立交\n（二期终点）", phase: 2 },
+];
+
+keyPoints.forEach(function(kp) {
+  var pt = new BMap.Point(kp.lng, kp.lat);
+  var isKey = kp.label.indexOf("⭐") >= 0;
+  var color = kp.phase === 1 ? "#3498db" : "#e74c3c";
+  
+  // 使用自定义图标
+  var marker = new BMap.Marker(pt);
+  
+  var label = new BMap.Label(kp.label, {
+    offset: new BMap.Size(20, -15)
+  });
+  label.setStyle({
+    color: isKey ? "#c0392b" : "#333",
+    fontSize: isKey ? "13px" : "12px",
+    fontWeight: isKey ? "bold" : "normal",
+    backgroundColor: "rgba(255,255,255,0.92)",
+    border: isKey ? "2px solid #e74c3c" : "1px solid " + color,
+    borderRadius: "4px",
+    padding: "3px 8px",
+    whiteSpace: "pre-line",
+    lineHeight: "1.4"
+  });
+  marker.setLabel(label);
+  map.addOverlay(marker);
+});
+
+// 设置地图中心和缩放级别 - 以二期路线为中心
+map.centerAndZoom(new BMap.Point(114.200, 22.640), 12);
+
+// 添加地图控件
+map.addControl(new BMap.ScaleControl());
+map.addControl(new BMap.NavigationControl());
+</script>
+</body>
+</html>
