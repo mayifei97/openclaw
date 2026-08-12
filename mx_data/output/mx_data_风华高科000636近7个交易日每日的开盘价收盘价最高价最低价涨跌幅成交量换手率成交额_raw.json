@@ -1,0 +1,873 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "7d387f6c-10ae-44c7-90e9-7a3f38918031",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "c201dc59-3ed8-405f-9045-5df28b6d2269",
+        "dataTableDTOList": [
+          {
+            "code": "000636.SZ",
+            "entityName": "风华高科(000636.SZ)",
+            "table": {
+              "CJL_f5_3": [
+                "2.631亿"
+              ],
+              "CJE_f6_3": [
+                "172.9亿"
+              ],
+              "ZDJ_f16_3": [
+                "60.88"
+              ],
+              "ZGJ_f15_3": [
+                "67.87"
+              ],
+              "KPJ_f17_3": [
+                "60.88"
+              ],
+              "ZDF_f3_3": [
+                "6.73%"
+              ],
+              "HSL_f8_3": [
+                "22.74%"
+              ],
+              "headName": [
+                "2026-08-11 19:43"
+              ]
+            },
+            "rawTable": {
+              "CJL_f5_3": [
+                "263130364"
+              ],
+              "CJE_f6_3": [
+                "17293417462.81"
+              ],
+              "ZDJ_f16_3": [
+                "60.88"
+              ],
+              "ZGJ_f15_3": [
+                "67.87"
+              ],
+              "KPJ_f17_3": [
+                "60.88"
+              ],
+              "ZDF_f3_3": [
+                "6.73"
+              ],
+              "HSL_f8_3": [
+                "22.74"
+              ],
+              "headName": [
+                "2026-08-11 19:43"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "CJL_f5_3": "成交量",
+              "headNameSub": "数据来源",
+              "CJE_f6_3": "成交额",
+              "ZDJ_f16_3": "最低价",
+              "ZGJ_f15_3": "最高价",
+              "KPJ_f17_3": "开盘价",
+              "ZDF_f3_3": "涨跌幅",
+              "HSL_f8_3": "换手率"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "CJL_f5_3",
+              "returnName": "成交量",
+              "classCode": "007001",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-07-31 00:00:00",
+              "endDate": "2026-08-11 00:00:00",
+              "fuzzy": false,
+              "dateGranularity": "DAY",
+              "defineType": -1,
+              "isLoopN": false,
+              "fixedParamValue": "volt=1",
+              "apiCode": "3",
+              "isGroup": false,
+              "returnSourceCode": "f5",
+              "returnSourceName": "成交量",
+              "graph": "1",
+              "unit": "1",
+              "tableType": "2",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "000636.SZ"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "KPJ_f17_3",
+                "returnName": "开盘价",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f17",
+                "returnSourceName": "开盘价",
+                "graph": "0",
+                "unit": "0",
+                "tableType": "2",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "ZGJ_f15_3",
+                "returnName": "最高价",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f15",
+                "returnSourceName": "最高价",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "CJE_f6_3",
+                "returnName": "成交额",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f6",
+                "returnSourceName": "成交额",
+                "graph": "1",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "ZDJ_f16_3",
+                "returnName": "最低价",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f16",
+                "returnSourceName": "最低价",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "ZDF_f3_3",
+                "returnName": "涨跌幅",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f3",
+                "returnSourceName": "涨跌幅",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "unitName": "%",
+                "unitDesc": "901:%:%",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "CJL_f5_3",
+                "returnName": "成交量",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "volt=1",
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f5",
+                "returnSourceName": "成交量",
+                "graph": "1",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "HSL_f8_3",
+                "returnName": "换手率",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f8",
+                "returnSourceName": "换手率",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "unitName": "%",
+                "unitDesc": "901:%:%",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "CJL_f5_3",
+              "CJE_f6_3",
+              "ZDJ_f16_3",
+              "ZGJ_f15_3",
+              "KPJ_f17_3",
+              "ZDF_f3_3",
+              "HSL_f8_3"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "风华高科(000636.SZ)当前的成交量、成交额等",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000004192",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "风华高科",
+              "shortName": "",
+              "matchWord": "风华高科000636",
+              "secuCode": "000636",
+              "market": "0",
+              "marketChar": ".SZ",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000004192",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "风华高科",
+                "shortName": "",
+                "matchWord": "风华高科000636",
+                "secuCode": "000636",
+                "market": "0",
+                "marketChar": ".SZ",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-08-11 19:43": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "000636.SZ",
+            "entityName": "风华高科(000636.SZ)",
+            "table": {
+              "324785": [
+                "2.631亿股",
+                "2.152亿股",
+                "2.043亿股",
+                "2.146亿股",
+                "2.211亿股",
+                "2.003亿股",
+                "1.81亿股",
+                "2.557亿股"
+              ],
+              "327483": [
+                "172.9亿",
+                "125.7亿",
+                "118.6亿",
+                "122.3亿",
+                "127.6亿",
+                "104.2亿",
+                "92.08亿",
+                "135.8亿"
+              ],
+              "326386": [
+                "60.88元",
+                "54.33元",
+                "55.52元",
+                "54.8元",
+                "52.5元",
+                "48.08元",
+                "47.01元",
+                "48.39元"
+              ],
+              "326339": [
+                "67.87元",
+                "63.96元",
+                "61.79元",
+                "59.13元",
+                "59.76元",
+                "55.69元",
+                "53.18元",
+                "55.55元"
+              ],
+              "326269": [
+                "60.88元",
+                "57.77元",
+                "57.18元",
+                "56.01元",
+                "52.5元",
+                "50.02元",
+                "48元",
+                "55.55元"
+              ],
+              "326865": [
+                "6.726%",
+                "5.85%",
+                "0.01716%",
+                "0.8304%",
+                "6.387%",
+                "4.561%",
+                "5.289%",
+                "-2.277%"
+              ],
+              "325898": [
+                "65.85元",
+                "61.7元",
+                "58.29元",
+                "58.28元",
+                "57.8元",
+                "54.33元",
+                "51.96元",
+                "49.35元"
+              ],
+              "326699": [
+                "22.74%",
+                "18.6%",
+                "17.66%",
+                "18.55%",
+                "19.11%",
+                "17.31%",
+                "15.65%",
+                "22.1%"
+              ],
+              "headName": [
+                "2026-08-11(日)",
+                "2026-08-10(日)",
+                "2026-08-07(日)",
+                "2026-08-06(日)",
+                "2026-08-05(日)",
+                "2026-08-04(日)",
+                "2026-08-03(日)",
+                "2026-07-31(日)"
+              ]
+            },
+            "rawTable": {
+              "324785": [
+                "263130364",
+                "215232582",
+                "204283223",
+                "214586199",
+                "221148829",
+                "200321507",
+                "181021077",
+                "255741585"
+              ],
+              "327483": [
+                "17293417462.81",
+                "12572541666.96",
+                "11861067735.02",
+                "12228600134.99",
+                "12758604779.42",
+                "10422946836.64",
+                "9207767305.09",
+                "13582039252.27"
+              ],
+              "326386": [
+                "60.88",
+                "54.33",
+                "55.52",
+                "54.8",
+                "52.5",
+                "48.08",
+                "47.01",
+                "48.39"
+              ],
+              "326339": [
+                "67.87",
+                "63.96",
+                "61.79",
+                "59.13",
+                "59.76",
+                "55.69",
+                "53.18",
+                "55.55"
+              ],
+              "326269": [
+                "60.88",
+                "57.77",
+                "57.18",
+                "56.01",
+                "52.5",
+                "50.02",
+                "48.0",
+                "55.55"
+              ],
+              "326865": [
+                "6.72609400324147700",
+                "5.8500600446045700",
+                "0.0171585449553843700",
+                "0.830449826989626400",
+                "6.386894901527700",
+                "4.561200923787523500",
+                "5.28875379939209600",
+                "-2.277227722772274400"
+              ],
+              "325898": [
+                "65.85",
+                "61.7",
+                "58.29",
+                "58.28",
+                "57.8",
+                "54.33",
+                "51.96",
+                "49.35"
+              ],
+              "326699": [
+                "22.7422",
+                "18.6024",
+                "17.6561",
+                "18.5466",
+                "19.1138",
+                "17.3137",
+                "15.6456",
+                "22.1036"
+              ],
+              "headName": [
+                "2026-08-11",
+                "2026-08-10",
+                "2026-08-07",
+                "2026-08-06",
+                "2026-08-05",
+                "2026-08-04",
+                "2026-08-03",
+                "2026-07-31"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "324785": "成交量",
+              "headNameSub": "数据来源",
+              "327483": "成交额",
+              "326386": "最低价",
+              "326339": "最高价",
+              "326269": "开盘价",
+              "326865": "涨跌幅",
+              "325898": "收盘价",
+              "326699": "换手率"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "324785",
+              "returnName": "成交量",
+              "classCode": "007121",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-07-31 00:00:00",
+              "endDate": "2026-08-11 00:00:00",
+              "fuzzy": false,
+              "dateGranularity": "DAY",
+              "defineType": -1,
+              "isLoopN": false,
+              "fixedParamValue": "Period=1",
+              "isGroup": false,
+              "returnSourceCode": "VOLUME",
+              "returnSourceName": "成交量",
+              "graph": "1",
+              "unit": "1",
+              "tableType": "20",
+              "unitName": "股",
+              "unitDesc": "股",
+              "dcsdField": true
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "000636.SZ"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "327483",
+                "returnName": "成交额",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "CurType=1,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "AMOUNT",
+                "returnSourceName": "成交额",
+                "graph": "1",
+                "unit": "1",
+                "tableType": "20",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "326269",
+                "returnName": "开盘价",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=1,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "OPEN",
+                "returnSourceName": "开盘价",
+                "graph": "2",
+                "unit": "2",
+                "tableType": "20",
+                "unitName": "元",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "325898",
+                "returnName": "收盘价",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=1,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "CLOSE",
+                "returnSourceName": "收盘价",
+                "graph": "2",
+                "unit": "2",
+                "tableType": "20",
+                "unitName": "元",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "324785",
+                "returnName": "成交量",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "Period=1",
+                "isGroup": false,
+                "returnSourceCode": "VOLUME",
+                "returnSourceName": "成交量",
+                "graph": "1",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "股",
+                "unitDesc": "股",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "326386",
+                "returnName": "最低价",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=1,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "LOW",
+                "returnSourceName": "最低价",
+                "graph": "2",
+                "unit": "2",
+                "tableType": "20",
+                "unitName": "元",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "326339",
+                "returnName": "最高价",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=1,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "HIGH",
+                "returnSourceName": "最高价",
+                "graph": "2",
+                "unit": "2",
+                "tableType": "20",
+                "unitName": "元",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "326865",
+                "returnName": "涨跌幅",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "AdjustFlag=1,CurType=2,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PCTCHANGE",
+                "returnSourceName": "涨跌幅",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "100%",
+                "unitDesc": "100%",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "326699",
+                "returnName": "换手率",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-07-31 00:00:00",
+                "endDate": "2026-08-11 00:00:00",
+                "fuzzy": false,
+                "dateGranularity": "DAY",
+                "defineType": -1,
+                "isLoopN": false,
+                "fixedParamValue": "Period=1",
+                "isGroup": false,
+                "returnSourceCode": "TURN",
+                "returnSourceName": "换手率",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "%",
+                "unitDesc": "%",
+                "dcsdField": true
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "324785",
+              "327483",
+              "326386",
+              "326339",
+              "326269",
+              "326865",
+              "325898",
+              "326699"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "风华高科(000636.SZ)的成交量、成交额等",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=000636.SZ&indId=100000000020860|121:2026-08-11|261:102:股:股,100000000001104|121:2026-08-11|261:101:元:元,100000000001095|121:2026-08-11|513:1,100000000001094|121:2026-08-11|513:1,100000000001096|121:2026-08-11|513:1,100000000001097|121:2026-08-11|261:108:%:%,100000000001098|121:2026-08-11|513:1,100000000001099|121:2026-08-11|261:108:%:%",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000004192",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "风华高科",
+              "shortName": "",
+              "matchWord": "风华高科000636",
+              "secuCode": "000636",
+              "market": "0",
+              "marketChar": ".SZ",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000004192",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "风华高科",
+                "shortName": "",
+                "matchWord": "风华高科000636",
+                "secuCode": "000636",
+                "market": "0",
+                "marketChar": ".SZ",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-08-11": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "风华高科",
+            "成交量成交额最低价最高价开盘价涨跌幅收盘价换手率",
+            "2026-07-31至2026-08-11"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000004192",
+            "entityType": "SEC",
+            "entityTypeCode": "058001001",
+            "entityTypeName": "A股",
+            "classCode": "002001",
+            "className": "沪深京股票",
+            "publishCode": "",
+            "fullName": "风华高科",
+            "shortName": "",
+            "matchWord": "风华高科000636",
+            "secuCode": "000636",
+            "market": "0",
+            "marketChar": ".SZ",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "ff13916098c542d49af6fb41a37e4719"
+}
