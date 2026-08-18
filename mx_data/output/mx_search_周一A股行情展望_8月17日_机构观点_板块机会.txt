@@ -1,0 +1,12 @@
+{
+  "data": [],
+  "traceId": "babff98629f9a1b8f46fb3939d2ea320-b4661520-a0c0-4fa7-9e7c-d8d3b377261e",
+  "code": 0,
+  "status": 0,
+  "message": "OK",
+  "extraInfos": {
+    "decomposedQueries": [
+      "周一A股行情展望 8月17日 机构观点 板块机会"
+    ]
+  }
+}

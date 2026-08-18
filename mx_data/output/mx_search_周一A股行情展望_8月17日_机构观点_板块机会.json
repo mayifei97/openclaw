@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_NEWS",
+      "id": "72b59b1a-6382-42f8-8adc-be7dc6dd74b0",
+      "refSeq": null,
+      "llmSearchRequest": {
+        "query": "周一A股行情展望 8月17日 机构观点 板块机会",
+        "size": 12,
+        "childSearchType": null,
+        "inputStartDate": null,
+        "inputEndDate": null,
+        "traceId": "babff98629f9a1b8f46fb3939d2ea320-b4661520-a0c0-4fa7-9e7c-d8d3b377261e",
+        "timeSupSize": 3,
+        "decomposedSize": 3,
+        "decomposedFlag": true
+      },
+      "llmSearchResponse": {
+        "data": [],
+        "traceId": "babff98629f9a1b8f46fb3939d2ea320-b4661520-a0c0-4fa7-9e7c-d8d3b377261e",
+        "code": 0,
+        "status": 0,
+        "message": "OK",
+        "extraInfos": {
+          "decomposedQueries": [
+            "周一A股行情展望 8月17日 机构观点 板块机会"
+          ]
+        }
+      }
+    },
+    "stack": null
+  },
+  "requestId": "59033b70e67d4160bb60fd54896ba302"
+}
