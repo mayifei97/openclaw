@@ -2,12 +2,12 @@ import { getFundBatchInfo, getFundEstimate, getMarketOverview, getMarketCapitalF
 
 console.log('=== 基金批量信息(净值+涨跌幅) ===');
 try {
-  const batch = await getFundBatchInfo('012733,460300,161005,000216');
+  const batch = await getFundBatchInfo('460300,161005');
   console.log(JSON.stringify(batch, null, 2));
 } catch(e){ console.error('batch err', e.message); }
 
 console.log('\n=== 基金实时估值 ===');
-for (const c of ['012733','460300','161005','000216']) {
+for (const c of ['460300','161005']) {
   try { console.log(JSON.stringify(await getFundEstimate(c))); }
   catch(e){ console.error(c, 'est err', e.message); }
 }

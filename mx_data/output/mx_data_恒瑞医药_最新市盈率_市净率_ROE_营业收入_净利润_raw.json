@@ -1,0 +1,2052 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "0146e9cc-4b5c-4a38-8649-8b65e94f9033",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "d2b69382-e6df-48c5-bbf4-ccbbcf30884f",
+        "dataTableDTOList": [
+          {
+            "code": "01276.HK",
+            "entityName": "恒瑞医药(01276.HK)(最新年结日12-31)",
+            "table": {
+              "100000000047277": [
+                "51.41亿港元",
+                "25.83亿港元",
+                "85.44亿港元",
+                "63.09亿港元",
+                "48.85亿港元",
+                "20.33亿港元"
+              ],
+              "100000000046675": [
+                "51.41亿港元",
+                "25.85亿港元",
+                "85.37亿港元",
+                "62.99亿港元",
+                "48.8亿港元",
+                "20.31亿港元"
+              ],
+              "100000000046902": [
+                "7.103",
+                "3.655",
+                "14.44",
+                "10.95",
+                "8.559",
+                "4.052"
+              ],
+              "100000000051343": [
+                "177.9亿港元",
+                "92.2亿港元",
+                "350.2亿港元",
+                "254亿港元",
+                "172.8亿港元",
+                "78.08亿港元"
+              ],
+              "headName": [
+                "2026中报",
+                "2026一季报",
+                "2025年报",
+                "2025三季报",
+                "2025中报",
+                "2025一季报"
+              ]
+            },
+            "rawTable": {
+              "100000000047277": [
+                "5141076506.821714",
+                "2583379246.0954766",
+                "8543878567.790797",
+                "6309267620.342176",
+                "4884775481.111902",
+                "2033355005.7973845"
+              ],
+              "100000000046675": [
+                "5141257267.860227",
+                "2584821601.5969205",
+                "8537294346.892234",
+                "6299337923.7770815",
+                "4879770820.768682",
+                "2030769480.836124"
+              ],
+              "100000000046902": [
+                "7.102739472",
+                "3.6546016111000004",
+                "14.441269110900002",
+                "10.9520935431",
+                "8.559157836799999",
+                "4.0517076555000004"
+              ],
+              "100000000051343": [
+                "17794696908.64084",
+                "9219735342.62416",
+                "35018507118.97435",
+                "25398236466.045258",
+                "17282958495.53155",
+                "7808167268.077545"
+              ],
+              "headName": [
+                "2026中报",
+                "2026一季报",
+                "2025年报",
+                "2025三季报",
+                "2025中报",
+                "2025一季报"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "100000000047277": "净利润",
+              "headNameSub": "数据来源",
+              "100000000046675": "归属于母公司股东的净利润",
+              "100000000046902": "净资产收益率(平均)(%)",
+              "100000000051343": "营业收入"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "100000000047277",
+              "returnName": "净利润",
+              "classCode": "007101",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-08-24 00:00:00",
+              "endDate": "2026-06-30 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "QUARTER",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "type=1,CurType=4",
+              "quantType": "1",
+              "isGroup": false,
+              "returnSourceCode": "NI",
+              "returnSourceName": "净利润",
+              "graph": "1",
+              "unit": "1",
+              "tableType": "1",
+              "unitName": "元",
+              "unitDesc": "101:元:元",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "01276.HK"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "100000000047277",
+                "returnName": "净利润",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-06-30 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "QUARTER",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "type=1,CurType=4",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "NI",
+                "returnSourceName": "净利润",
+                "graph": "1",
+                "unit": "1",
+                "tableType": "1",
+                "unitName": "元",
+                "unitDesc": "101:元:元",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "100000000046902",
+                "returnName": "净资产收益率(平均)(%)",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-06-30 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "QUARTER",
+                "defineType": 0,
+                "isLoopN": false,
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "ROE",
+                "returnSourceName": "净资产收益率(平均)(%)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "100000000046675",
+                "returnName": "归属于母公司股东的净利润",
+                "classCode": "007101",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-06-30 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "QUARTER",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "type=1,CurType=4",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "NETPROFIT",
+                "returnSourceName": "归属于母公司股东的净利润",
+                "graph": "1",
+                "unit": "1",
+                "tableType": "1",
+                "unitName": "元",
+                "unitDesc": "101:元:元",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "100000000051343",
+                "returnName": "营业收入",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-06-30 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "QUARTER",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "type=1,CurType=4",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "OPREVENUE",
+                "returnSourceName": "营业收入",
+                "graph": "0",
+                "unit": "1",
+                "tableType": "1",
+                "unitName": "元",
+                "unitDesc": "101:元:元",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "100000000047277",
+              "100000000046675",
+              "100000000046902",
+              "100000000051343"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "恒瑞医药(01276.HK)(最新年结日12-31)的净利润、归属于母公司股东的净利润等",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=01276.HK&indId=100000000047277|100:2025-03-31|115:1|453:4,100000000047277|100:2025-06-30|115:1|453:4,100000000047277|100:2025-09-30|115:1|453:4,100000000047277|100:2025-12-31|115:1|453:4,100000000047277|100:2026-03-31|115:1|453:4,100000000047277|100:2026-06-30|115:1|453:4,100000000046675|100:2025-03-31|115:1|453:4,100000000046675|100:2025-06-30|115:1|453:4,100000000046675|100:2025-09-30|115:1|453:4,100000000046675|100:2025-12-31|115:1|453:4,100000000046675|100:2026-03-31|115:1|453:4,100000000046675|100:2026-06-30|115:1|453:4,100000000046902|100:2025-03-31,100000000046902|100:2025-06-30,100000000046902|100:2025-09-30,100000000046902|100:2025-12-31,100000000046902|100:2026-03-31,100000000046902|100:2026-06-30,100000000051343|100:2025-03-31|115:1|453:4,100000000051343|100:2025-06-30|115:1|453:4,100000000051343|100:2025-09-30|115:1|453:4,100000000051343|100:2025-12-31|115:1|453:4,100000000051343|100:2026-03-31|115:1|453:4,100000000051343|100:2026-06-30|115:1|453:4",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1004084404",
+              "entityType": "SEC",
+              "entityTypeCode": "058001003001",
+              "entityTypeName": "H股",
+              "classCode": "002003",
+              "className": "港股",
+              "publishCode": "",
+              "fullName": "恒瑞医药",
+              "shortName": "",
+              "secuCode": "01276",
+              "market": "116",
+              "marketChar": ".HK",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": true
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1004084404",
+                "entityType": "SEC",
+                "entityTypeCode": "058001003001",
+                "entityTypeName": "H股",
+                "classCode": "002003",
+                "className": "港股",
+                "publishCode": "",
+                "fullName": "恒瑞医药",
+                "shortName": "",
+                "secuCode": "01276",
+                "market": "116",
+                "marketChar": ".HK",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": true
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026中报": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "01276.HK",
+            "entityName": "恒瑞医药(01276.HK)",
+            "hkDelay": false,
+            "table": {
+              "SJL_f23_3": [
+                "4.17"
+              ],
+              "SYLTTM_f115_3": [
+                "35.14"
+              ],
+              "headName": [
+                "2026-08-24 10:45"
+              ]
+            },
+            "rawTable": {
+              "SJL_f23_3": [
+                "4.170"
+              ],
+              "SYLTTM_f115_3": [
+                "35.140"
+              ],
+              "headName": [
+                "2026-08-24 10:45"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "SJL_f23_3": "市净率",
+              "headNameSub": "数据来源",
+              "SYLTTM_f115_3": "市盈率PE(TTM)"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "SJL_f23_3",
+              "returnName": "市净率",
+              "classCode": "007001",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-08-24 00:00:00",
+              "endDate": "2026-08-24 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "apiCode": "3",
+              "isGroup": false,
+              "returnSourceCode": "f23",
+              "returnSourceName": "市净率",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "2",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "01276.HK"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "SJL_f23_3",
+                "returnName": "市净率",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-08-24 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f23",
+                "returnSourceName": "市净率",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "SYLTTM_f115_3",
+                "returnName": "市盈率PE(TTM)",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-08-24 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f115",
+                "returnSourceName": "市盈率(TTM)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "SJL_f23_3",
+              "SYLTTM_f115_3"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "恒瑞医药(01276.HK)当前的市净率、市盈率PE(TTM)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1004084404",
+              "entityType": "SEC",
+              "entityTypeCode": "058001003001",
+              "entityTypeName": "H股",
+              "classCode": "002003",
+              "className": "港股",
+              "publishCode": "",
+              "fullName": "恒瑞医药",
+              "shortName": "",
+              "secuCode": "01276",
+              "market": "116",
+              "marketChar": ".HK",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": true
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1004084404",
+                "entityType": "SEC",
+                "entityTypeCode": "058001003001",
+                "entityTypeName": "H股",
+                "classCode": "002003",
+                "className": "港股",
+                "publishCode": "",
+                "fullName": "恒瑞医药",
+                "shortName": "",
+                "secuCode": "01276",
+                "market": "116",
+                "marketChar": ".HK",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": true
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-08-24 10:45": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "01276.HK",
+            "entityName": "恒瑞医药(01276.HK)",
+            "table": {
+              "328664": [
+                "4.31倍",
+                "4.441倍",
+                "4.914倍",
+                "4.997倍",
+                "4.946倍"
+              ],
+              "328773": [
+                "36.36倍",
+                "37.46倍",
+                "41.45倍",
+                "39.61倍",
+                "39.2倍"
+              ],
+              "headName": [
+                "2026-08-21(日)",
+                "2026-08-20(日)",
+                "2026-08-19(日)",
+                "2026-08-18(日)",
+                "2026-08-17(日)"
+              ]
+            },
+            "rawTable": {
+              "328664": [
+                "4.31015742",
+                "4.44071405",
+                "4.9137583",
+                "4.99671207",
+                "4.94605416"
+              ],
+              "328773": [
+                "36.35879123",
+                "37.46011561",
+                "41.45053066",
+                "39.60558477",
+                "39.20405349"
+              ],
+              "headName": [
+                "2026-08-21",
+                "2026-08-20",
+                "2026-08-19",
+                "2026-08-18",
+                "2026-08-17"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "328664": "市净率PB",
+              "headNameSub": "数据来源",
+              "328773": "市盈率PE(TTM)"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "328664",
+              "returnName": "市净率PB",
+              "classCode": "007121",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-08-24 00:00:00",
+              "endDate": "2026-08-24 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "Type=8,Period=1",
+              "isGroup": false,
+              "returnSourceCode": "PB",
+              "returnSourceName": "市净率PB",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "20",
+              "unitName": "倍",
+              "unitDesc": "倍",
+              "dcsdField": true
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "01276.HK"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "328664",
+                "returnName": "市净率PB",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-08-24 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "Type=8,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PB",
+                "returnSourceName": "市净率PB",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "倍",
+                "unitDesc": "倍",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "328773",
+                "returnName": "市盈率PE(TTM)",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-08-24 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PETTM",
+                "returnSourceName": "市盈率PE(TTM)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "倍",
+                "unitDesc": "倍",
+                "dcsdField": true
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "328664",
+              "328773"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "恒瑞医药(01276.HK)的市净率PB、市盈率PE(TTM)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=01276.HK&indId=100000000047167|121:2026-08-24",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1004084404",
+              "entityType": "SEC",
+              "entityTypeCode": "058001003001",
+              "entityTypeName": "H股",
+              "classCode": "002003",
+              "className": "港股",
+              "publishCode": "",
+              "fullName": "恒瑞医药",
+              "shortName": "",
+              "secuCode": "01276",
+              "market": "116",
+              "marketChar": ".HK",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": true
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1004084404",
+                "entityType": "SEC",
+                "entityTypeCode": "058001003001",
+                "entityTypeName": "H股",
+                "classCode": "002003",
+                "className": "港股",
+                "publishCode": "",
+                "fullName": "恒瑞医药",
+                "shortName": "",
+                "secuCode": "01276",
+                "market": "116",
+                "marketChar": ".HK",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": true
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-08-21": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          },
+          {
+            "code": "01276.HK",
+            "entityName": "指标名称",
+            "table": {
+              "headName": [
+                "2026-06-30",
+                "2026-03-31",
+                "2025-12-31",
+                "2025-09-30"
+              ],
+              "显示币种": [
+                "人民币",
+                "人民币",
+                "人民币",
+                "人民币"
+              ],
+              "原始币种": [
+                "人民币",
+                "人民币",
+                "人民币",
+                "人民币"
+              ]
+            },
+            "rawTable": {
+              "headName": [
+                "2026-06-30",
+                "2026-03-31",
+                "2025-12-31",
+                "2025-09-30"
+              ],
+              "显示币种": [
+                "人民币",
+                "人民币",
+                "人民币",
+                "人民币"
+              ],
+              "原始币种": [
+                "人民币",
+                "人民币",
+                "人民币",
+                "人民币"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "headName": "headName",
+              "显示币种": "显示币种",
+              "原始币种": "原始币种"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "RPT_CUSTOM_HKF9_ORIGFN_ITEM",
+              "returnName": "利润表",
+              "classCode": "007202",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-08-24 00:00:00",
+              "endDate": "2026-08-24 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "isGroup": false,
+              "returnSourceCode": "STD_ITEM_CODE,ORIG_ITEM_NAME,TYPE",
+              "returnSourceName": "标准科目编码,原始科目名称,字段类型",
+              "tableType": "10",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "RPT_CUSTOM_HKF9_ORIGFN_ITEM",
+                "returnName": "利润表",
+                "classCode": "007202",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-08-24 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "isGroup": false,
+                "returnSourceCode": "STD_ITEM_CODE,ORIG_ITEM_NAME,TYPE",
+                "returnSourceName": "标准科目编码,原始科目名称,字段类型",
+                "tableType": "10",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "F10_TABLE",
+            "inputTitle": "恒瑞医药(01276.HK)资产负债表[合并报表(调整)](2025-8-24~2026-08-24)",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "显示币种",
+              "原始币种"
+            ],
+            "tipFlags": [],
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "https://choicewh2.eastmoney.com/stock/hk/f9/index.html#/profitTable_Original?securitycode=01276.HK",
+                "typeName": "F9深度资料",
+                "securityName": "恒瑞医药"
+              }
+            ],
+            "dataTypeEnum": "F9",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1004084404",
+              "entityType": "SEC",
+              "entityTypeCode": "058001003001",
+              "entityTypeName": "H股",
+              "classCode": "002003",
+              "className": "港股",
+              "publishCode": "",
+              "fullName": "恒瑞医药",
+              "shortName": "",
+              "secuCode": "01276",
+              "market": "116",
+              "marketChar": ".HK",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": true
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1004084404",
+                "entityType": "SEC",
+                "entityTypeCode": "058001003001",
+                "entityTypeName": "H股",
+                "classCode": "002003",
+                "className": "港股",
+                "publishCode": "",
+                "fullName": "恒瑞医药",
+                "shortName": "",
+                "secuCode": "01276",
+                "market": "116",
+                "marketChar": ".HK",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": true
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {},
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "恒瑞医药",
+            "frontendEntityCode": "01276.HK",
+            "frontendTitle": "资产负债表[合并报表(调整)](2025-8-24~2026-08-24)",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "01276.HK",
+            "entityName": "指标名称",
+            "table": {
+              "headName": [
+                "2026-06-30",
+                "2026-03-31",
+                "2025-12-31",
+                "2025-09-30"
+              ],
+              "行政开支(元)": [
+                "-14亿",
+                "-6.176亿",
+                "-30.72亿",
+                "-21.27亿"
+              ],
+              "所得税开支(元)": [
+                "-4.871亿",
+                "-2.759亿",
+                "-9.906亿",
+                "-6.518亿"
+              ],
+              "原始币种": [
+                "人民币",
+                "人民币",
+                "人民币",
+                "人民币"
+              ]
+            },
+            "rawTable": {
+              "headName": [
+                "2026-06-30",
+                "2026-03-31",
+                "2025-12-31",
+                "2025-09-30"
+              ],
+              "行政开支(元)": [
+                "-1400045000",
+                "-617633379.37",
+                "-3071726000",
+                "-2126849665.1"
+              ],
+              "所得税开支(元)": [
+                "-487135000",
+                "-275867350.2",
+                "-990623000",
+                "-651772642.71"
+              ],
+              "原始币种": [
+                "人民币",
+                "人民币",
+                "人民币",
+                "人民币"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "headName": "headName",
+              "行政开支(元)": "行政开支(元)",
+              "所得税开支(元)": "所得税开支(元)",
+              "原始币种": "原始币种"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "RPT_CUSTOM_HKF9_ORIGFN_ITEM",
+              "returnName": "利润表",
+              "classCode": "007202",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-08-24 00:00:00",
+              "endDate": "2026-08-24 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "isGroup": false,
+              "returnSourceCode": "STD_ITEM_CODE,ORIG_ITEM_NAME,TYPE",
+              "returnSourceName": "标准科目编码,原始科目名称,字段类型",
+              "tableType": "10",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "RPT_CUSTOM_HKF9_ORIGFN_ITEM",
+                "returnName": "利润表",
+                "classCode": "007202",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-08-24 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "isGroup": false,
+                "returnSourceCode": "STD_ITEM_CODE,ORIG_ITEM_NAME,TYPE",
+                "returnSourceName": "标准科目编码,原始科目名称,字段类型",
+                "tableType": "10",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "F10_TABLE",
+            "inputTitle": "恒瑞医药(01276.HK)利润表[合并报表(调整)](2025-8-24~2026-08-24)",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "行政开支(元)",
+              "所得税开支(元)",
+              "原始币种"
+            ],
+            "tipFlags": [],
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "https://choicewh2.eastmoney.com/stock/hk/f9/index.html#/profitTable_Original?securitycode=01276.HK",
+                "typeName": "F9深度资料",
+                "securityName": "恒瑞医药"
+              }
+            ],
+            "dataTypeEnum": "F9",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1004084404",
+              "entityType": "SEC",
+              "entityTypeCode": "058001003001",
+              "entityTypeName": "H股",
+              "classCode": "002003",
+              "className": "港股",
+              "publishCode": "",
+              "fullName": "恒瑞医药",
+              "shortName": "",
+              "secuCode": "01276",
+              "market": "116",
+              "marketChar": ".HK",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": true
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1004084404",
+                "entityType": "SEC",
+                "entityTypeCode": "058001003001",
+                "entityTypeName": "H股",
+                "classCode": "002003",
+                "className": "港股",
+                "publishCode": "",
+                "fullName": "恒瑞医药",
+                "shortName": "",
+                "secuCode": "01276",
+                "market": "116",
+                "marketChar": ".HK",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": true
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {},
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "恒瑞医药",
+            "frontendEntityCode": "01276.HK",
+            "frontendTitle": "利润表[合并报表(调整)](2025-8-24~2026-08-24)",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "01276.HK",
+            "entityName": "指标名称",
+            "table": {
+              "headName": [
+                "2026-06-30",
+                "2026-03-31",
+                "2025-12-31",
+                "2025-09-30"
+              ],
+              "报告期": [
+                "中报",
+                "一季报",
+                "年报",
+                "三季报"
+              ],
+              "报表类型": [
+                "合并报表(调整)",
+                "合并报表(调整)",
+                "合并报表(调整)",
+                "合并报表(调整)"
+              ],
+              "报表年结日": [
+                "12-31",
+                "12-31",
+                "12-31",
+                "12-31"
+              ],
+              "上市前/上市后": [
+                "上市后",
+                "上市后",
+                "上市后",
+                "上市后"
+              ],
+              "公司类型": [
+                "通用",
+                "通用",
+                "通用",
+                "通用"
+              ],
+              "税前利润(元)": [
+                "49.52亿",
+                "-",
+                "87.08亿",
+                "-"
+              ],
+              "财务成本(元)": [
+                "299.9万",
+                "-",
+                "1435万",
+                "-"
+              ],
+              "减:投资收益(元)": [
+                "-8.589亿",
+                "-",
+                "-2.132亿",
+                "-"
+              ],
+              "应占联营公司亏损(元)": [
+                "7212万",
+                "-",
+                "9714万",
+                "-"
+              ],
+              "加:减值及拨备(元)": [
+                "1661万",
+                "-",
+                "1.108亿",
+                "-"
+              ],
+              "出售物业、厂房及设备的收益(元)": [
+                "-3513万",
+                "-",
+                "-107.6万",
+                "-"
+              ],
+              "加:折旧及摊销(元)": [
+                "5.355亿",
+                "-",
+                "9.425亿",
+                "-"
+              ],
+              "汇兑亏损╱(收益)净额(元)": [
+                "6.752亿",
+                "-",
+                "3.759亿",
+                "-"
+              ],
+              "以权益结算的股份支付费用(元)": [
+                "1.707亿",
+                "-",
+                "5333万",
+                "-"
+              ],
+              "营运资金变动前经营溢利(元)": [
+                "55.31亿",
+                "-",
+                "100.9亿",
+                "-"
+              ],
+              "存货增加(元)": [
+                "-1.339亿",
+                "-",
+                "-4.792亿",
+                "-"
+              ],
+              "贸易应收款项及应收票据增加(元)": [
+                "-10.33亿",
+                "-",
+                "-10.55亿",
+                "-"
+              ],
+              "贸易及其他应付款项(减少)╱增加(元)": [
+                "-3.536亿",
+                "-",
+                "7.742亿",
+                "-"
+              ],
+              "营运资本变动其他项目(元)": [
+                "-13.24亿",
+                "-",
+                "29.17亿",
+                "-"
+              ],
+              "预付款项、其他应收款项及其他资产增加(元)": [
+                "-5167万",
+                "-",
+                "-6175万",
+                "-"
+              ],
+              "递延收入增加╱(减少)(元)": [
+                "6313万",
+                "-",
+                "1.508亿",
+                "-"
+              ],
+              "存款(增加)减少(元)": [
+                "-",
+                "-",
+                "-1.659亿",
+                "-"
+              ],
+              "经营产生的现金(元)": [
+                "26.99亿",
+                "-",
+                "121.7亿",
+                "-"
+              ],
+              "已付所得税(元)": [
+                "-7.119亿",
+                "-6.985亿",
+                "-9.318亿",
+                "-18.39亿"
+              ],
+              "经营业务其他项目(元)": [
+                "-",
+                "14.85亿",
+                "-",
+                "109.5亿"
+              ],
+              "经营活动所得现金流量净额(元)": [
+                "19.87亿",
+                "7.864亿",
+                "112.4亿",
+                "91.1亿"
+              ],
+              "收到按公允价值计量且其变动计入当期损益的金融资产的股息(元)": [
+                "1568万",
+                "-",
+                "3663万",
+                "-"
+              ],
+              "出售物业、厂房及设备项目所得款项(元)": [
+                "5253万",
+                "1085万",
+                "1891万",
+                "714.8万"
+              ],
+              "购买物业、厂房及设备项目(元)": [
+                "-3.944亿",
+                "-7.048亿",
+                "-10.27亿",
+                "-17.14亿"
+              ],
+              "购建无形资产及其他资产(元)": [
+                "-11.83亿",
+                "-",
+                "-19.35亿",
+                "-"
+              ],
+              "于联营公司的投资(元)": [
+                "-3.153亿",
+                "-",
+                "-",
+                "-"
+              ],
+              "取得投资收益收到的现金(元)": [
+                "-",
+                "51.86万",
+                "1.659亿",
+                "1.81亿"
+              ],
+              "投资支付的现金(元)": [
+                "-",
+                "-3030万",
+                "-",
+                "-"
+              ],
+              "投资活动所用现金流量净额(元)": [
+                "-18.25亿",
+                "-7.237亿",
+                "-27.41亿",
+                "-15.26亿"
+              ],
+              "融资前现金净额(元)": [
+                "1.624亿",
+                "6270万",
+                "84.95亿",
+                "75.84亿"
+              ],
+              "新借银行借款(元)": [
+                "14.91亿",
+                "2.995亿",
+                "14.96亿",
+                "4.283亿"
+              ],
+              "偿还银行借款(元)": [
+                "-14.93亿",
+                "-3亿",
+                "-16.6亿",
+                "-"
+              ],
+              "已付利息(元)": [
+                "-207.9万",
+                "-",
+                "-1013万",
+                "-"
+              ],
+              "派付股息(元)": [
+                "-13.26亿",
+                "-",
+                "-13.41亿",
+                "-12.74亿"
+              ],
+              "吸收投资收到的现金(元)": [
+                "-",
+                "-",
+                "-",
+                "103.5亿"
+              ],
+              "发行股份(元)": [
+                "-",
+                "-",
+                "107.7亿",
+                "-"
+              ],
+              "回购A股员工持股计划股份的付款(元)": [
+                "-2.428亿",
+                "-",
+                "-9.782亿",
+                "-"
+              ],
+              "偿还租赁负债(元)": [
+                "-1677万",
+                "-",
+                "-4380万",
+                "-"
+              ],
+              "就若干子公司额外权益支付的款项(元)": [
+                "-",
+                "-",
+                "-4.509亿",
+                "-"
+              ],
+              "支付其他与筹资活动有关的现金(元)": [
+                "-",
+                "-1.853亿",
+                "-",
+                "-14.15亿"
+              ],
+              "融资活动(所用)╱所得现金流量净额(元)": [
+                "-15.9亿",
+                "-1.857亿",
+                "77.82亿",
+                "80.91亿"
+              ],
+              "汇率影响(元)": [
+                "-",
+                "-3.497亿",
+                "-",
+                "-1.466亿"
+              ],
+              "现金及现金等价物(减少)╱增加净额(元)": [
+                "-14.27亿",
+                "-4.727亿",
+                "162.8亿",
+                "155.3亿"
+              ],
+              "期初现金及现金等价物(元)": [
+                "401.6亿",
+                "401.6亿",
+                "242.4亿",
+                "242.4亿"
+              ],
+              "汇率变动的净影响(元)": [
+                "-6.966亿",
+                "-",
+                "-3.601亿",
+                "-"
+              ],
+              "期末现金及现金等价物(元)": [
+                "380.3亿",
+                "396.8亿",
+                "401.6亿",
+                "397.7亿"
+              ],
+              "原始币种": [
+                "人民币",
+                "人民币",
+                "人民币",
+                "人民币"
+              ],
+              "区间起始日": [
+                "2026-01-01",
+                "2026-01-01",
+                "2025-01-01",
+                "2025-01-01"
+              ],
+              "区间截止日": [
+                "2026-06-30",
+                "2026-03-31",
+                "2025-12-31",
+                "2025-09-30"
+              ],
+              "公告日期": [
+                "2026-08-19",
+                "2026-04-22",
+                "2026-03-26",
+                "2025-10-27"
+              ],
+              "会计准则": [
+                "国际会计准则",
+                "大陆会计准则",
+                "国际会计准则",
+                "大陆会计准则"
+              ],
+              "审计意见": [
+                "-",
+                "-",
+                "标准无意见",
+                "-"
+              ],
+              "核数师": [
+                "安永会计师事务所",
+                "安永会计师事务所",
+                "安永会计师事务所",
+                "安永会计师事务所"
+              ]
+            },
+            "rawTable": {
+              "headName": [
+                "2026-06-30",
+                "2026-03-31",
+                "2025-12-31",
+                "2025-09-30"
+              ],
+              "报告期": [
+                "中报",
+                "一季报",
+                "年报",
+                "三季报"
+              ],
+              "报表类型": [
+                "合并报表(调整)",
+                "合并报表(调整)",
+                "合并报表(调整)",
+                "合并报表(调整)"
+              ],
+              "报表年结日": [
+                "12-31",
+                "12-31",
+                "12-31",
+                "12-31"
+              ],
+              "上市前/上市后": [
+                "上市后",
+                "上市后",
+                "上市后",
+                "上市后"
+              ],
+              "公司类型": [
+                "通用",
+                "通用",
+                "通用",
+                "通用"
+              ],
+              "税前利润(元)": [
+                "4952417000",
+                "-",
+                "8707625000",
+                "-"
+              ],
+              "财务成本(元)": [
+                "2999000",
+                "-",
+                "14349000",
+                "-"
+              ],
+              "减:投资收益(元)": [
+                "-858901000",
+                "-",
+                "-213236000",
+                "-"
+              ],
+              "应占联营公司亏损(元)": [
+                "72123000",
+                "-",
+                "97143000",
+                "-"
+              ],
+              "加:减值及拨备(元)": [
+                "16610000",
+                "-",
+                "110796000",
+                "-"
+              ],
+              "出售物业、厂房及设备的收益(元)": [
+                "-35125000",
+                "-",
+                "-1076000",
+                "-"
+              ],
+              "加:折旧及摊销(元)": [
+                "535514000",
+                "-",
+                "942470000",
+                "-"
+              ],
+              "汇兑亏损╱(收益)净额(元)": [
+                "675153000",
+                "-",
+                "375861000",
+                "-"
+              ],
+              "以权益结算的股份支付费用(元)": [
+                "170681000",
+                "-",
+                "53331000",
+                "-"
+              ],
+              "营运资金变动前经营溢利(元)": [
+                "5531471000",
+                "-",
+                "10087263000",
+                "-"
+              ],
+              "存货增加(元)": [
+                "-133893000",
+                "-",
+                "-479237000",
+                "-"
+              ],
+              "贸易应收款项及应收票据增加(元)": [
+                "-1032842000",
+                "-",
+                "-1055481000",
+                "-"
+              ],
+              "贸易及其他应付款项(减少)╱增加(元)": [
+                "-353634000",
+                "-",
+                "774167000",
+                "-"
+              ],
+              "营运资本变动其他项目(元)": [
+                "-1323687000",
+                "-",
+                "2917320000",
+                "-"
+              ],
+              "预付款项、其他应收款项及其他资产增加(元)": [
+                "-51667000",
+                "-",
+                "-61748000",
+                "-"
+              ],
+              "递延收入增加╱(减少)(元)": [
+                "63125000",
+                "-",
+                "150775000",
+                "-"
+              ],
+              "存款(增加)减少(元)": [
+                "-",
+                "-",
+                "-165870000",
+                "-"
+              ],
+              "经营产生的现金(元)": [
+                "2698873000",
+                "-",
+                "12167209000",
+                "-"
+              ],
+              "已付所得税(元)": [
+                "-711869000",
+                "-698501493.04",
+                "-931831000",
+                "-1839015825.49"
+              ],
+              "经营业务其他项目(元)": [
+                "-",
+                "1484947393.75",
+                "-",
+                "10949446115.76"
+              ],
+              "经营活动所得现金流量净额(元)": [
+                "1987004000",
+                "786445900.71",
+                "11235378000",
+                "9110430290.27"
+              ],
+              "收到按公允价值计量且其变动计入当期损益的金融资产的股息(元)": [
+                "15678000",
+                "-",
+                "36629000",
+                "-"
+              ],
+              "出售物业、厂房及设备项目所得款项(元)": [
+                "52529000",
+                "10854350.55",
+                "18912000",
+                "7147978.59"
+              ],
+              "购买物业、厂房及设备项目(元)": [
+                "-394443000",
+                "-704818964.87",
+                "-1027403000",
+                "-1714462484.69"
+              ],
+              "购建无形资产及其他资产(元)": [
+                "-1183063000",
+                "-",
+                "-1934505000",
+                "-"
+              ],
+              "于联营公司的投资(元)": [
+                "-315300000",
+                "-",
+                "-",
+                "-"
+              ],
+              "取得投资收益收到的现金(元)": [
+                "-",
+                "518588.51",
+                "165865000",
+                "181047582.88"
+              ],
+              "投资支付的现金(元)": [
+                "-",
+                "-30300000",
+                "-",
+                "-"
+              ],
+              "投资活动所用现金流量净额(元)": [
+                "-1824599000",
+                "-723746025.81",
+                "-2740502000",
+                "-1526266923.22"
+              ],
+              "融资前现金净额(元)": [
+                "162405000",
+                "62699874.9",
+                "8494876000",
+                "7584163367.05"
+              ],
+              "新借银行借款(元)": [
+                "1491095000",
+                "299534222.25",
+                "1495573000",
+                "428335302.78"
+              ],
+              "偿还银行借款(元)": [
+                "-1493175000",
+                "-300000000",
+                "-1659992000",
+                "-"
+              ],
+              "已付利息(元)": [
+                "-2079000",
+                "-",
+                "-10125000",
+                "-"
+              ],
+              "派付股息(元)": [
+                "-1326061000",
+                "-",
+                "-1341025000",
+                "-1274130192.8"
+              ],
+              "吸收投资收到的现金(元)": [
+                "-",
+                "-",
+                "-",
+                "10351937892.28"
+              ],
+              "发行股份(元)": [
+                "-",
+                "-",
+                "10770106000",
+                "-"
+              ],
+              "回购A股员工持股计划股份的付款(元)": [
+                "-242798000",
+                "-",
+                "-978152000",
+                "-"
+              ],
+              "偿还租赁负债(元)": [
+                "-16769000",
+                "-",
+                "-43802000",
+                "-"
+              ],
+              "就若干子公司额外权益支付的款项(元)": [
+                "-",
+                "-",
+                "-450876000",
+                "-"
+              ],
+              "支付其他与筹资活动有关的现金(元)": [
+                "-",
+                "-185251178.59",
+                "-",
+                "-1415122611.08"
+              ],
+              "融资活动(所用)╱所得现金流量净额(元)": [
+                "-1589787000",
+                "-185716956.34",
+                "7781707000",
+                "8091020391.18"
+              ],
+              "汇率影响(元)": [
+                "-",
+                "-349701516.56",
+                "-",
+                "-146577748.58"
+              ],
+              "现金及现金等价物(减少)╱增加净额(元)": [
+                "-1427382000",
+                "-472718598",
+                "16276583000",
+                "15528606009.65"
+              ],
+              "期初现金及现金等价物(元)": [
+                "40155553000",
+                "40155552697.41",
+                "24239102000",
+                "24239102117.66"
+              ],
+              "汇率变动的净影响(元)": [
+                "-696647000",
+                "-",
+                "-360132000",
+                "-"
+              ],
+              "期末现金及现金等价物(元)": [
+                "38031524000",
+                "39682834099.41",
+                "40155553000",
+                "39767708127.31"
+              ],
+              "原始币种": [
+                "人民币",
+                "人民币",
+                "人民币",
+                "人民币"
+              ],
+              "区间起始日": [
+                "2026-01-01",
+                "2026-01-01",
+                "2025-01-01",
+                "2025-01-01"
+              ],
+              "区间截止日": [
+                "2026-06-30",
+                "2026-03-31",
+                "2025-12-31",
+                "2025-09-30"
+              ],
+              "公告日期": [
+                "2026-08-19",
+                "2026-04-22",
+                "2026-03-26",
+                "2025-10-27"
+              ],
+              "会计准则": [
+                "国际会计准则",
+                "大陆会计准则",
+                "国际会计准则",
+                "大陆会计准则"
+              ],
+              "审计意见": [
+                "-",
+                "-",
+                "标准无意见",
+                "-"
+              ],
+              "核数师": [
+                "安永会计师事务所",
+                "安永会计师事务所",
+                "安永会计师事务所",
+                "安永会计师事务所"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "headName": "headName",
+              "报告期": "报告期",
+              "报表类型": "报表类型",
+              "报表年结日": "报表年结日",
+              "上市前/上市后": "上市前/上市后",
+              "公司类型": "公司类型",
+              "税前利润(元)": "税前利润(元)",
+              "财务成本(元)": "财务成本(元)",
+              "减:投资收益(元)": "减:投资收益(元)",
+              "应占联营公司亏损(元)": "应占联营公司亏损(元)",
+              "加:减值及拨备(元)": "加:减值及拨备(元)",
+              "出售物业、厂房及设备的收益(元)": "出售物业、厂房及设备的收益(元)",
+              "加:折旧及摊销(元)": "加:折旧及摊销(元)",
+              "汇兑亏损╱(收益)净额(元)": "汇兑亏损╱(收益)净额(元)",
+              "以权益结算的股份支付费用(元)": "以权益结算的股份支付费用(元)",
+              "营运资金变动前经营溢利(元)": "营运资金变动前经营溢利(元)",
+              "存货增加(元)": "存货增加(元)",
+              "贸易应收款项及应收票据增加(元)": "贸易应收款项及应收票据增加(元)",
+              "贸易及其他应付款项(减少)╱增加(元)": "贸易及其他应付款项(减少)╱增加(元)",
+              "营运资本变动其他项目(元)": "营运资本变动其他项目(元)",
+              "预付款项、其他应收款项及其他资产增加(元)": "预付款项、其他应收款项及其他资产增加(元)",
+              "递延收入增加╱(减少)(元)": "递延收入增加╱(减少)(元)",
+              "存款(增加)减少(元)": "存款(增加)减少(元)",
+              "经营产生的现金(元)": "经营产生的现金(元)",
+              "已付所得税(元)": "已付所得税(元)",
+              "经营业务其他项目(元)": "经营业务其他项目(元)",
+              "经营活动所得现金流量净额(元)": "经营活动所得现金流量净额(元)",
+              "收到按公允价值计量且其变动计入当期损益的金融资产的股息(元)": "收到按公允价值计量且其变动计入当期损益的金融资产的股息(元)",
+              "出售物业、厂房及设备项目所得款项(元)": "出售物业、厂房及设备项目所得款项(元)",
+              "购买物业、厂房及设备项目(元)": "购买物业、厂房及设备项目(元)",
+              "购建无形资产及其他资产(元)": "购建无形资产及其他资产(元)",
+              "于联营公司的投资(元)": "于联营公司的投资(元)",
+              "取得投资收益收到的现金(元)": "取得投资收益收到的现金(元)",
+              "投资支付的现金(元)": "投资支付的现金(元)",
+              "投资活动所用现金流量净额(元)": "投资活动所用现金流量净额(元)",
+              "融资前现金净额(元)": "融资前现金净额(元)",
+              "新借银行借款(元)": "新借银行借款(元)",
+              "偿还银行借款(元)": "偿还银行借款(元)",
+              "已付利息(元)": "已付利息(元)",
+              "派付股息(元)": "派付股息(元)",
+              "吸收投资收到的现金(元)": "吸收投资收到的现金(元)",
+              "发行股份(元)": "发行股份(元)",
+              "回购A股员工持股计划股份的付款(元)": "回购A股员工持股计划股份的付款(元)",
+              "偿还租赁负债(元)": "偿还租赁负债(元)",
+              "就若干子公司额外权益支付的款项(元)": "就若干子公司额外权益支付的款项(元)",
+              "支付其他与筹资活动有关的现金(元)": "支付其他与筹资活动有关的现金(元)",
+              "融资活动(所用)╱所得现金流量净额(元)": "融资活动(所用)╱所得现金流量净额(元)",
+              "汇率影响(元)": "汇率影响(元)",
+              "现金及现金等价物(减少)╱增加净额(元)": "现金及现金等价物(减少)╱增加净额(元)",
+              "期初现金及现金等价物(元)": "期初现金及现金等价物(元)",
+              "汇率变动的净影响(元)": "汇率变动的净影响(元)",
+              "期末现金及现金等价物(元)": "期末现金及现金等价物(元)",
+              "原始币种": "原始币种",
+              "区间起始日": "区间起始日",
+              "区间截止日": "区间截止日",
+              "公告日期": "公告日期",
+              "会计准则": "会计准则",
+              "审计意见": "审计意见",
+              "核数师": "核数师"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "RPT_CUSTOM_HKF9_ORIGFN_ITEM",
+              "returnName": "利润表",
+              "classCode": "007202",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-08-24 00:00:00",
+              "endDate": "2026-08-24 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "isGroup": false,
+              "returnSourceCode": "STD_ITEM_CODE,ORIG_ITEM_NAME,TYPE",
+              "returnSourceName": "标准科目编码,原始科目名称,字段类型",
+              "tableType": "10",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "RPT_CUSTOM_HKF9_ORIGFN_ITEM",
+                "returnName": "利润表",
+                "classCode": "007202",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-08-24 00:00:00",
+                "endDate": "2026-08-24 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "isGroup": false,
+                "returnSourceCode": "STD_ITEM_CODE,ORIG_ITEM_NAME,TYPE",
+                "returnSourceName": "标准科目编码,原始科目名称,字段类型",
+                "tableType": "10",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "F10_TABLE",
+            "inputTitle": "恒瑞医药(01276.HK)现金流量表[合并报表(调整)](2025-8-24~2026-08-24)",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "报告期",
+              "报表类型",
+              "报表年结日",
+              "上市前/上市后",
+              "公司类型",
+              "税前利润(元)",
+              "财务成本(元)",
+              "减:投资收益(元)",
+              "应占联营公司亏损(元)",
+              "加:减值及拨备(元)",
+              "出售物业、厂房及设备的收益(元)",
+              "加:折旧及摊销(元)",
+              "汇兑亏损╱(收益)净额(元)",
+              "以权益结算的股份支付费用(元)",
+              "营运资金变动前经营溢利(元)",
+              "存货增加(元)",
+              "贸易应收款项及应收票据增加(元)",
+              "贸易及其他应付款项(减少)╱增加(元)",
+              "营运资本变动其他项目(元)",
+              "预付款项、其他应收款项及其他资产增加(元)",
+              "递延收入增加╱(减少)(元)",
+              "存款(增加)减少(元)",
+              "经营产生的现金(元)",
+              "已付所得税(元)",
+              "经营业务其他项目(元)",
+              "经营活动所得现金流量净额(元)",
+              "收到按公允价值计量且其变动计入当期损益的金融资产的股息(元)",
+              "出售物业、厂房及设备项目所得款项(元)",
+              "购买物业、厂房及设备项目(元)",
+              "购建无形资产及其他资产(元)",
+              "于联营公司的投资(元)",
+              "取得投资收益收到的现金(元)",
+              "投资支付的现金(元)",
+              "投资活动所用现金流量净额(元)",
+              "融资前现金净额(元)",
+              "新借银行借款(元)",
+              "偿还银行借款(元)",
+              "已付利息(元)",
+              "派付股息(元)",
+              "吸收投资收到的现金(元)",
+              "发行股份(元)",
+              "回购A股员工持股计划股份的付款(元)",
+              "偿还租赁负债(元)",
+              "就若干子公司额外权益支付的款项(元)",
+              "支付其他与筹资活动有关的现金(元)",
+              "融资活动(所用)╱所得现金流量净额(元)",
+              "汇率影响(元)",
+              "现金及现金等价物(减少)╱增加净额(元)",
+              "期初现金及现金等价物(元)",
+              "汇率变动的净影响(元)",
+              "期末现金及现金等价物(元)",
+              "原始币种",
+              "区间起始日",
+              "区间截止日",
+              "公告日期",
+              "会计准则",
+              "审计意见",
+              "核数师"
+            ],
+            "tipFlags": [],
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "https://choicewh2.eastmoney.com/stock/hk/f9/index.html#/profitTable_Original?securitycode=01276.HK",
+                "typeName": "F9深度资料",
+                "securityName": "恒瑞医药"
+              }
+            ],
+            "dataTypeEnum": "F9",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1004084404",
+              "entityType": "SEC",
+              "entityTypeCode": "058001003001",
+              "entityTypeName": "H股",
+              "classCode": "002003",
+              "className": "港股",
+              "publishCode": "",
+              "fullName": "恒瑞医药",
+              "shortName": "",
+              "secuCode": "01276",
+              "market": "116",
+              "marketChar": ".HK",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": true
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1004084404",
+                "entityType": "SEC",
+                "entityTypeCode": "058001003001",
+                "entityTypeName": "H股",
+                "classCode": "002003",
+                "className": "港股",
+                "publishCode": "",
+                "fullName": "恒瑞医药",
+                "shortName": "",
+                "secuCode": "01276",
+                "market": "116",
+                "marketChar": ".HK",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": true
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {},
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "恒瑞医药",
+            "frontendEntityCode": "01276.HK",
+            "frontendTitle": "现金流量表[合并报表(调整)](2025-8-24~2026-08-24)",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "恒瑞医药",
+            "净利润归属于母公司股东的净利润市净率市净率PB净资产收益率(平均)(%)营业收入市盈率PE(TTM)利润表",
+            "2026-08-24至2026-08-24"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1004084404",
+            "entityType": "SEC",
+            "entityTypeCode": "058001003001",
+            "entityTypeName": "H股",
+            "classCode": "002003",
+            "className": "港股",
+            "publishCode": "",
+            "fullName": "恒瑞医药",
+            "shortName": "",
+            "secuCode": "01276",
+            "market": "116",
+            "marketChar": ".HK",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": true
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "5c8f71b1ebbe48c1ae0cafec00be5a5e"
+}

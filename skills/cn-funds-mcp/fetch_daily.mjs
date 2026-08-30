@@ -6,8 +6,8 @@ import {
   getNorthboundCapital, getSectorCapitalFlow, getStockQuote
 } from './src/api.js';
 
-const FUND_CODES = ['012733', '460300', '161005', '000216', '001938', '519778'];
-const HOLDING_CODES = ['012733', '460300', '161005', '000216'];
+const FUND_CODES = ['460300', '161005', '001938', '519778'];
+const HOLDING_CODES = ['460300', '161005'];
 
 async function main() {
   const results = {};
