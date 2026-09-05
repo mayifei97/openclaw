@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 查询中国巨石600176的PE PB ROE MA5 MA20 MA60
+数据文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_查询中国巨石600176的PE_PB_ROE_MA5_MA20_MA60.xlsx
+描述文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_查询中国巨石600176的PE_PB_ROE_MA5_MA20_MA60_description.txt
+数据行数: 19
+表数量: 4
+Sheet 列表: 中国巨石(600176.SH)当前的市净率、市盈率PE(TTM), 中国巨石(600176.SH)的市净率PB、市盈率PE(TTM), 中国巨石(600176.SH)的净资产收益率ROE(加权), 中国巨石(600176.SH)的5日MA简单移动平均、10日MA简单移动平均等

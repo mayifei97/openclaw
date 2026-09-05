@@ -144,14 +144,18 @@
 - API Token：`271dd0479fd4c5446f39fd09704751721b224aa3cc4d233d5e936f6ccc82bdce`
 - API：POST `/api/create_doc/?token=xxx` → JSON `{"pid":1,"title":"标题","doc":"HTML","editor_mode":1}`
 - ⚠️ **文章URL格式**：`/doc/ID/`（不是 `/article/ID`，后者404）
+- ⚠️ **上传后必须设置status=1**：API创建的文档默认status=0（草稿），需通过Django shell修改：`docker exec mrdoc python3 manage.py shell -c "from app_doc.models import Doc; doc=Doc.objects.get(id=DOC_ID); doc.status=1; doc.save()"`
 - 文集：基金投资(ID:1)、雯雯基金分析(ID:3)
 - 用户偏好：不用飞书文档，全部上传MrDoc
 
 ### 日报制作经验
-- 七章节：投资盯盘表现→行业发展分析→时事分析→操作建议→基金/股票调研→市场全景→总结
-- HTML模板：简化版，禁gradient/flex/box-shadow/复杂CSS
-- 上传规则：投资日报→基金投资文集 | 旅游攻略→新建文集 | 按内容分类，不要全塞一个文集
-- ⚠️ **数据源优先级(2026-06-25修正)**：确认净值涨跌(JZZZL) > 估值(gszzl)；黄金ETF估值接口严重不准（曾显示+0.58%实际-2.18%），必须用确认净值！
+- **八章节结构(2026-09-02更新)**：①市场全景（含北向资金+大盘资金流向）→②持仓与收益跟踪（基金+个股+仓位分布）→③操作纪律信号板（量化MA60/PE/MA100+信号灯）→④个股深度分析（基本面+技术面+资金面+行业逻辑）→⑤行业板块扫描（涨幅/跌幅前5+资金流向）→⑥操作建议与行动计划（具体触发条件+价格区间）→⑦风险预警（集中度+浮亏+解禁）→⑧明日关注清单
+- HTML要求：纯内联style，inline-block替代flex，涨红跌绿，深色渐变标题栏，操作建议用绿/黄/红三色区块
+- **核心原则**：报告要有决策价值，不写废话。操作建议必须量化（'若XX跌破YY且PE<ZZ%，加仓500元'），禁止'继续持有''需观察'等模糊描述
+- 上传方式：docker cp + Django shell（editor_mode=3），API上传HTML模式报系统异常
+- MrDoc需安装bleach[css]并配置CSSSanitizer，否则sanitize_html会清空所有style属性
+- 上传规则：投资日报→基金投资文集(pid=1) | 旅游攻略→新建文集 | 按内容分类，不要全塞一个文集
+- ⚠️ **数据源优先级(2026-06-25修正)**：确认净值涨跌(JZZZL) > 估值(gszzl)；黄金ETF估值接口严重不准，必须用确认净值！
 - ⚠️ **估值接口偏差记录**：gszzl是盘中估算，收盘后应以东方财富确认净值为准；黄金/QDII类基金估值偏差最大
 
 ### 定时任务通知规则(2026-03-25修订)

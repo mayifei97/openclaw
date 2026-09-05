@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 查询永鼎股份600105市盈率市净率
+数据文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_查询永鼎股份600105市盈率市净率.xlsx
+描述文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_查询永鼎股份600105市盈率市净率_description.txt
+数据行数: 7
+表数量: 2
+Sheet 列表: 永鼎股份(600105.SH)当前的市净率、市盈率PE(TTM), 永鼎股份(600105.SH)的市净率PB、市盈率PE(TTM)

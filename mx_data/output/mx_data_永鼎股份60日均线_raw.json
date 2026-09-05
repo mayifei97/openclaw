@@ -1,0 +1,210 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "8723ef52-416f-46b1-81ef-7f6faabd58c1",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "506f7460-b5d7-4ef0-a349-c1c36bcaf0a3",
+        "dataTableDTOList": [
+          {
+            "code": "600105.SH",
+            "entityName": "永鼎股份(600105.SH)",
+            "table": {
+              "010000_JX_60RMAJDYDPJ_C_101": [
+                "45.61元"
+              ],
+              "headName": [
+                "2026-09-02"
+              ]
+            },
+            "rawTable": {
+              "010000_JX_60RMAJDYDPJ_C_101": [
+                "45.61"
+              ],
+              "headName": [
+                "2026-09-02"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "010000_JX_60RMAJDYDPJ_C_101": "60日MA简单移动平均",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "010000_JX_60RMAJDYDPJ_C_101",
+              "returnName": "60日MA简单移动平均",
+              "classCode": "007001",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "nDays=60",
+              "apiCode": "101",
+              "isGroup": false,
+              "returnSourceCode": "010000_JX",
+              "returnSourceName": "60日MA简单移动平均",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "2",
+              "unitName": "元",
+              "unitDesc": "101:元:元",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "010000_JX_60RMAJDYDPJ_C_101",
+                "returnName": "60日MA简单移动平均",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "nDays=60",
+                "apiCode": "101",
+                "isGroup": false,
+                "returnSourceCode": "010000_JX",
+                "returnSourceName": "60日MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "unitName": "元",
+                "unitDesc": "101:元:元",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "010000_JX_60RMAJDYDPJ_C_101"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "永鼎股份(600105.SH)当前的60日MA简单移动平均",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000002329",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "永鼎股份",
+              "shortName": "",
+              "matchWord": "永鼎股份",
+              "secuCode": "600105",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000002329",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "永鼎股份",
+                "shortName": "",
+                "matchWord": "永鼎股份",
+                "secuCode": "600105",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "永鼎股份",
+            "60日MA简单移动平均",
+            "2026-09-02至2026-09-02"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000002329",
+            "entityType": "SEC",
+            "entityTypeCode": "058001001",
+            "entityTypeName": "A股",
+            "classCode": "002001",
+            "className": "沪深京股票",
+            "publishCode": "",
+            "fullName": "永鼎股份",
+            "shortName": "",
+            "matchWord": "永鼎股份",
+            "secuCode": "600105",
+            "market": "1",
+            "marketChar": ".SH",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "ead6b393d22f427f8c5f8b6e7d34acdf"
+}

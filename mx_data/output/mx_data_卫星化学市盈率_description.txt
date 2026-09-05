@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 卫星化学市盈率
+数据文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_卫星化学市盈率.xlsx
+描述文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_卫星化学市盈率_description.txt
+数据行数: 7
+表数量: 2
+Sheet 列表: 卫星化学(002648.SZ)当前的市盈率PE(TTM), 卫星化学(002648.SZ)的市盈率PE(TTM)

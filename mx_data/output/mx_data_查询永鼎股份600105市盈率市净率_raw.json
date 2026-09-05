@@ -1,0 +1,455 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "17c95771-ebff-4946-b1a3-b5af24a93da1",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "3862f9b9-7148-47be-ab98-aaceb804c486",
+        "dataTableDTOList": [
+          {
+            "code": "600105.SH",
+            "entityName": "永鼎股份(600105.SH)",
+            "hsjDelay": false,
+            "table": {
+              "SJL_f23_3": [
+                "15.49"
+              ],
+              "SYLTTM_f115_3": [
+                "134.7"
+              ],
+              "headName": [
+                "2026-09-02 17:47"
+              ]
+            },
+            "rawTable": {
+              "SJL_f23_3": [
+                "15.49"
+              ],
+              "SYLTTM_f115_3": [
+                "134.69"
+              ],
+              "headName": [
+                "2026-09-02 17:47"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "SJL_f23_3": "市净率",
+              "headNameSub": "数据来源",
+              "SYLTTM_f115_3": "市盈率PE(TTM)"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "SJL_f23_3",
+              "returnName": "市净率",
+              "classCode": "007001",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "defineType": 0,
+              "isLoopN": false,
+              "apiCode": "3",
+              "isGroup": false,
+              "returnSourceCode": "f23",
+              "returnSourceName": "市净率",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "2",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "600105.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "SJL_f23_3",
+                "returnName": "市净率",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f23",
+                "returnSourceName": "市净率",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "SYLTTM_f115_3",
+                "returnName": "市盈率PE(TTM)",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f115",
+                "returnSourceName": "市盈率(TTM)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "SJL_f23_3",
+              "SYLTTM_f115_3"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "永鼎股份(600105.SH)当前的市净率、市盈率PE(TTM)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000002329",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "永鼎股份",
+              "shortName": "",
+              "matchWord": "永鼎股份600105",
+              "secuCode": "600105",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000002329",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "永鼎股份",
+                "shortName": "",
+                "matchWord": "永鼎股份600105",
+                "secuCode": "600105",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02 17:47": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "600105.SH",
+            "entityName": "永鼎股份(600105.SH)",
+            "table": {
+              "328664": [
+                "15.49倍",
+                "15.43倍",
+                "16.18倍",
+                "15.99倍",
+                "16.47倍",
+                "15.72倍"
+              ],
+              "328773": [
+                "134.7倍",
+                "134.1倍",
+                "140.7倍",
+                "139倍",
+                "143.2倍",
+                "136.7倍"
+              ],
+              "headName": [
+                "2026-09-02(日)",
+                "2026-09-01(日)",
+                "2026-08-31(日)",
+                "2026-08-28(日)",
+                "2026-08-27(日)",
+                "2026-08-26(日)"
+              ]
+            },
+            "rawTable": {
+              "328664": [
+                "15.49181169",
+                "15.42753031",
+                "16.18283648",
+                "15.98999236",
+                "16.47210268",
+                "15.72483168"
+              ],
+              "328773": [
+                "134.68503965",
+                "134.12618056",
+                "140.69277482",
+                "139.01619756",
+                "143.2076407",
+                "136.71090383"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "328664": "市净率PB",
+              "headNameSub": "数据来源",
+              "328773": "市盈率PE(TTM)"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "328664",
+              "returnName": "市净率PB",
+              "classCode": "007121",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "Type=8,Period=1",
+              "isGroup": false,
+              "returnSourceCode": "PB",
+              "returnSourceName": "市净率PB",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "20",
+              "unitName": "倍",
+              "unitDesc": "倍",
+              "dcsdField": true
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "600105.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "328664",
+                "returnName": "市净率PB",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "Type=8,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PB",
+                "returnSourceName": "市净率PB",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "倍",
+                "unitDesc": "倍",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "328773",
+                "returnName": "市盈率PE(TTM)",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PETTM",
+                "returnSourceName": "市盈率PE(TTM)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "倍",
+                "unitDesc": "倍",
+                "dcsdField": true
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "328664",
+              "328773"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "永鼎股份(600105.SH)的市净率PB、市盈率PE(TTM)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=600105.SH&indId=100000000042693|121:2026-09-02,100000000034044|121:2026-09-02",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000002329",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "永鼎股份",
+              "shortName": "",
+              "matchWord": "永鼎股份600105",
+              "secuCode": "600105",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000002329",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "永鼎股份",
+                "shortName": "",
+                "matchWord": "永鼎股份600105",
+                "secuCode": "600105",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "永鼎股份",
+            "市净率市净率PB市盈率PE(TTM)",
+            "2026-09-02至2026-09-02"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000002329",
+            "entityType": "SEC",
+            "entityTypeCode": "058001001",
+            "entityTypeName": "A股",
+            "classCode": "002001",
+            "className": "沪深京股票",
+            "publishCode": "",
+            "fullName": "永鼎股份",
+            "shortName": "",
+            "matchWord": "永鼎股份600105",
+            "secuCode": "600105",
+            "market": "1",
+            "marketChar": ".SH",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "477d29ce94ea4f1a900d90102aa5a9aa"
+}

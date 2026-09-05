@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 查询沪深300指数MA60均线值
+数据文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_查询沪深300指数MA60均线值.xlsx
+描述文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_查询沪深300指数MA60均线值_description.txt
+数据行数: 6
+表数量: 1
+Sheet 列表: 沪深300(399300.SZ)(指数)的60日MA简单移动平均

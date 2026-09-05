@@ -1,0 +1,397 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "145d2502-a124-4af7-8ae5-d2642aaedc77",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "320e01f5-e8e4-4084-a8f2-3b76924ea0aa",
+        "dataTableDTOList": [
+          {
+            "code": "399300.SZ",
+            "entityName": "沪深300(399300.SZ)(指数)",
+            "table": {
+              "SYLPEBFWTTM1Y_100000000031554": [
+                "0%"
+              ],
+              "headName": [
+                " "
+              ]
+            },
+            "rawTable": {
+              "SYLPEBFWTTM1Y_100000000031554": [
+                "0.0"
+              ],
+              "headName": [
+                " "
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "SYLPEBFWTTM1Y_100000000031554": "1年市盈率历史百分位",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "SYLPEBFWTTM1Y_100000000031554",
+              "returnName": "1年市盈率历史百分位",
+              "classCode": "007101",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "UNKNOWN",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "DelType=1,STARTDATE=2025-09-02,ENDDATE=2026-09-02",
+              "quantType": "1",
+              "isGroup": false,
+              "returnSourceCode": "SYLPEBFWTTM1Y",
+              "returnSourceName": "1年市盈率PE(TTM)百分位",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "1",
+              "unitName": "%",
+              "unitDesc": "10802:%:%",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "SYLPEBFWTTM1Y_100000000031554",
+                "returnName": "1年市盈率历史百分位",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "UNKNOWN",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "DelType=1,STARTDATE=2025-09-02,ENDDATE=2026-09-02",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "SYLPEBFWTTM1Y",
+                "returnSourceName": "1年市盈率PE(TTM)百分位",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "unitName": "%",
+                "unitDesc": "10802:%:%",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "SYLPEBFWTTM1Y_100000000031554"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "沪深300(399300.SZ)(指数)的1年市盈率历史百分位",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=INDEX&code=399300.SZ&indId=100000000031554|101:2025-09-02|480:1|102:2026-09-02",
+                "typeName": "指数数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000158881",
+              "entityType": "INDEX",
+              "entityTypeCode": "INDEX",
+              "entityTypeName": "INDEX",
+              "classCode": "006010",
+              "className": "中证指数",
+              "publishCode": "",
+              "fullName": "沪深300指数",
+              "shortName": "沪深300",
+              "matchWord": "沪深300指数",
+              "secuCode": "399300",
+              "market": "0",
+              "marketChar": ".SZ",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000158881",
+                "entityType": "INDEX",
+                "entityTypeCode": "INDEX",
+                "entityTypeName": "INDEX",
+                "classCode": "006010",
+                "className": "中证指数",
+                "publishCode": "",
+                "fullName": "沪深300指数",
+                "shortName": "沪深300",
+                "matchWord": "沪深300指数",
+                "secuCode": "399300",
+                "market": "0",
+                "marketChar": ".SZ",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              " ": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          },
+          {
+            "code": "399300.SZ",
+            "entityName": "沪深300(399300.SZ)(指数)",
+            "table": {
+              "3Y_100000000031554": [
+                "65.06%",
+                "66.02%",
+                "65.61%",
+                "65.89%",
+                "73.45%",
+                "72.76%"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "rawTable": {
+              "3Y_100000000031554": [
+                "65.061898211800",
+                "66.024759284700",
+                "65.612104539200",
+                "65.887207702900",
+                "73.452544704300",
+                "72.76478679500"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "3Y_100000000031554": "3年市盈率历史百分位",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "PCTLPETTM_3Y_100000000031554",
+              "returnName": "3年市盈率历史百分位",
+              "classCode": "007101",
+              "checkedRelatedIndicators": false,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "DelType=1,STARTDATE=2023-09-02,ENDDATE=2026-09-02",
+              "quantType": "1",
+              "isGroup": false,
+              "returnSourceCode": "PCTLPETTM",
+              "returnSourceName": "3年市盈率PE(TTM)百分位",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "1",
+              "unitName": "%",
+              "unitDesc": "10802:%:%",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "399300.SZ"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "PCTLPETTM_3Y_100000000031554",
+                "returnName": "3年市盈率历史百分位",
+                "classCode": "007101",
+                "checkedRelatedIndicators": false,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "DelType=1,STARTDATE=2023-09-02,ENDDATE=2026-09-02",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "PCTLPETTM",
+                "returnSourceName": "3年市盈率PE(TTM)百分位",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "unitName": "%",
+                "unitDesc": "10802:%:%",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "3Y_100000000031554"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "沪深300(399300.SZ)(指数)的3年市盈率历史百分位",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=INDEX&code=399300.SZ&indId=100000000031554|101:2023-09-02|121:2026-08-26|480:1|102:2026-09-02,100000000031554|101:2023-09-02|121:2026-08-27|480:1|102:2026-09-02,100000000031554|101:2023-09-02|121:2026-08-28|480:1|102:2026-09-02,100000000031554|101:2023-09-02|121:2026-08-31|480:1|102:2026-09-02,100000000031554|101:2023-09-02|121:2026-09-01|480:1|102:2026-09-02,100000000031554|101:2023-09-02|121:2026-09-02|480:1|102:2026-09-02",
+                "typeName": "指数数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000158881",
+              "entityType": "INDEX",
+              "entityTypeCode": "INDEX",
+              "entityTypeName": "INDEX",
+              "classCode": "006010",
+              "className": "中证指数",
+              "publishCode": "",
+              "fullName": "沪深300指数",
+              "shortName": "沪深300",
+              "matchWord": "沪深300指数",
+              "secuCode": "399300",
+              "market": "0",
+              "marketChar": ".SZ",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000158881",
+                "entityType": "INDEX",
+                "entityTypeCode": "INDEX",
+                "entityTypeName": "INDEX",
+                "classCode": "006010",
+                "className": "中证指数",
+                "publishCode": "",
+                "fullName": "沪深300指数",
+                "shortName": "沪深300",
+                "matchWord": "沪深300指数",
+                "secuCode": "399300",
+                "market": "0",
+                "marketChar": ".SZ",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "沪深300指数",
+            "1年市盈率历史百分位3年市盈率历史百分位",
+            "2026-09-02至2026-09-02"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000158881",
+            "entityType": "INDEX",
+            "entityTypeCode": "INDEX",
+            "entityTypeName": "INDEX",
+            "classCode": "006010",
+            "className": "中证指数",
+            "publishCode": "",
+            "fullName": "沪深300指数",
+            "shortName": "沪深300",
+            "matchWord": "沪深300指数",
+            "secuCode": "399300",
+            "market": "0",
+            "marketChar": ".SZ",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "d01e1ceeaef64e52aad1df7b22831705"
+}

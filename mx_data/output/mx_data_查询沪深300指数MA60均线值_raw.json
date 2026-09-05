@@ -1,0 +1,234 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "250f27f1-eaf6-4c33-9018-22ae36c26be8",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "6c84a887-9f33-4932-81bb-3502d1d80026",
+        "dataTableDTOList": [
+          {
+            "code": "399300.SZ",
+            "entityName": "沪深300(399300.SZ)(指数)",
+            "table": {
+              "MAJDYDPJ60_100000000017455": [
+                "4729",
+                "4733",
+                "4735",
+                "4738",
+                "4743",
+                "4748"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "rawTable": {
+              "MAJDYDPJ60_100000000017455": [
+                "4729.239409999999",
+                "4733.470321666667",
+                "4735.173595",
+                "4738.370823333333",
+                "4743.296973333333",
+                "4748.439175000001"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "MAJDYDPJ60_100000000017455": "60日MA简单移动平均",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "MAJDYDPJ60_100000000017455",
+              "returnName": "60日MA简单移动平均",
+              "classCode": "007101",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "N=60,AdjustFlag=3,period=1",
+              "quantType": "1",
+              "isGroup": false,
+              "returnSourceCode": "MAJDYDPJ60",
+              "returnSourceName": "MA简单移动平均",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "1",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "399300.SZ"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "MAJDYDPJ60_100000000017455",
+                "returnName": "60日MA简单移动平均",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "N=60,AdjustFlag=3,period=1",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "MAJDYDPJ60",
+                "returnSourceName": "MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "MAJDYDPJ60_100000000017455"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "沪深300(399300.SZ)(指数)的60日MA简单移动平均",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=INDEX&code=399300.SZ&indId=100000000017455|500:1|106:3|121:2026-08-26|205:60,100000000017455|500:1|106:3|121:2026-08-27|205:60,100000000017455|500:1|106:3|121:2026-08-28|205:60,100000000017455|500:1|106:3|121:2026-08-31|205:60,100000000017455|500:1|106:3|121:2026-09-01|205:60,100000000017455|500:1|106:3|121:2026-09-02|205:60",
+                "typeName": "指数数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000158881",
+              "entityType": "INDEX",
+              "entityTypeCode": "INDEX",
+              "entityTypeName": "INDEX",
+              "classCode": "006010",
+              "className": "中证指数",
+              "publishCode": "",
+              "fullName": "沪深300指数",
+              "shortName": "沪深300",
+              "matchWord": "沪深300指数",
+              "secuCode": "399300",
+              "market": "0",
+              "marketChar": ".SZ",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000158881",
+                "entityType": "INDEX",
+                "entityTypeCode": "INDEX",
+                "entityTypeName": "INDEX",
+                "classCode": "006010",
+                "className": "中证指数",
+                "publishCode": "",
+                "fullName": "沪深300指数",
+                "shortName": "沪深300",
+                "matchWord": "沪深300指数",
+                "secuCode": "399300",
+                "market": "0",
+                "marketChar": ".SZ",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "沪深300指数",
+            "60日MA简单移动平均",
+            "2026-09-02至2026-09-02"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000158881",
+            "entityType": "INDEX",
+            "entityTypeCode": "INDEX",
+            "entityTypeName": "INDEX",
+            "classCode": "006010",
+            "className": "中证指数",
+            "publishCode": "",
+            "fullName": "沪深300指数",
+            "shortName": "沪深300",
+            "matchWord": "沪深300指数",
+            "secuCode": "399300",
+            "market": "0",
+            "marketChar": ".SZ",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "a3a10b68c7694952a0d5dacb75c9962f"
+}

@@ -1,0 +1,382 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "434db511-3586-461e-82d6-deb5d9fdf8d3",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "49f05f4f-877f-4a0b-92d2-de0495791b60",
+        "dataTableDTOList": [
+          {
+            "code": "002648.SZ",
+            "entityName": "卫星化学(002648.SZ)",
+            "hsjDelay": false,
+            "table": {
+              "SYLTTM_f115_3": [
+                "10.53"
+              ],
+              "headName": [
+                "2026-09-02 17:47"
+              ]
+            },
+            "rawTable": {
+              "SYLTTM_f115_3": [
+                "10.53"
+              ],
+              "headName": [
+                "2026-09-02 17:47"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "SYLTTM_f115_3": "市盈率PE(TTM)",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "SYLTTM_f115_3",
+              "returnName": "市盈率PE(TTM)",
+              "classCode": "007001",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "defineType": 0,
+              "isLoopN": false,
+              "apiCode": "3",
+              "isGroup": false,
+              "returnSourceCode": "f115",
+              "returnSourceName": "市盈率(TTM)",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "2",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "SYLTTM_f115_3",
+                "returnName": "市盈率PE(TTM)",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f115",
+                "returnSourceName": "市盈率(TTM)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "SYLTTM_f115_3"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "卫星化学(002648.SZ)当前的市盈率PE(TTM)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000009284",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "卫星化学",
+              "shortName": "",
+              "matchWord": "卫星化学",
+              "secuCode": "002648",
+              "market": "0",
+              "marketChar": ".SZ",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000009284",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "卫星化学",
+                "shortName": "",
+                "matchWord": "卫星化学",
+                "secuCode": "002648",
+                "market": "0",
+                "marketChar": ".SZ",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02 17:47": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "002648.SZ",
+            "entityName": "卫星化学(002648.SZ)",
+            "table": {
+              "328773": [
+                "10.53倍",
+                "10.96倍",
+                "10.91倍",
+                "10.87倍",
+                "10.49倍",
+                "10.1倍"
+              ],
+              "headName": [
+                "2026-09-02(日)",
+                "2026-09-01(日)",
+                "2026-08-31(日)",
+                "2026-08-28(日)",
+                "2026-08-27(日)",
+                "2026-08-26(日)"
+              ]
+            },
+            "rawTable": {
+              "328773": [
+                "10.53084822",
+                "10.96372776",
+                "10.91009666",
+                "10.87178874",
+                "10.49254029",
+                "10.09796868"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "328773": "市盈率PE(TTM)",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "328773",
+              "returnName": "市盈率PE(TTM)",
+              "classCode": "007121",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "Period=1",
+              "isGroup": false,
+              "returnSourceCode": "PETTM",
+              "returnSourceName": "市盈率PE(TTM)",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "20",
+              "unitName": "倍",
+              "unitDesc": "倍",
+              "dcsdField": true
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "328773",
+                "returnName": "市盈率PE(TTM)",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PETTM",
+                "returnSourceName": "市盈率PE(TTM)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "倍",
+                "unitDesc": "倍",
+                "dcsdField": true
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "328773"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "卫星化学(002648.SZ)的市盈率PE(TTM)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=002648.SZ&indId=100000000034044|121:2026-09-02",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000009284",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "卫星化学",
+              "shortName": "",
+              "matchWord": "卫星化学",
+              "secuCode": "002648",
+              "market": "0",
+              "marketChar": ".SZ",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000009284",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "卫星化学",
+                "shortName": "",
+                "matchWord": "卫星化学",
+                "secuCode": "002648",
+                "market": "0",
+                "marketChar": ".SZ",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "卫星化学",
+            "市盈率PE(TTM)",
+            "2026-09-02至2026-09-02"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000009284",
+            "entityType": "SEC",
+            "entityTypeCode": "058001001",
+            "entityTypeName": "A股",
+            "classCode": "002001",
+            "className": "沪深京股票",
+            "publishCode": "",
+            "fullName": "卫星化学",
+            "shortName": "",
+            "matchWord": "卫星化学",
+            "secuCode": "002648",
+            "market": "0",
+            "marketChar": ".SZ",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "fdd46b68f7f748ffaf33cbb27638b73e"
+}

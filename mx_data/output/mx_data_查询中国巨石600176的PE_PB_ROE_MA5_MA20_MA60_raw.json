@@ -1,0 +1,971 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "af3f5549-cd20-4aec-8adc-ba24576e2596",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "2fda09e7-c312-456d-b323-fed580e9dad4",
+        "dataTableDTOList": [
+          {
+            "code": "600176.SH",
+            "entityName": "中国巨石(600176.SH)",
+            "hsjDelay": false,
+            "table": {
+              "SJL_f23_3": [
+                "5.33"
+              ],
+              "SYLTTM_f115_3": [
+                "38.98"
+              ],
+              "headName": [
+                "2026-09-02 17:47"
+              ]
+            },
+            "rawTable": {
+              "SJL_f23_3": [
+                "5.33"
+              ],
+              "SYLTTM_f115_3": [
+                "38.98"
+              ],
+              "headName": [
+                "2026-09-02 17:47"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "SJL_f23_3": "市净率",
+              "headNameSub": "数据来源",
+              "SYLTTM_f115_3": "市盈率PE(TTM)"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "SJL_f23_3",
+              "returnName": "市净率",
+              "classCode": "007001",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "defineType": 0,
+              "isLoopN": false,
+              "apiCode": "3",
+              "isGroup": false,
+              "returnSourceCode": "f23",
+              "returnSourceName": "市净率",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "2",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "600176.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "SJL_f23_3",
+                "returnName": "市净率",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f23",
+                "returnSourceName": "市净率",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "SYLTTM_f115_3",
+                "returnName": "市盈率PE(TTM)",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "defineType": 0,
+                "isLoopN": false,
+                "apiCode": "3",
+                "isGroup": false,
+                "returnSourceCode": "f115",
+                "returnSourceName": "市盈率(TTM)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "SJL_f23_3",
+              "SYLTTM_f115_3"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "中国巨石(600176.SH)当前的市净率、市盈率PE(TTM)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000008660",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "中国巨石",
+              "shortName": "",
+              "matchWord": "中国巨石600176",
+              "secuCode": "600176",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000008660",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "中国巨石",
+                "shortName": "",
+                "matchWord": "中国巨石600176",
+                "secuCode": "600176",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02 17:47": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "600176.SH",
+            "entityName": "中国巨石(600176.SH)",
+            "table": {
+              "328664": [
+                "5.328倍",
+                "5.194倍",
+                "5.304倍",
+                "5.216倍",
+                "5.148倍",
+                "4.769倍"
+              ],
+              "328773": [
+                "38.98倍",
+                "38倍",
+                "38.81倍",
+                "38.16倍",
+                "37.67倍",
+                "34.89倍"
+              ],
+              "headName": [
+                "2026-09-02(日)",
+                "2026-09-01(日)",
+                "2026-08-31(日)",
+                "2026-08-28(日)",
+                "2026-08-27(日)",
+                "2026-08-26(日)"
+              ]
+            },
+            "rawTable": {
+              "328664": [
+                "5.32825961",
+                "5.19423812",
+                "5.30411159",
+                "5.21597133",
+                "5.14835689",
+                "4.76923305"
+              ],
+              "328773": [
+                "38.9826784",
+                "38.00214876",
+                "38.80600639",
+                "38.16115357",
+                "37.66647194",
+                "34.89272143"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "328664": "市净率PB",
+              "headNameSub": "数据来源",
+              "328773": "市盈率PE(TTM)"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "328664",
+              "returnName": "市净率PB",
+              "classCode": "007121",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "Type=8,Period=1",
+              "isGroup": false,
+              "returnSourceCode": "PB",
+              "returnSourceName": "市净率PB",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "20",
+              "unitName": "倍",
+              "unitDesc": "倍",
+              "dcsdField": true
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "600176.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "328664",
+                "returnName": "市净率PB",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "Type=8,Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PB",
+                "returnSourceName": "市净率PB",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "倍",
+                "unitDesc": "倍",
+                "dcsdField": true
+              },
+              {
+                "returnCode": "328773",
+                "returnName": "市盈率PE(TTM)",
+                "classCode": "007121",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "Period=1",
+                "isGroup": false,
+                "returnSourceCode": "PETTM",
+                "returnSourceName": "市盈率PE(TTM)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "20",
+                "unitName": "倍",
+                "unitDesc": "倍",
+                "dcsdField": true
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "328664",
+              "328773"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "中国巨石(600176.SH)的市净率PB、市盈率PE(TTM)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=600176.SH&indId=100000000042693|121:2026-09-02,100000000034044|121:2026-09-02",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000008660",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "中国巨石",
+              "shortName": "",
+              "matchWord": "中国巨石600176",
+              "secuCode": "600176",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000008660",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "中国巨石",
+                "shortName": "",
+                "matchWord": "中国巨石600176",
+                "secuCode": "600176",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "TDAY"
+          },
+          {
+            "code": "600176.SH",
+            "entityName": "中国巨石(600176.SH)",
+            "table": {
+              "100000000002959": [
+                "9.06%",
+                "4%",
+                "10.62%",
+                "8.32%",
+                "5.49%",
+                "2.4%"
+              ],
+              "headName": [
+                "2026中报",
+                "2026一季报",
+                "2025年报",
+                "2025三季报",
+                "2025中报",
+                "2025一季报"
+              ]
+            },
+            "rawTable": {
+              "100000000002959": [
+                "9.06",
+                "4.0",
+                "10.62",
+                "8.32",
+                "5.49",
+                "2.4"
+              ],
+              "headName": [
+                "2026中报",
+                "2026一季报",
+                "2025年报",
+                "2025三季报",
+                "2025中报",
+                "2025一季报"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "100000000002959": "净资产收益率ROE(加权)",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "100000000002959",
+              "returnName": "净资产收益率ROE(加权)",
+              "classCode": "007101",
+              "checkedRelatedIndicators": true,
+              "startDate": "2025-09-02 00:00:00",
+              "endDate": "2026-06-30 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "QUARTER",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "DataAdjustType=2",
+              "quantType": "1",
+              "isGroup": false,
+              "returnSourceCode": "ROEJQ",
+              "returnSourceName": "净资产收益率ROE(加权)",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "1",
+              "unitName": "%",
+              "unitDesc": "108:%:%",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "600176.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "100000000002959",
+                "returnName": "净资产收益率ROE(加权)",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2025-09-02 00:00:00",
+                "endDate": "2026-06-30 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "QUARTER",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "DataAdjustType=2",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "ROEJQ",
+                "returnSourceName": "净资产收益率ROE(加权)",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "unitName": "%",
+                "unitDesc": "108:%:%",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "100000000002959"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "中国巨石(600176.SH)的净资产收益率ROE(加权)",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=600176.SH&indId=100000000002959|100:2025-03-31|314:2,100000000002959|100:2025-06-30|314:2,100000000002959|100:2025-09-30|314:2,100000000002959|100:2025-12-31|314:2,100000000002959|100:2026-03-31|314:2,100000000002959|100:2026-06-30|314:2",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000008660",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "中国巨石",
+              "shortName": "",
+              "matchWord": "中国巨石600176",
+              "secuCode": "600176",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000008660",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "中国巨石",
+                "shortName": "",
+                "matchWord": "中国巨石600176",
+                "secuCode": "600176",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026中报": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "600176.SH",
+            "entityName": "中国巨石(600176.SH)",
+            "table": {
+              "MAJDYDPJ_100000000017455": [
+                "43.38",
+                "42.46",
+                "41.81",
+                "41",
+                "40.77",
+                "40.52"
+              ],
+              "MAJDYDPJ10_100000000017455": [
+                "41.95",
+                "41.6",
+                "41.79",
+                "42.02",
+                "42.14",
+                "42.07"
+              ],
+              "MAJDYDPJ20_100000000017455": [
+                "42.6",
+                "42.36",
+                "42.02",
+                "41.53",
+                "41.26",
+                "40.96"
+              ],
+              "MAJDYDPJ30_100000000017455": [
+                "40.96",
+                "40.78",
+                "40.78",
+                "40.63",
+                "40.65",
+                "40.82"
+              ],
+              "MAJDYDPJ60_100000000017455": [
+                "48.31",
+                "48.23",
+                "48.11",
+                "47.99",
+                "47.91",
+                "47.83"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "rawTable": {
+              "MAJDYDPJ_100000000017455": [
+                "43.384",
+                "42.458000000000006",
+                "41.812",
+                "41.0",
+                "40.767999999999994",
+                "40.524"
+              ],
+              "MAJDYDPJ10_100000000017455": [
+                "41.95399999999999",
+                "41.596999999999994",
+                "41.786",
+                "42.02499999999999",
+                "42.144000000000005",
+                "42.07000000000001"
+              ],
+              "MAJDYDPJ20_100000000017455": [
+                "42.602999999999994",
+                "42.360499999999995",
+                "42.01899999999999",
+                "41.525499999999994",
+                "41.257499999999986",
+                "40.956999999999994"
+              ],
+              "MAJDYDPJ30_100000000017455": [
+                "40.96033333333333",
+                "40.77933333333333",
+                "40.778666666666666",
+                "40.629",
+                "40.648999999999994",
+                "40.81799999999999"
+              ],
+              "MAJDYDPJ60_100000000017455": [
+                "48.31399999999999",
+                "48.2305",
+                "48.10616666666667",
+                "47.99",
+                "47.909833333333346",
+                "47.83100000000001"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "MAJDYDPJ_100000000017455": "5日MA简单移动平均",
+              "headNameSub": "数据来源",
+              "MAJDYDPJ10_100000000017455": "10日MA简单移动平均",
+              "MAJDYDPJ20_100000000017455": "20日MA简单移动平均",
+              "MAJDYDPJ30_100000000017455": "30日MA简单移动平均",
+              "MAJDYDPJ60_100000000017455": "60日MA简单移动平均"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "MAJDYDPJ_100000000017455",
+              "returnName": "5日MA简单移动平均",
+              "classCode": "007101",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "N=5,AdjustFlag=3,period=1",
+              "quantType": "1",
+              "isGroup": false,
+              "returnSourceCode": "MAJDYDPJ5",
+              "returnSourceName": "MA简单移动平均",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "1",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "600176.SH"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "MAJDYDPJ10_100000000017455",
+                "returnName": "10日MA简单移动平均",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "N=10,AdjustFlag=3,period=1",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "MAJDYDPJ10",
+                "returnSourceName": "MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "MAJDYDPJ60_100000000017455",
+                "returnName": "60日MA简单移动平均",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "N=60,AdjustFlag=3,period=1",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "MAJDYDPJ60",
+                "returnSourceName": "MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "MAJDYDPJ_100000000017455",
+                "returnName": "5日MA简单移动平均",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "N=5,AdjustFlag=3,period=1",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "MAJDYDPJ5",
+                "returnSourceName": "MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "MAJDYDPJ20_100000000017455",
+                "returnName": "20日MA简单移动平均",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "N=20,AdjustFlag=3,period=1",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "MAJDYDPJ20",
+                "returnSourceName": "MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "dcsdField": false
+              },
+              {
+                "returnCode": "MAJDYDPJ30_100000000017455",
+                "returnName": "30日MA简单移动平均",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "N=30,AdjustFlag=3,period=1",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "MAJDYDPJ30",
+                "returnSourceName": "MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "MAJDYDPJ_100000000017455",
+              "MAJDYDPJ10_100000000017455",
+              "MAJDYDPJ20_100000000017455",
+              "MAJDYDPJ30_100000000017455",
+              "MAJDYDPJ60_100000000017455"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "中国巨石(600176.SH)的5日MA简单移动平均、10日MA简单移动平均等",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=600176.SH&indId=100000000017455|500:1|106:3|121:2026-08-26|205:5,100000000017455|500:1|106:3|121:2026-08-27|205:5,100000000017455|500:1|106:3|121:2026-08-28|205:5,100000000017455|500:1|106:3|121:2026-08-31|205:5,100000000017455|500:1|106:3|121:2026-09-01|205:5,100000000017455|500:1|106:3|121:2026-09-02|205:5,100000000017455|500:1|106:3|121:2026-08-26|205:10,100000000017455|500:1|106:3|121:2026-08-27|205:10,100000000017455|500:1|106:3|121:2026-08-28|205:10,100000000017455|500:1|106:3|121:2026-08-31|205:10,100000000017455|500:1|106:3|121:2026-09-01|205:10,100000000017455|500:1|106:3|121:2026-09-02|205:10,100000000017455|500:1|106:3|121:2026-08-26|205:20,100000000017455|500:1|106:3|121:2026-08-27|205:20,100000000017455|500:1|106:3|121:2026-08-28|205:20,100000000017455|500:1|106:3|121:2026-08-31|205:20,100000000017455|500:1|106:3|121:2026-09-01|205:20,100000000017455|500:1|106:3|121:2026-09-02|205:20,100000000017455|500:1|106:3|121:2026-08-26|205:30,100000000017455|500:1|106:3|121:2026-08-27|205:30,100000000017455|500:1|106:3|121:2026-08-28|205:30,100000000017455|500:1|106:3|121:2026-08-31|205:30,100000000017455|500:1|106:3|121:2026-09-01|205:30,100000000017455|500:1|106:3|121:2026-09-02|205:30,100000000017455|500:1|106:3|121:2026-08-26|205:60,100000000017455|500:1|106:3|121:2026-08-27|205:60,100000000017455|500:1|106:3|121:2026-08-28|205:60,100000000017455|500:1|106:3|121:2026-08-31|205:60,100000000017455|500:1|106:3|121:2026-09-01|205:60,100000000017455|500:1|106:3|121:2026-09-02|205:60",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000008660",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "中国巨石",
+              "shortName": "",
+              "matchWord": "中国巨石600176",
+              "secuCode": "600176",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000008660",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "中国巨石",
+                "shortName": "",
+                "matchWord": "中国巨石600176",
+                "secuCode": "600176",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "中国巨石",
+            "60日MA简单移动平均市净率市净率PB净资产收益率ROE(加权)市盈率PE(TTM)5日MA简单移动平均10日MA简单移动平均20日MA简单移动平均30日MA简单移动平均",
+            "2026-09-02至2026-09-02"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000008660",
+            "entityType": "SEC",
+            "entityTypeCode": "058001001",
+            "entityTypeName": "A股",
+            "classCode": "002001",
+            "className": "沪深京股票",
+            "publishCode": "",
+            "fullName": "中国巨石",
+            "shortName": "",
+            "matchWord": "中国巨石600176",
+            "secuCode": "600176",
+            "market": "1",
+            "marketChar": ".SH",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "d52857f7737348e3aaa547d17c26c542"
+}

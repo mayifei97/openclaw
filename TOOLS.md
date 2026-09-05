@@ -37,17 +37,22 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
-### 🖼️ 图片识别
-- 当前模型(newapi/glm-5.1)不支持图片
-- 图片识别用 **newapi/kimi-k2.6**（支持多模态），通过子agent调用
-- 其他支持图片的模型：bailian/qwen3.5-plus、bailian/kimi-k2.5、codex/gpt-5.5等
+### 🤖 可用模型（2026-09-02 更新）
 
-### 🤖 可用模型
-| Provider | 模型 | 图片 | 状态 |
-|----------|------|------|------|
-| astroncodingplan | astron-code-latest | ❌ | 默认模型 |
-| astroncodingplan | xopglm51 | ❌ | claude settings.json使用 |
-| astroncodingplan | xopkimik26 | ✅ | 图片识别主力 |
+| Provider | 模型 | 推理 | 图片 | 上下文 | 备注 |
+|----------|------|------|------|--------|------|
+| bailian-token-plan | qwen3.8-max | ✅ | ✅ | 983K | **默认主模型** |
+| bailian-token-plan | qwen3.7-plus | ❌ | ✅ | 1M | |
+| bailian-token-plan | glm-5.2 | ❌ | ❌ | 1M | |
+| transfer-station | qwen3.7-plus | ❌ | ✅ | 1M | |
+| relay | deepseek-v4-flash | ✅ | ❌ | 1M | |
+| relay | deepseek-v4-pro | ✅ | ❌ | 1M | |
+| relay | GLM-5_SLB | ✅ | ❌ | 200K | |
+
+### 🖼️ 图片识别
+- **bailian-token-plan/qwen3.8-max** 和 **qwen3.7-plus** 均支持图片
+- transfer-station/qwen3.7-plus 也支持图片
+- 当前会话模型 transfer-station/qwen3.7-plus 可直接识别图片
 
 ### 🖥️ SSH
 

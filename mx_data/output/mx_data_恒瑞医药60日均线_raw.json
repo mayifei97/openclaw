@@ -1,0 +1,409 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "e634dcd3-2621-4f9e-872a-5ddf34d17f7b",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "32527bad-8899-41a5-bfc3-666f0fb85764",
+        "dataTableDTOList": [
+          {
+            "code": "600276.SH",
+            "entityName": "恒瑞医药(600276.SH)",
+            "table": {
+              "010000_JX_60RMAJDYDPJ_C_101": [
+                "51.84元"
+              ],
+              "headName": [
+                "2026-09-02"
+              ]
+            },
+            "rawTable": {
+              "010000_JX_60RMAJDYDPJ_C_101": [
+                "51.84"
+              ],
+              "headName": [
+                "2026-09-02"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "010000_JX_60RMAJDYDPJ_C_101": "60日MA简单移动平均",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "010000_JX_60RMAJDYDPJ_C_101",
+              "returnName": "60日MA简单移动平均",
+              "classCode": "007001",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "nDays=60",
+              "apiCode": "101",
+              "isGroup": false,
+              "returnSourceCode": "010000_JX",
+              "returnSourceName": "60日MA简单移动平均",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "2",
+              "unitName": "元",
+              "unitDesc": "101:元:元",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "010000_JX_60RMAJDYDPJ_C_101",
+                "returnName": "60日MA简单移动平均",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "nDays=60",
+                "apiCode": "101",
+                "isGroup": false,
+                "returnSourceCode": "010000_JX",
+                "returnSourceName": "60日MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "unitName": "元",
+                "unitDesc": "101:元:元",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "010000_JX_60RMAJDYDPJ_C_101"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "恒瑞医药(600276.SH)当前的60日MA简单移动平均",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000001934",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "恒瑞医药",
+              "shortName": "",
+              "matchWord": "恒瑞医药",
+              "secuCode": "600276",
+              "market": "1",
+              "marketChar": ".SH",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000001934",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "恒瑞医药",
+                "shortName": "",
+                "matchWord": "恒瑞医药",
+                "secuCode": "600276",
+                "market": "1",
+                "marketChar": ".SH",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          },
+          {
+            "code": "01276.HK",
+            "entityName": "恒瑞医药(01276.HK)",
+            "table": {
+              "MAJDYDPJ60_100000000045713": [
+                "55.07",
+                "55.19",
+                "55.32",
+                "55.44",
+                "55.56",
+                "55.72"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "rawTable": {
+              "MAJDYDPJ60_100000000045713": [
+                "55.071166666666656",
+                "55.18699999999999",
+                "55.32333333333333",
+                "55.444833333333335",
+                "55.5575",
+                "55.724"
+              ],
+              "headName": [
+                "2026-09-02",
+                "2026-09-01",
+                "2026-08-31",
+                "2026-08-28",
+                "2026-08-27",
+                "2026-08-26"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "MAJDYDPJ60_100000000045713": "60日MA简单移动平均",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "MAJDYDPJ60_100000000045713",
+              "returnName": "60日MA简单移动平均",
+              "classCode": "007101",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "dateGranularity": "DAY",
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "N=60,AdjustFlag=3,period=1",
+              "quantType": "1",
+              "isGroup": false,
+              "returnSourceCode": "MAJDYDPJ60",
+              "returnSourceName": "MA简单移动平均",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "1",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "entityCodes": [
+              "01276.HK"
+            ],
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "MAJDYDPJ60_100000000045713",
+                "returnName": "60日MA简单移动平均",
+                "classCode": "007101",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "dateGranularity": "DAY",
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "N=60,AdjustFlag=3,period=1",
+                "quantType": "1",
+                "isGroup": false,
+                "returnSourceCode": "MAJDYDPJ60",
+                "returnSourceName": "MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "1",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "MAJDYDPJ60_100000000045713"
+            ],
+            "tipFlags": [],
+            "dataType": "数据浏览器",
+            "title": "恒瑞医药(01276.HK)的60日MA简单移动平均",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [
+              {
+                "choiceUrl": "EM://stockdatacenter?type=browser&modType=STOCK&code=01276.HK&indId=100000000045713|500:1|106:3|121:2026-08-26|205:60,100000000045713|500:1|106:3|121:2026-08-27|205:60,100000000045713|500:1|106:3|121:2026-08-28|205:60,100000000045713|500:1|106:3|121:2026-08-31|205:60,100000000045713|500:1|106:3|121:2026-09-01|205:60,100000000045713|500:1|106:3|121:2026-09-02|205:60",
+                "typeName": "股票数据浏览器"
+              }
+            ],
+            "dataTypeEnum": "DATA_BROWSER",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1004084404",
+              "entityType": "SEC",
+              "entityTypeCode": "058001003001",
+              "entityTypeName": "H股",
+              "classCode": "002003",
+              "className": "港股",
+              "publishCode": "",
+              "fullName": "恒瑞医药",
+              "shortName": "",
+              "secuCode": "01276",
+              "market": "116",
+              "marketChar": ".HK",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": true
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1004084404",
+                "entityType": "SEC",
+                "entityTypeCode": "058001003001",
+                "entityTypeName": "H股",
+                "classCode": "002003",
+                "className": "港股",
+                "publishCode": "",
+                "fullName": "恒瑞医药",
+                "shortName": "",
+                "secuCode": "01276",
+                "market": "116",
+                "marketChar": ".HK",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": true
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_1": [
+            "恒瑞医药",
+            "60日MA简单移动平均",
+            "2026-09-02至2026-09-02"
+          ],
+          "search_data_task_0": [
+            "恒瑞医药",
+            "60日MA简单移动平均",
+            "2026-09-02至2026-09-02"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000001934",
+            "entityType": "SEC",
+            "entityTypeCode": "058001001",
+            "entityTypeName": "A股",
+            "classCode": "002001",
+            "className": "沪深京股票",
+            "publishCode": "",
+            "fullName": "恒瑞医药",
+            "shortName": "",
+            "matchWord": "恒瑞医药",
+            "secuCode": "600276",
+            "market": "1",
+            "marketChar": ".SH",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          },
+          {
+            "entityId": "1004084404",
+            "entityType": "SEC",
+            "entityTypeCode": "058001003001",
+            "entityTypeName": "H股",
+            "classCode": "002003",
+            "className": "港股",
+            "publishCode": "",
+            "fullName": "恒瑞医药",
+            "shortName": "",
+            "secuCode": "01276",
+            "market": "116",
+            "marketChar": ".HK",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": true
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "73cfc8ab1c424f07b6ce5809d5406a64"
+}

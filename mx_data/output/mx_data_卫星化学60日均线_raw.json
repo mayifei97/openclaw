@@ -1,0 +1,210 @@
+{
+  "success": true,
+  "status": 0,
+  "code": 0,
+  "message": "ok",
+  "data": {
+    "requestId": null,
+    "message": "OK",
+    "status": 0,
+    "code": 0,
+    "data": {
+      "protocolType": "SEARCH_DATA",
+      "id": "c386b4ec-0adc-49f0-b82f-00b3e725ecc6",
+      "refSeq": null,
+      "keyEntityList": null,
+      "searchDataResultDTO": {
+        "questionId": "2e4a4e5a-4f1f-43b5-9f59-8f25cd35e725",
+        "dataTableDTOList": [
+          {
+            "code": "002648.SZ",
+            "entityName": "卫星化学(002648.SZ)",
+            "table": {
+              "010000_JX_60RMAJDYDPJ_C_101": [
+                "24.9元"
+              ],
+              "headName": [
+                "2026-09-02"
+              ]
+            },
+            "rawTable": {
+              "010000_JX_60RMAJDYDPJ_C_101": [
+                "24.90"
+              ],
+              "headName": [
+                "2026-09-02"
+              ]
+            },
+            "truncateRawTable": {},
+            "nameMap": {
+              "010000_JX_60RMAJDYDPJ_C_101": "60日MA简单移动平均",
+              "headNameSub": "数据来源"
+            },
+            "headNameMap": {},
+            "field": {
+              "returnCode": "010000_JX_60RMAJDYDPJ_C_101",
+              "returnName": "60日MA简单移动平均",
+              "classCode": "007001",
+              "checkedRelatedIndicators": true,
+              "startDate": "2026-09-02 00:00:00",
+              "endDate": "2026-09-02 00:00:00",
+              "fuzzy": true,
+              "defineType": 0,
+              "isLoopN": false,
+              "fixedParamValue": "nDays=60",
+              "apiCode": "101",
+              "isGroup": false,
+              "returnSourceCode": "010000_JX",
+              "returnSourceName": "60日MA简单移动平均",
+              "graph": "2",
+              "unit": "1",
+              "tableType": "2",
+              "unitName": "元",
+              "unitDesc": "101:元:元",
+              "dcsdField": false
+            },
+            "entityName2TagMap": {},
+            "macroAttributeExcelMap": {},
+            "fieldSet": [
+              {
+                "returnCode": "010000_JX_60RMAJDYDPJ_C_101",
+                "returnName": "60日MA简单移动平均",
+                "classCode": "007001",
+                "checkedRelatedIndicators": true,
+                "startDate": "2026-09-02 00:00:00",
+                "endDate": "2026-09-02 00:00:00",
+                "fuzzy": true,
+                "defineType": 0,
+                "isLoopN": false,
+                "fixedParamValue": "nDays=60",
+                "apiCode": "101",
+                "isGroup": false,
+                "returnSourceCode": "010000_JX",
+                "returnSourceName": "60日MA简单移动平均",
+                "graph": "2",
+                "unit": "1",
+                "tableType": "2",
+                "unitName": "元",
+                "unitDesc": "101:元:元",
+                "dcsdField": false
+              }
+            ],
+            "dataTableType": "NORM_TABLE",
+            "rowInfo": {},
+            "colInfo": {},
+            "indicatorOrder": [
+              "010000_JX_60RMAJDYDPJ_C_101"
+            ],
+            "tipFlags": [
+              "0"
+            ],
+            "dataType": "行情数据",
+            "title": "卫星化学(002648.SZ)当前的60日MA简单移动平均",
+            "hasThumbnail": true,
+            "indicatorLimited": false,
+            "dataPositionEnum": "MetricLeftTimeTop",
+            "orderCol": {},
+            "jumpUrlList": [],
+            "dataTypeEnum": "HQ",
+            "dateRuleSet": [],
+            "freqConvert": false,
+            "deleteInfo": [],
+            "macroCodeMap": {},
+            "entityTagDTO": {
+              "entityId": "1000009284",
+              "entityType": "SEC",
+              "entityTypeCode": "058001001",
+              "entityTypeName": "A股",
+              "classCode": "002001",
+              "className": "沪深京股票",
+              "publishCode": "",
+              "fullName": "卫星化学",
+              "shortName": "",
+              "matchWord": "卫星化学",
+              "secuCode": "002648",
+              "market": "0",
+              "marketChar": ".SZ",
+              "correct": false,
+              "hasKLine": false,
+              "valuation": false,
+              "relatedEntity": false
+            },
+            "entityTagDTOList": [
+              {
+                "entityId": "1000009284",
+                "entityType": "SEC",
+                "entityTypeCode": "058001001",
+                "entityTypeName": "A股",
+                "classCode": "002001",
+                "className": "沪深京股票",
+                "publishCode": "",
+                "fullName": "卫星化学",
+                "shortName": "",
+                "matchWord": "卫星化学",
+                "secuCode": "002648",
+                "market": "0",
+                "marketChar": ".SZ",
+                "correct": false,
+                "hasKLine": false,
+                "valuation": false,
+                "relatedEntity": false
+              }
+            ],
+            "indexTable": false,
+            "edbThirdData": false,
+            "dataUpdate": {
+              "2026-09-02": false
+            },
+            "supportsTimeSeries": false,
+            "estimatedTokens": 0,
+            "summaryTips": {
+              "periodicalReport": null
+            },
+            "nestEntityListMap": {},
+            "excelTimeTruncate": false,
+            "frontendEntityName": "",
+            "frontendEntityCode": "",
+            "frontendTitle": "",
+            "frontendDesc": "",
+            "indicatorCount": 0,
+            "fieldParameterStr": "",
+            "tdayEnum": "NORMAL"
+          }
+        ],
+        "condition": {
+          "search_data_task_0": [
+            "卫星化学",
+            "60日MA简单移动平均",
+            "2026-09-02至2026-09-02"
+          ]
+        },
+        "entityTagDTOList": [
+          {
+            "entityId": "1000009284",
+            "entityType": "SEC",
+            "entityTypeCode": "058001001",
+            "entityTypeName": "A股",
+            "classCode": "002001",
+            "className": "沪深京股票",
+            "publishCode": "",
+            "fullName": "卫星化学",
+            "shortName": "",
+            "matchWord": "卫星化学",
+            "secuCode": "002648",
+            "market": "0",
+            "marketChar": ".SZ",
+            "correct": false,
+            "hasKLine": false,
+            "valuation": false,
+            "relatedEntity": false
+          }
+        ]
+      },
+      "entityName": null,
+      "message": null,
+      "tableTruncated": false
+    },
+    "stack": null
+  },
+  "requestId": "fea809f3f2734a3d8a76e3921f358d1e"
+}

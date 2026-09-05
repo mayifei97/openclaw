@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 恒瑞医药60日均线
+数据文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_恒瑞医药60日均线.xlsx
+描述文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_恒瑞医药60日均线_description.txt
+数据行数: 7
+表数量: 2
+Sheet 列表: 恒瑞医药(600276.SH)当前的60日MA简单移动平均, 恒瑞医药(01276.HK)的60日MA简单移动平均

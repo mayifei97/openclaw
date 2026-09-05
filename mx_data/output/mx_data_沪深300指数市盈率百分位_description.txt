@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 沪深300指数市盈率百分位
+数据文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_沪深300指数市盈率百分位.xlsx
+描述文件路径: /root/.openclaw/workspace/mx_data/output/mx_data_沪深300指数市盈率百分位_description.txt
+数据行数: 7
+表数量: 2
+Sheet 列表: 沪深300(399300.SZ)(指数)的1年市盈率历史百分位, 沪深300(399300.SZ)(指数)的3年市盈率历史百分位
