@@ -145,7 +145,8 @@
 - API：POST `/api/create_doc/?token=xxx` → JSON `{"pid":1,"title":"标题","doc":"HTML","editor_mode":1}`
 - ⚠️ **文章URL格式**：`/doc/ID/`（不是 `/article/ID`，后者404）
 - ⚠️ **上传后必须设置status=1**：API创建的文档默认status=0（草稿），需通过Django shell修改：`docker exec mrdoc python3 manage.py shell -c "from app_doc.models import Doc; doc=Doc.objects.get(id=DOC_ID); doc.status=1; doc.save()"`
-- 文集：基金投资(ID:1)、雯雯基金分析(ID:3)
+- 文集：基金投资(ID:1)、旅游攻略(ID:2)、雯雯基金分析(ID:3)
+- ⚠️ Django shell 直接建 Doc 的字段：name/content/pre_content/top_doc=文集ID(整数)/create_user/status=1/editor_mode=3；Project 字段：name/intro/create_user；sanitize 用 app_doc.utils_ext.doc_content_sanitize.sanitize_html
 - 用户偏好：不用飞书文档，全部上传MrDoc
 
 ### 日报制作经验
